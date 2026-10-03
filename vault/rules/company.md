@@ -19,3 +19,8 @@ Binding. A direct instruction from Bharat or Harshil overrides these; nothing el
 
 ## Git
 - Commit subjects are one line. No co-author trailers.
+
+## Sessions
+- Every session is recorded. Claude Code: the capture hooks log it automatically (`hooks/install.sh`; `--all <name>` captures every session on that machine).
+- claude.ai: any chat with the brain connected logs as it works (`append_session_log`) and ends with `save_session`. Say "save" if Claude forgets.
+- Never put a secret in a command, a chat, or a note — captured sessions are pushed to the shared repo.

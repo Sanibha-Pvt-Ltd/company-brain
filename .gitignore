@@ -1,2 +1,5 @@
 .DS_Store
 research-data/
+hooks/.env
+hooks/sync.log
+vault/logs/verbose/
