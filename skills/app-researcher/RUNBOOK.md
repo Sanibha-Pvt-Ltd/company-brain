@@ -3,7 +3,7 @@
 ## One-time
 1. Connect the Sanibha brain to your Claude (claude.ai: Settings → Connectors → add custom connector with the brain URL; Claude Code: `claude mcp add`). You get a personal access key from Harshil — store it in your password manager, never paste it in notes or chat.
 2. Turn on web search / Research mode.
-3. Add the `app-researcher` skill: ask Claude "get_skill app-researcher" from the brain, or upload this `skills/app-researcher` folder to your Claude project.
+3. Add the `app-researcher` skill: ask Claude to call `get_skill app-researcher` on the brain (it will `read_note` the stage prompts as needed), or upload this `skills/app-researcher` folder to your Claude project.
 
 ## Per app (stage A)
 1. Get the app's id from its App Store URL (`.../id388627783` → `388627783`).

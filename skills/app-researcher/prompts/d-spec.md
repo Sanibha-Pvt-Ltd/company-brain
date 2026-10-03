@@ -2,7 +2,7 @@
 
 Run only when `mvp.md` has `status: final` (team reviewed, Bharat signed off, decision logged). If not final, stop and say so.
 
-Output: `research/categories/<cat>/build-spec.md` and `products/<app-name>.md` (links to mvp, market, spec; status, owner, next step).
+Output: `research/categories/<cat>/build-spec.md` and `projects/<app-name>.md` (frontmatter `type: project`, `status: active`, `summary`) (links to mvp, market, spec; status, owner, next step).
 
 Turn the MVP into a hand-off for designers and iOS engineers:
 
