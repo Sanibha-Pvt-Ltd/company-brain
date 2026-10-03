@@ -14,7 +14,7 @@ Binding. A direct instruction from Bharat or Harshil overrides these; nothing el
 
 ## Research
 - Every claim carries an evidence tag; every number a source and date. Invent nothing — write UNKNOWN.
-- Stage A notes go in your own file (`research/apps/<app>/<member>-<date>.md`); never edit a teammate's.
+- Members write only inside `vault/members/<name>/` (enforced by the key). Canonical `research/` notes are promoted from drafts by an admin after team review.
 - An MVP is `draft` until the team reviews it and Bharat signs off; log the sign-off as a decision.
 
 ## Git

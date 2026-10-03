@@ -12,7 +12,7 @@ Technical service provider building iOS apps for US App Store users. Founder Bha
 
 ## State
 
-Brain and app-researcher agent scaffolded. Pilot category: storage cleaner (`research/categories/storage-cleaner/`).
+Brain and app-researcher agent scaffolded. Pilot category: storage cleaner (`research/categories/storage-cleaner/`). Members work in `members/<name>/`; admins promote drafts to `research/`.
 
 ## Next
 

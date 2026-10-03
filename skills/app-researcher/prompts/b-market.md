@@ -1,8 +1,8 @@
 # Stage B — Market
 
-Run once per category after stage A notes exist for most assigned apps. Output: `research/categories/<cat>/market.md`.
+Run once per category after stage A notes exist for most assigned apps. Output: `members/<member>/drafts/<cat>/market.md` (admin promotes to `research/categories/<cat>/market.md` after review).
 
-Inputs: every `research/apps/*/*.md` in the category, `lens.md`, `overview.md`, web research. List apps covered vs assigned up front; flag gaps.
+Inputs: every `members/*/apps/<cat>/*.md` across all members (use `list_notes` prefix `vault/members/`), `lens.md`, `overview.md`, web research. List apps covered vs assigned up front; flag gaps.
 
 Write `market.md`:
 

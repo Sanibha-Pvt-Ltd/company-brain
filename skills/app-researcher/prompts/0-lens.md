@@ -1,6 +1,6 @@
 # Stage 0 — Category lens
 
-Run once per category, before anyone does stage A. Output: `research/categories/<cat>/lens.md`.
+Run once per category, before anyone does stage A. Output: `members/<member>/drafts/<cat>/lens.md` (admin promotes to `research/categories/<cat>/lens.md`; until then stage A reads the draft).
 
 Inputs: the category's `overview.md` if it exists (e.g. the storage-cleaner report), web research, App Store top charts for the category (web search "top free/grossing <category> apps US App Store", public chart pages).
 

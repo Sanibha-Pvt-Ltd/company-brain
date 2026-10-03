@@ -1,8 +1,8 @@
 # Stage A — App deep-dive
 
-Run per app by the assigned member. Output: `research/apps/<app>/<member>-<date>.md`.
+Run per app by the assigned member. Output: `members/<member>/apps/<cat>/<app>.md` (your own folder; re-runs keep earlier dated sections and add a new `## <date>` block).
 
-Inputs: `negatives.md`, `listing.json`, member's screenshots/PDFs, `research/categories/<cat>/lens.md`. Read the lens first and answer every question in it. Work through every section; skip none. If a section lacks data, say so in one line with `[UNKNOWN]` and move on.
+Inputs: `negatives.md`, `listing.json`, member's screenshots/PDFs, the lens (`research/categories/<cat>/lens.md`, or the latest `members/*/drafts/<cat>/lens.md` if not yet promoted). Read the lens first and answer every question in it. Work through every section; skip none. If a section lacks data, say so in one line with `[UNKNOWN]` and move on.
 
 ## A1 Snapshot
 Name, developer, App Store id, price model, rating + rating count (from listing), first release, last update, update cadence and what the last 5 release notes say they invest in `[DATA:listing.json]`. Positioning one-liner from title/subtitle/description: which promise and keywords they lead with (ASO read).

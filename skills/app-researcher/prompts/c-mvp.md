@@ -1,6 +1,6 @@
 # Stage C — MVP recommendation
 
-You are head of product. Decide Sanibha's MVP for the category. Output: `research/categories/<cat>/mvp.md` with `status: draft`.
+You are head of product. Decide Sanibha's MVP for the category. Output: `members/<member>/drafts/<cat>/mvp.md` with `status: draft`. Admin promotes to `research/categories/<cat>/mvp.md` after team review.
 
 Inputs: `overview.md`, `lens.md`, `market.md`, every app note. Every recommendation cites its evidence (note + section or review quote). Single-source evidence is flagged `⚠ single-source`.
 

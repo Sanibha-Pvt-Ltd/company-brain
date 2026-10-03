@@ -16,12 +16,12 @@ Stage prompts live in `skills/app-researcher/prompts/`. Read the matching file a
 
 | Stage | File | Output |
 |---|---|---|
-| 0 Lens | `prompts/0-lens.md` | `research/categories/<cat>/lens.md` |
-| A App deep-dive | `prompts/a-app.md` | `research/apps/<app>/<member>-<date>.md` |
-| B Market | `prompts/b-market.md` | `research/categories/<cat>/market.md` |
-| C MVP | `prompts/c-mvp.md` | `research/categories/<cat>/mvp.md` (draft) |
-| E Portfolio | `prompts/e-portfolio.md` | `research/portfolio.md` |
-| D Build spec | `prompts/d-spec.md` | `research/categories/<cat>/build-spec.md` + `projects/<app>.md` |
+| 0 Lens | `prompts/0-lens.md` | `members/<member>/drafts/<cat>/lens.md` → promoted to `research/categories/<cat>/lens.md` |
+| A App deep-dive | `prompts/a-app.md` | `members/<member>/apps/<cat>/<app>.md` |
+| B Market | `prompts/b-market.md` | `members/<member>/drafts/<cat>/market.md` |
+| C MVP | `prompts/c-mvp.md` | `members/<member>/drafts/<cat>/mvp.md` (draft) |
+| E Portfolio | `prompts/e-portfolio.md` | `members/<member>/drafts/portfolio.md` |
+| D Build spec | `prompts/d-spec.md` | `members/<member>/drafts/<cat>/build-spec.md`; admin creates `projects/<app>.md` |
 
 If the stage is missing, ask which one — one question, then proceed.
 
@@ -50,8 +50,8 @@ If any input is missing, say exactly what is missing and continue with what exis
 Vault root is `vault/`. Paths below are relative to it. Products we decide to build live in `projects/` (type: project), so the brain's `get_context` lists them.
 
 **Brain connected** (tools `get_context`, `search`, `read_note`, `update_note`, `log_decision`, `save_session` available):
-1. Call `get_context` first; then `search` / `read_note` for existing notes on this category and app (`research/categories/<cat>/*`, `research/apps/<app>/*`). Extend, don't repeat.
-2. Write with `update_note` (whole-file replace). **Stage A writes your own file** `research/apps/<app>/<member>-<YYYY-MM-DD>.md` — never edit a teammate's file, so concurrent runs cannot clobber each other. Stages 0/B/C/E/D write shared files: `read_note` first, merge, send the full updated text, commit message one line.
+1. Call `get_context` first; then `search` / `read_note` for existing notes on this category and app (canonical: `research/categories/<cat>/*`; teammates' work: `list_notes` prefix `vault/members/`, read every `members/*/apps/<cat>/*` and `members/*/drafts/<cat>/*`). Extend, don't repeat.
+2. Write with `update_note` (whole-file replace) **only inside your own folder `vault/members/<member>/`** — your key is limited to it, so conflicts are impossible by construction. Re-running a stage replaces your own file: `read_note` it first and keep earlier dated sections. Never write to `research/` — that is canonical and written only by an admin (Bharat/Harshil) **promoting** a reviewed draft: on request, admin-key sessions `read_note` the draft and `update_note` it to its canonical path (`members/<m>/drafts/<cat>/mvp.md` → `research/categories/<cat>/mvp.md`), then `log_decision`.
 3. At the end call `save_session` (summary one line) so the run is logged; `log_decision` for any choice that would otherwise be re-litigated.
 
 **Brain not connected:** produce the complete note as one markdown block with frontmatter, tell the member to save it as the path above into `_inbox/` of the vault repo (or paste into the brain app). Do not pretend you saved anything.
@@ -69,7 +69,7 @@ status: draft | final
 sources: [negatives.md, listing.json, screenshots:N, web:N]
 ---
 ```
-Link related notes with wikilinks: `[[research/categories/<cat>/lens]]`, `[[research/apps/<app>/...]]`.
+Link related notes with wikilinks: `[[research/categories/<cat>/lens]]`, `[[members/<member>/apps/<cat>/<app>]]`.
 
 ## Finish every run with
 

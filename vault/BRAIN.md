@@ -32,16 +32,16 @@ WHERE type = "rules"
 
 ```dataview
 TABLE category, status, updated
-FROM "research/categories"
+FROM "research/categories" OR "members"
 WHERE type = "category-lens" OR type = "category-market" OR type = "category-mvp" OR type = "build-spec"
 SORT category ASC
 ```
 
-## App teardowns
+## App teardowns (all members)
 
 ```dataview
 TABLE category, member, reviews_analysed, updated
-FROM "research/apps"
+FROM "members"
 WHERE type = "app"
 SORT category ASC, updated DESC
 ```

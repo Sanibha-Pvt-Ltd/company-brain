@@ -1,6 +1,6 @@
 # Stage E — Portfolio (cross-category)
 
-Run after at least 3 categories have `market.md` and `mvp.md`. Output: `research/portfolio.md`.
+Run after at least 3 categories have `market.md` and `mvp.md`. Output: `members/<member>/drafts/portfolio.md` (admin promotes to `research/portfolio.md`).
 
 Read every `research/categories/*/market.md` and `mvp.md`. Score each category 1–5 with a one-line evidence cite per score:
 

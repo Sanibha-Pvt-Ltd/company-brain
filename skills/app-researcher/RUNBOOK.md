@@ -12,8 +12,11 @@
    Produces `research-data/<name>/negatives.md`, `reviews.json`, `listing.json`. `--extra` adds UK/CA/AU for volume (tagged by country; ask the agent to weigh US first).
 3. Open a new chat. Upload `negatives.md`, `listing.json`, and your real screenshots/PDFs of the app.
 4. Say: `Use app-researcher, stage A, category <cat>, app <name>, member <you>.`
-5. Let it run; answer its open questions. Check the note landed in the brain (`research/apps/<name>/<you>-<date>.md`).
+5. Let it run; answer its open questions. Check the note landed in the brain (`members/<you>/apps/<cat>/<name>.md`).
 6. Rerun step 2 weekly: new reviews merge into the history, so the sample grows past Apple's 10-page cap.
+
+## Your folder
+Your key writes only to `vault/members/<you>/` (apps in `apps/<cat>/`, stage B/C/E/D drafts in `drafts/`). You can read the whole vault. Canonical notes in `research/` are promoted from drafts by Bharat or Harshil after the team reviews — ask them with "promote <path>".
 
 ## Team cadence
 - Stage 0 once per category (Harshil/Bharat) → assigns apps, 4 per member.
