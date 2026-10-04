@@ -26,7 +26,7 @@ Screens-only stage A run on the **India storefront** (around 2026-10-03). Prices
 | US rating | 4.66 from 28,301 ratings | `[DATA:itunes-lookup-us 2026-10-04]` |
 | Version / last update | 2.2.50, 2026-08-05 (oldest update in the set) | `[DATA:itunes-lookup-us]` |
 | First release | 2021-12-03 | `[DATA:itunes-lookup-us]` |
-| Genre / size | Education, 146 MB | `[DATA:itunes-lookup-us]` |
+| Genre / size | Education, 154 MB (153,985,024 bytes) | `[DATA:itunes-lookup-us]` |
 | Positioning | "Identify Plants & Diseases"; widens to insects, birds, mushrooms, "Chat AI Botanist", "Plant Decorator" | `[OBSERVED #1, #4, #5, #13]` |
 | Ganesh's row | Onboarding 4; paywall "Early Dismissible Wall"; free = "Basic plant search and static care guide overview"; paid = "Automated watering calendar, disease scanner, photo identification history"; offer "₹1,499/yr (3-day trial) or ₹499/mo" | `[DATA:ganesh-benchmark-xlsx]` |
 
@@ -43,7 +43,7 @@ Not in this run (screens-only).
 ## A3 Monetization (from screens)
 
 - **Placement:** after 6 cards, a location request and a 4-question quiz, and before any ID (#12). `[OBSERVED]`
-- **Plans (India):** the first plan card is labelled "**Free** · 7 Days" and is **preselected**; next to it is "Annual ₹ 3,999/yr". The line under the cards reads "7 days free, then just ₹ 699/wk", and the CTA is "Continue with free trial". `[OBSERVED #12]` The "Free" plan is a ₹699/week subscription with a trial. Calling it "Free" is the most misleading plan label in the set `[INFERRED]`. ₹699 × 52 = ₹36,348 a year vs ₹3,999 on the annual plan `[INFERRED: arithmetic]`.
+- **Plans (India):** the first plan card is labelled "**Free** · 7 Days" and is **preselected**; next to it is "Annual ₹ 3,999/yr". The line under the cards reads "7 days free, then just ₹ 699/wk", and the CTA is "Continue with free trial". `[OBSERVED #12]` The "Free" plan appears to be a ₹699/week subscription with a trial, since the ₹699/wk line sits under the preselected "Free" card `[INFERRED]`. Calling it "Free" is the most misleading plan label in the set `[INFERRED]`. ₹699 × 52 = ₹36,348 a year vs ₹3,999 on the annual plan `[INFERRED: arithmetic]`.
 - **Bullets:** "Try Premium free for 7 days", "No commitment, cancel anytime you want", "Save your plants with instant diagnosis", "Access expert care tips & plant guides". `[OBSERVED #12]`
 - **Close:** a grey text link "Cancel" in the footer row with "Restore Purchases" and "Terms". It looks like a legal link. There is no X. `[OBSERVED #12]`
 - **Trial reminder:** none visible. `[OBSERVED #12]`
@@ -146,7 +146,7 @@ Not in this run (screens-only). Ganesh's xlsx quotes, undated and truncated:
 - 1★ "$10 a week is crazy … They consistently try to trick you into signing up for the premium version so you get wrapped into paying $10 a week or $520 a year"
 - 1★ "Deceitful Deceptive Money Grab"
 
-`[DATA:ganesh-benchmark-xlsx]` The weekly pricing seen on #12 is consistent with the "$10 a week" complaint; that the US weekly price is $9.99 is `[INFERRED]`, not verified.
+`[DATA:ganesh-benchmark-xlsx]` The weekly pricing seen on #12 is consistent with the "$10 a week" complaint; the actual US weekly price is `[UNKNOWN]`.
 
 ## A7 Tech & ops
 Not in this run (screens-only).

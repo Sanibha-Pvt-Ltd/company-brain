@@ -22,11 +22,11 @@ Screens-only stage A run. Ganesh captured the screenshots on the **India storefr
 | Field | Value | Tag |
 |---|---|---|
 | Developer | Vortemol Limited | `[DATA:itunes-lookup-us 2026-10-04]` |
-| Price model | Free download, subscription + lifetime IAP | `[DATA:itunes-lookup-us]` `[OBSERVED #7]` |
+| Price model | Free download (US listing); annual subscription + lifetime purchase on the India paywall | `[DATA:itunes-lookup-us]` `[OBSERVED #7]` |
 | US rating | 4.56 from 229,566 ratings | `[DATA:itunes-lookup-us 2026-10-04]` |
 | Version / last update | 5.62.0, 2026-09-29 | `[DATA:itunes-lookup-us]` |
 | First release | 2020-08-14 | `[DATA:itunes-lookup-us]` |
-| Genre / size | Education, 214 MB | `[DATA:itunes-lookup-us]` |
+| Genre / size | Education, 224 MB (224,424,960 bytes) | `[DATA:itunes-lookup-us]` |
 | Positioning | "Become a Plant Hero" (#1); leads with care schedule, then disease ("Spot plant issues in seconds"), then social proof | `[OBSERVED #1–#6]` |
 | Ganesh's row | Onboarding 5 screens; paywall "Early (4 info cards, zero friction)"; free = "Quick plant identification results and basic care overview"; paid = "Light meter, customized misting schedule, 1-on-1 botanist consultation chat"; offer "₹2,999/yr (3-day trial) or ₹4,999 Lifetime" | `[DATA:ganesh-benchmark-xlsx]` |
 
@@ -67,7 +67,7 @@ The captures run IMG_2199 to IMG_2210, 2:45 to 2:46, in order. **Gaps:** #4 (IMG
 | 8 | core-task (demo) | stock snake-plant photo | tap "Let's try" | invitation to a demo | "We've set up a plant for you!" "Try identifying our plant to see how easy it is." "Let's try" "Identify my plants" | low-effort first try | the first win is on *their* plant, not yours | `[OBSERVED]` |
 | 9 | core-task (demo) | full-screen photo, shutter | tap shutter | n/a | "Want to know what this plant is?" "Tap here to identify" | curiosity | none | `[OBSERVED]` |
 | 10 | loading | photo with progress bar, 3 steps | wait | n/a | "Plant identification" "Analyzing image" "Identifying characteristics" "Preparing results" | perceived effort | staged steps on a pre-known stock photo (theatre) | `[OBSERVED]` `[INFERRED]` |
-| 11 | result | Snake Plant card, care tabs | nothing | name, latin, aliases, difficulty, water, fertilize | "Snake Plant" "Latin name: Sansevieria trifasciata" "Poisonous 🔒" "Difficulty Medium" "Water Every 10 days" "Fertilize Regularly" "Identify my plants" | competence | **toxicity locked**; outdated latin name (now *Dracaena trifasciata*, listed only as an alias) | `[OBSERVED]` |
+| 11 | result | Snake Plant card, care tabs | nothing | name, latin, aliases, difficulty, water, fertilize | "Snake Plant" "Latin name: Sansevieria trifasciata" "Poisonous 🔒" "Difficulty Medium" "Water Every 10 days" "Fertilize Regularly" "Identify my plants" | competence | **toxicity locked**; latin name shown is *Sansevieria trifasciata*; *Dracaena trifasciata* (the name Plantum #12 uses) appears only as an alias, so it is likely outdated `[INFERRED]` | `[OBSERVED]` |
 | 12 | home | empty My Plants, mascot pot | add plant / identify | empty state | "Local weather Show" "Let's add your plants to keep them alive" "+ Add plant" "Tap here to identify" tabs "My Plants · Feed · Search · More" | care, mild guilt ("keep them alive") | 4 tabs plus a camera button on day 1 | `[OBSERVED]` |
 
 ### 8 measures
@@ -83,7 +83,7 @@ The captures run IMG_2199 to IMG_2210, 2:45 to 2:46, in order. **Gaps:** #4 (IMG
    - "Plant Hero" is invented and adds nothing.
    - "My Plants" is a collection the job needs.
    - "Feed" is invented.
-   - "Local weather" is a semi-concept that needs location `[OBSERVED #12]`.
+   - "Local weather" is a semi-concept `[OBSERVED #12]` that presumably needs location `[INFERRED]`.
    - The care tabs "Care / Plant requirements / General information" split one card into three `[OBSERVED #11]`.
 4. **Feel-good moments.**
    - The care countdown (#2) is manufactured, a mockup.

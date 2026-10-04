@@ -15,7 +15,7 @@ sources: [screenshots:13 (ganesh, India storefront), ganesh-benchmark-xlsx, itun
 
 # Plant App: Plant Identifier (ScaleUp Yazılım), not PictureThis
 
-Screens-only stage A run on the **India storefront**. All captures are at 2:27; the paywall shows "Due October 6, 2026" after a 3-day trial, so the capture date is about 2026-10-03 `[INFERRED]`. Prices are ₹ and are not US prices. No plant-identifier lens exists yet. Related: [[members/ganesh/drafts/plant-identifier/screens-synthesis]].
+Screens-only stage A run on the **India storefront**. Every capture with a visible clock shows 2:27 (#10–#11 show no clock); the paywall shows "Due October 6, 2026" after a 3-day trial, so the capture date is about 2026-10-03 `[INFERRED]`. Prices are ₹ and are not US prices. No plant-identifier lens exists yet. Related: [[members/ganesh/drafts/plant-identifier/screens-synthesis]].
 
 ## A1 Snapshot (short)
 
@@ -26,7 +26,7 @@ Screens-only stage A run on the **India storefront**. All captures are at 2:27; 
 | US rating | 4.70 from 55,488 ratings | `[DATA:itunes-lookup-us 2026-10-04]` |
 | Version / last update | 3.6.11, 2026-09-30 | `[DATA:itunes-lookup-us]` |
 | First release | 2022-04-19 | `[DATA:itunes-lookup-us]` |
-| Genre / size | Education, 179 MB | `[DATA:itunes-lookup-us]` |
+| Genre / size | Education, 188 MB (187,792,384 bytes) | `[DATA:itunes-lookup-us]` |
 | Positioning | "Keep your plants happy!"; paywall "Grow Healthier Plants · Care for every plant with AI" | `[OBSERVED #1, #8]` |
 | Ganesh's row | Onboarding 5; paywall "Early (3 intro screens) + Feature Gated"; free = "Basic photo identification and plant encyclopedic name card"; paid = "Toxicity/Poison alerts, plant doctor disease diagnosis, watering reminders"; offer "₹1,499/yr with 3-day free trial" | `[DATA:ganesh-benchmark-xlsx]` |
 
@@ -53,7 +53,7 @@ Not in this run (screens-only).
 ## A5 Product teardown (screens lens)
 
 ### Journey and gaps
-IMG_2151 to IMG_2163, all at 2:27, in order.
+IMG_2151 to IMG_2163, in order; every visible clock reads 2:27 (#10–#11 have none).
 
 **Gaps:**
 - #1 is a white card on a grey backdrop with a black button showing only a copy/clipboard icon. Its purpose is `[UNKNOWN]` (possibly an install-attribution or paste-link step). Recapture with a screen recording.
@@ -77,7 +77,7 @@ IMG_2151 to IMG_2163, all at 2:27, in order.
 | 10 | core-task (demo) | camera view with a sheet | choose demo or own plant | invitation | "We've prepared a plant" "Identify the plant we have prepared for you to see how quick and easy PlantApp is." "Try with an example" "Identify my real plant" | low-effort first try | demo is the primary CTA | `[OBSERVED]` |
 | 11 | core-task (demo) | stock monstera in a frame | tap shutter | n/a | "Now tap here!" "Want to know which plant it is?" | curiosity | none | `[OBSERVED]` |
 | 12 | loading | photo, 3 spinners | wait | n/a | "We scan for you" "We analyze your plant with AI" "Analyzing image" "Detecting leaves" "Identifying plant" | perceived AI effort | staged steps on a known example (theatre) | `[OBSERVED]` `[INFERRED]` |
-| 13 | result | Monstera card | unlock toxicity | name, tabs | "Monstera Deliciosa" "Monstera Deliciosa" "Plant Notes" "Plant Info" "Care Guide" "Overview" "Requirements" "Culture" "FAQ" "Unlock For Free Poisonous Unlock" "Attention Toxicity information may be subject to error. Do not use PlantApp as only source of information and do not consume a plant without consulting an expert." | caution | **toxicity locked**; common name = latin name repeated; 3 tabs × 5 chips of structure | `[OBSERVED]` |
+| 13 | result | Monstera card | unlock toxicity | name, tabs | "Monstera Deliciosa" "Monstera Deliciosa" "Plant Notes" "Plant Info" "Care Guide" "Overview" "Requirements" "Culture" "FAQ" "Unlock For Free Poisonous Unlock" "Attention Toxicity information may be subject to error. Do not use PlantApp as only source of information and do not consume a plant without consulting an expert." | caution | **toxicity locked**; common name = latin name repeated; 3 tabs plus 5 chips under Plant Info (chips under the other tabs not captured) | `[OBSERVED]` |
 
 ### 8 measures
 

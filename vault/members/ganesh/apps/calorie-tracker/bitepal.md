@@ -47,7 +47,7 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
   - The 1815 strike-through, ₹478.95/mo, works out to about ₹5,747/yr.
   - So the three "full prices" do not agree [INFERRED from OBSERVED numbers].
 - **Disagreement with Ganesh's notes:** the xlsx records "₹2,499/yr (3-day trial) or ₹499/mo" [DATA:ganesh-benchmark-xlsx]. The screens show ₹3,499/yr or ₹399/week with no trial, and a ₹2,299 first-year downsell. Prices may be A/B tested or may have changed. The screens are the primary source.
-- **Free-tier gating on home (1818):** the Carbs, Fats and Proteins bars are each shown with a 🔒. There is a "BitePal Plus 🔒" tab. The xlsx says "Unlimited AI food photo recognition" is paid [DATA:ganesh-benchmark-xlsx]. The free scan allowance is `[UNKNOWN]`.
+- **Free-tier gating on home (1818):** the Carbs, Fats and Proteins bars are each shown with a 🔒. There is a "BitePal Plus 🔒" badge at the left edge. The xlsx says "Unlimited AI food photo recognition" is paid [DATA:ganesh-benchmark-xlsx]. The free scan allowance is `[UNKNOWN]`.
 - **US price:** `[UNKNOWN]`.
 
 ## A5 Screens lens
@@ -59,20 +59,20 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
 | 1771 | first-launch | raccoon, a bowl at 310 kcal, a 16:8 badge | Get started | the promise | "Reach your weight goals" / "With Cute raccoon" | cuteness | none | [OBSERVED] |
 | 1772 | onboarding | goal | lose/maintain/gain | — | "What is your main goal?" | — | — | [OBSERVED] |
 | 1773 | onboarding | multi-select | extra goals | — | "Any additional goals?" Build healthy relationship with food; … Feel better about myself | identity | none; it offers "No additional goals" | [OBSERVED] |
-| 1774 | claim | stat card | Continue | a claim | "58% BitePal users consistently maintain their weight over 6 months" | social proof | no source | [OBSERVED] |
+| 1774 | claim | stat card | Next | a claim | "58% BitePal users consistently maintain their weight over 6 months" | social proof | no source | [OBSERVED] |
 | 1775 | onboarding | experience | pick | — | "Have you tried calorie counting before?" I'm new / I've tried it before but quit / I'm currently counting | empathy ("quit" is normalised) | none | [OBSERVED] |
-| 1776 | explainer | 3 features | Love It! | an explanation | "Just take a photo of your food" / "Get support from your virtual pet" | — | none | [OBSERVED] |
+| 1776 | explainer | 3 features | Let's go | an explanation | "Just take a photo of your food" / "Get support from your virtual pet" | — | none | [OBSERVED] |
 | 1777 | onboarding | yes/no | IF knowledge | — | "Do you know about intermittent fasting?" | — | scope creep: fasting enters a calorie app | [OBSERVED] |
 | 1778 | explainer | fasting claims | Continue | education | "The New England Journal of Medicine reports that intermittent fasting may support brain health and even promote a longer, healthier life." | authority | health claim with "Source of recommendations" link; mild | [OBSERVED] |
 | 1779 | pet reveal | trash can | Open | curiosity | "Open to see who is there" | surprise | none; a delightful beat | [OBSERVED] |
 | 1780 | pet reveal | raccoon | Next | **a companion** | "This raccoon is now your virtual pet" | attachment | none | [OBSERVED] |
-| 1781 | onboarding | name the pet (typed "Wasabi", dice randomiser) | typed name | ownership | "Name your raccoon" | IKEA effect | typing ask, offset by the dice | [OBSERVED] |
+| 1781 | onboarding | name the pet (field shows "Wasabi"; dice randomiser button) | typed name | ownership | "Name your raccoon" | IKEA effect | typing ask, offset by the dice | [OBSERVED] |
 | 1782 | onboarding | user's name | typed name | — | "Wasabi! I like it. And what's your name?" | warmth | typing ask | [OBSERVED] |
 | 1786 | onboarding | tone picker | pick tone | **control over voice** | "How should I talk to you?" Cheerleader / Gentle & kind / Straight talker / Mindful guide | care | none; **best screen in the category** | [OBSERVED] |
 | 1783 | onboarding | tone preview ("Gentle & kind") | — | a preview | "You showed up again today. That's the whole thing." | care, forgiveness | none | [OBSERVED] |
-| 1785 / 1788 / 1784 | onboarding | reminder timing ("In the morning" pre-ticked in 1785/1784) | pick times | — | "When would you like to receive reminders" / "Reminders build healthy eating habits 2x faster" | — | the "2x faster" claim has no source; "Set up later" is offered | [OBSERVED] |
-| 1787 | permission (pre) | mock notification with ❤️🤍🤍🤍 "(1 left)" | Set up reminders | — | "We'll support you to keep logging" / "Don't forget to snap your meal 📸" | **loss aversion via pet hearts** | **guilt mechanic**: the pet's hearts drain if you don't log | [OBSERVED] |
-| 1789 | interstitial | — | Let's go | — | "Now let's talk about your eating habits" | — | the user has already answered 10+ asks | [OBSERVED] |
+| 1785 / 1788 / 1784 | onboarding | reminder timing ("In the morning" ticked in 1784/1785, nothing ticked in 1788; whether it is a default is [UNKNOWN]) | pick times | — | "When would you like to receive reminders" / "Reminders build healthy eating habits 2x faster" | — | the "2x faster" claim has no source; "Set up later" is offered | [OBSERVED] |
+| 1787 | permission (pre) | mock notification with ❤️🤍🤍🤍 "(1 left)" | Set up reminders | — | "We'll support you to keep logging" / "Don't forget to snap your meal 📸" | **loss aversion via pet hearts** | **guilt mechanic**: the mock shows 1 of 4 hearts left; that hearts drain when you don't log is [INFERRED] | [OBSERVED; mechanic INFERRED] |
+| 1789 | interstitial | — | Let's go | — | "Now let's talk about your eating habits" | — | the user has already answered 9 asks (1772, 1773, 1775, 1777, 1781, 1782, 1786, 1784/5, 1787) | [OBSERVED] |
 | 1790 | onboarding | meals per day | number | — | "How many meals per day do you usually have?" | — | — | [OBSERVED] |
 | 1791 | onboarding | eating window | time range | an insight | "Eating window: 10 hours  Eating within an 8–10 hour window may support overall health." | — | — | [OBSERVED] |
 | 1792 | upsell (concept) | fasting goal | try fasting / skip | a reframe | "You're already fasting for 14h" / "We've set your goal to match your rhythm and support faster results." | **flattering reframe** (an overnight gap renamed "fasting") | **ED flag**: nudges a restriction concept; "Skip for now" exists | [OBSERVED] |
@@ -90,7 +90,7 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
 | 1808 | result | personal summary: BMI bar (Underweight…Obese), activity, diet, metabolism | Next | **first personal output** | "You're right where you need to be!" / "Metabolism: Balanced: needs steady habits to see change" | identity | "Obese" label on the scale; "Metabolism" is an invented read-out | [OBSERVED] |
 | 1809–1810 | onboarding | target weight 60 kg | 1 ask | validation | "Maintaining 60 kg is a realistic target" | reassurance | none | [OBSERVED] |
 | 1811 | loading | 52% bar, 4 steps, "Loved by 10M+ users" | wait | — | "Personalizing your plan" | labour illusion | manufactured progress | [OBSERVED] |
-| 1812 | result | plan: flat projection, **2,376 kcal**, macros C 59 g / F 195 g / P 95 g | Commit to my goal | **the plan, before the paywall** | "Your personal plan is ready" / "You'll maintain your weight effortlessly" | commitment | "effortlessly" overpromises | [OBSERVED] |
+| 1812 | result | plan: flat projection, **2,376 kcal**, macros C 59 g / F 195 g / P 95 g (digits partly hidden behind the button) | Commit to my goal | **the plan, before the paywall** | "Your personal plan is ready" / "You'll maintain your weight effortlessly" | commitment | "effortlessly" overpromises | [OBSERVED] |
 | 1813 | paywall | annual vs weekly | pay | — | "Track calories" / "Claim 50% off now" | anchor, -50% | visible X; no trial | [OBSERVED] |
 | 1814 | downsell | gift box | Open now | — | "We have a gift! Just for you!" | surprise | gamified discount | [OBSERVED] |
 | 1815 | downsell | -60% card with 59:59 timer | Claim | — | "Limited time -60% offer" / "Offer expire in: 59:59" | **false urgency** | countdown timer; the renewal is ₹5,900/yr in small grey text | [OBSERVED] |
@@ -100,9 +100,9 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
 
 ### The 8 measures
 
-1. **First win.** Not reached. 1817 offers a first log, but it was not completed in the capture. Launch to the first log prompt is about **46 screens / about 50+ taps**, after the paywall, downsell and account [OBSERVED]. The first *personal* output (BMI and summary, 1807–1808) arrives at about screen 36 and **before** the paywall.
-2. **Ask ledger.** About **26 asks before any value**: goal, extra goals, experience, IF, pet name, own name, tone, reminder times, notifications, meals/day, eating window, fasting, where you eat, diet, restrictions, water, habits, gender, age, activity, Health, activity mode, height, weight, target, then payment and account. The xlsx says "16 questions" [DATA:ganesh-benchmark-xlsx]. The screens show more; the xlsx likely counted only the question screens [INFERRED]. Received in return: a pet (screen 10), a tone choice, a BMI summary and the plan. **This is the longest quiz of the five, but it is the only one that pays back emotionally along the way** (pet, tone, gentle preview).
-3. **Abstractions.** Calories (needed). Macros (needed, but locked). **Pet hearts** (invented). **Streak flame** (invented). **Shop** (invented). **Intermittent fasting / eating window** (not needed for the job). **Smart vs All activity calories** (invented). **"Calories left to burn" goal** (invented). **"Metabolism type"** (invented). That makes **7 invented concepts**.
+1. **First win.** Not reached. 1817 offers a first log, but it was not completed in the capture. The first log prompt is the **47th captured screen** (this includes 2 repeated reminder screens from back-navigation), after the paywall, downsell and account [OBSERVED]; tap count [UNKNOWN]. The first *personal* output (BMI and summary, 1807–1808) arrives at captured screens 37–38 and **before** the paywall.
+2. **Ask ledger.** **25 asks before the plan** (27 with payment and account): goal, extra goals, experience, IF, pet name, own name, tone, reminder times, notifications, meals/day, eating window, fasting, where you eat, diet, restrictions, water, habits, gender, age, activity, Health, activity mode, height, weight, target, then payment and account. The xlsx says "16 questions" [DATA:ganesh-benchmark-xlsx]. The screens show more; the xlsx likely counted only the question screens [INFERRED]. Received in return: a pet (screen 10), a tone choice, a BMI summary and the plan. **This is the longest quiz of the five, but it is the only one that pays back emotionally along the way** (pet, tone, gentle preview).
+3. **Abstractions.** Calories (needed). Macros (needed, but locked). **Pet hearts** (invented). **Streak flame** (invented). **Shop** (invented). **Intermittent fasting / eating window** (not needed for the job). **Smart vs All activity calories** (invented). **"Calories left to burn" goal** (invented). **"Metabolism type"** (invented). That makes **6 invented concepts**, plus fasting, which is not needed for the job.
 4. **Feel-good moments.**
    - Pet reveal (1779–1780): earned delight.
    - Tone choice with the preview "You showed up again today. That's the whole thing." (1783): earned, because the user chose it.
@@ -115,7 +115,7 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
    - "Stop binge eating" as a checkbox with no care path (1799).
    - Fasting framed as already happening (1792).
    - A default exercise "burn" goal (1818).
-   - Macros visibly locked after a 26-ask quiz (1818).
+   - Macros visibly locked after a 25-ask quiz (1818).
    - **ED note:** Ganesh's notes include a 5★ review from a user with an ED who values "there's no calorie count" [DATA:ganesh-benchmark-xlsx]. The captured home *does* show "Calories eaten". So a hide-calories mode may exist but is not visible here `[UNKNOWN]`.
 6. **Paywall.** Soft, with an X, placed after the plan. **Two-step discount ladder**: -50%, then a gift box, then -60% with a timer. No trial. Anchors are inconsistent. A weekly plan is offered.
 7. **Repeat cost.** The home has a + FAB and a camera prompt ("Feed Wasabi"). A log is likely FAB → camera → shutter → confirm, about 3–4 taps [INFERRED]. The return hooks are the pet's hearts, a streak, reminders and a shop.
@@ -133,15 +133,15 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
   - The Health-data privacy line (1804).
   - The plan shown before the paywall (1812).
   - The "What did you eat last?" first-log prompt (1817).
-- **Kill:** heart-drain guilt (1787); the countdown downsell (1815); fasting as an onboarding branch (1777–1778, 1791–1792); a binge-eating checkbox with no care response (1799); a default burn goal (1818); locked macros on home after a long quiz (1818); a quiz of about 26 asks.
+- **Kill:** heart-drain guilt (1787); the countdown downsell (1815); fasting as an onboarding branch (1777–1778, 1791–1792); a binge-eating checkbox with no care response (1799); a default burn goal (1818); locked macros on home after a long quiz (1818); a quiz of 25 asks before the plan.
 - **Different:**
   - Take BitePal's warmth: tone choice, "showing up is the whole thing". Drop its leverage: hearts that drain, timers.
-  - Ask tone in **one** screen *after* the first log, not as one of 26.
+  - Ask tone in **one** screen *after* the first log, not as one of 25.
   - If a user picks anything like "binge eating", turn calorie numbers to a soft view by default and show a resource link. Don't set a deficit goal.
 
 ## A8 Verdict (short)
 
-BitePal proves emotion sells in this category. The pet and the tone of voice are why a 2024 entrant reached 55.7K US ratings [DATA:itunes-lookup-us]. But it bolts the emotion onto the longest quiz of the five, a discount ladder with a fake timer, and guilt hearts. It is "gentle" in copy and "pressure" in mechanics. **Most exploitable weakness:** the brand promise ("gentle & kind") contradicts the monetization (a 59:59 timer, hearts draining). An app that is gentle in *both* has no competitor in this set.
+BitePal proves emotion sells in this category. A 2024 entrant has 55,700 US ratings [DATA:itunes-lookup-us]; that the pet and tone of voice drive this is [INFERRED], not shown by any source here. But it bolts the emotion onto the longest quiz of the five, a discount ladder with a fake timer, and guilt hearts. It is "gentle" in copy and "pressure" in mechanics. **Most exploitable weakness:** the brand promise ("gentle & kind") contradicts the monetization (a 59:59 timer, hearts draining). An app that is gentle in *both* has no competitor in this set.
 
 - **Copy:** tone choice; normalising quitting; plan before paywall; the first-log prompt.
 - **Beat:** ask count; honest pricing; no guilt mechanics.

@@ -22,11 +22,11 @@ Screens-only stage A run on the **India storefront** (around 2026-10-03). Prices
 | Field | Value | Tag |
 |---|---|---|
 | Developer | AIBY Incorporated | `[DATA:itunes-lookup-us 2026-10-04]` |
-| Price model | Free download, weekly + yearly subscription | `[DATA:itunes-lookup-us]` `[OBSERVED #8]` |
+| Price model | Free download (US listing); weekly + yearly subscription on the India paywall | `[DATA:itunes-lookup-us]` `[OBSERVED #8]` |
 | US rating | 4.59 from 119,332 ratings | `[DATA:itunes-lookup-us 2026-10-04]` |
 | Version / last update | 6.21, 2026-09-02 | `[DATA:itunes-lookup-us]` |
 | First release | 2019-08-22 | `[DATA:itunes-lookup-us]` |
-| Genre / size | Education, 103 MB | `[DATA:itunes-lookup-us]` |
+| Genre / size | Education, 109 MB (108,835,840 bytes) | `[DATA:itunes-lookup-us]` |
 | Positioning | "Your plant identifier and care guide"; "Here to keep your plants safe"; paywall headline "Stop killing your plants" | `[OBSERVED #1, #2, #8]` |
 | Ganesh's row | Onboarding 4; paywall "After Scan"; free = "Basic plant name identification with simple info card"; paid = "Health diagnosis, watering schedules, fertilizer reminders, advanced care guides"; offer "₹1,999/yr (3-day trial) or ₹449/mo" | `[DATA:ganesh-benchmark-xlsx]` |
 
@@ -60,7 +60,7 @@ Not in this run (screens-only).
 ## A5 Product teardown (screens lens)
 
 ### Journey and gaps
-IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#9 have no status bar (full-screen onboarding). #5 is a mid-swipe capture.
+IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#10 have no status bar (full-screen onboarding). #5 is a mid-swipe capture.
 
 **Gaps:**
 - No capture of the system camera or notification prompts.
@@ -73,30 +73,30 @@ IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#9 have no sta
 | # | stage | what user sees | asks of user | gives to user | verbatim copy | lever | friction / dark pattern | tag |
 |---|---|---|---|---|---|---|---|---|
 | 1 | first-launch | splash with laurels | wait | proof | "Welcome to Plantum" "Your plant identifier and care guide" "Featured in 20+ countries" "Trusted by 20M+ users" "gold winner Best Mobile App Overall Award Contest" | authority | unverifiable award | `[OBSERVED]` |
-| 2 | account | sign-in wall | sign in with Apple/Facebook/Google, or skip | nothing | "Here to keep your plants safe" "Continue Without Registration" "Skip" "I don't want to receive emails with the latest plant news and recommendations from botanists." | safety framing | **email marketing opt-out checkbox unchecked = opted in**; account asked before any value | `[OBSERVED]` |
+| 2 | account | sign-in wall | sign in with Apple/Facebook/Google, or skip | nothing | "Here to keep your plants safe" "Continue Without Registration" "Skip" "I don't want to receive emails with the latest plant news and recommendations from botanists." | safety framing | **email marketing opt-out checkbox unchecked, so the default reads as opted in** `[INFERRED]`; account asked before any value | `[OBSERVED]` |
 | 3 | onboarding | camera mockup | Continue | promise | "SNAP THE PLANT TO FIND OUT WHAT IT IS" | curiosity | none | `[OBSERVED]` |
 | 4 | onboarding | result mockup | Continue | promise of health check | "GET DETAILED INFORMATION ABOUT ALL THE PLANTS YOU SEE" "HOORAY! YOUR PLANT LOOKS HEALTHY!" tags "Poisonous" and "Pet-safe" | relief | **mockup tags the same plant both "Poisonous" and "Pet-safe"** | `[OBSERVED]` |
-| 5 | onboarding | lock-screen mockup (mid-swipe) | Continue | promise of reminders | "SET UP REMINDERS TO HELP YOUR PLANT STAY HEALTHY" | care | none | `[OBSERVED]` |
+| 5 | onboarding | lock-screen mockup (mid-swipe) | Continue | promise of reminders | "SET UP REMINDERS TO HEL[P] YOUR PLANT STAY HEALTH[Y]" (cut off mid-swipe) | care | none | `[OBSERVED]` |
 | 6 | pre-paywall | toggle animating on | none (auto) | nothing | "Your 3-day free trial is enabled!" | default / endowment | trial "enabled" before any price or plan is shown | `[OBSERVED]` |
 | 7 | pre-paywall | toggle on, orange | none (auto) | nothing | "Your 3-day free trial is enabled!" | endowment | same | `[OBSERVED]` |
 | 8 | paywall | feature list, 2 plans | pay or find Cancel | nothing new | "Stop killing your plants with Plantum PRO" "Infinite plant identifications" "Plant disease autodetection" "Over 400,000 species of plants" "Care schedule for unlimited plants" "Remind me before billing" "YEARLY ACCESS Just ₹3,999.00 per year" "ONLY NOW!" "₹76.69 per week" "3-DAY FREE TRIAL then ₹699.00 per week" "Try for $0.00" "No payment now" "Cancel" | guilt, urgency, free framing | guilt headline; fake urgency "ONLY NOW!"; trial attached to the weekly plan; **near-invisible Cancel**; reminder off; $ on a ₹ store | `[OBSERVED]` |
 | 9 | loading | blurred home, spinner | wait | n/a | "Ready in a moment..." | anticipation | none | `[OBSERVED]` |
-| 10 | core-task (demo) | stock snake-plant photo with a frame | choose demo or own plant | invitation | "See Plantum in Action!" "Discover this plant's name and care tips in seconds." "Show me how it works" "Identify my plant" "Skip" | low-effort first try | demo is the primary CTA; own plant is secondary | `[OBSERVED]` |
-| 11 | loading | spinner | wait | n/a | "Recognition in progress..." | effort | spinner on a pre-known photo (mild theatre) | `[OBSERVED]` `[INFERRED]` |
-| 12 | result | Snake plant card with health box | nothing | name, category, tags incl. toxicity, auto health check, genus, latin | "Best Matches" "Snake plant" "Foliage Plants" "Air-purifying" "Easy" "Medium" "Pet-toxic" "Trendy" "Plant Health Beta" "HOORAY! YOUR PLANT LOOKS HEALTHY!" "The plant was diagnosed automatically. Contact our botany experts to be sure about the result." "Ask Experts" "Scientific Name: Dracaena trifasciata" | relief, care | "Easy" and "Medium" both tagged; "Trendy" is noise; auto "healthy" on a stock photo the user never asked to diagnose | `[OBSERVED]` |
-| 13 | home | greeting, offer banner, 4 tools | location (soft), claim offer | tool grid | "Location Unavailable Tap to enable geolocation and get weather updates." "Good Afternoon, plant lover!" "Try Premium Features for Free Claim your offer now" "Care Tools" "Diagnose" "Identify" "Water Calculator" "Reminders" "Plantum Tools" | warmth, curiosity (badge "1") | fake notification badge on the offer; a second paywall entry on day 1 | `[OBSERVED]` |
+| 10 | core-task (demo) | stock snake-plant photo with a frame | choose demo or own plant | invitation | "See Plantum in Action!" "Discover this plant's name and care tips in seconds." "Show me how it works" "Identify my plant" "Skip" | low-effort first try | demo is the primary CTA; own plant is secondary; which button was tapped is not captured | `[OBSERVED]` |
+| 11 | loading | spinner | wait | n/a | "Recognition in progress..." | effort | spinner; no photo shown, so which image is being recognised is not visible | `[OBSERVED]` |
+| 12 | result | Snake plant card with health box | nothing | name, category, tags incl. toxicity, auto health check, genus, latin | "Best Matches" "Snake plant" "Foliage Plants" "Air-purifying" "Easy" "Medium" "Pet-toxic" "Trendy" "Plant Health Beta" "HOORAY! YOUR PLANT LOOKS HEALTHY!" "The plant was diagnosed automatically. Contact our botany experts to be sure about the result." "Ask Experts" "Scientific Name: Dracaena trifasciata" | relief, care | "Easy" and "Medium" both tagged; "Trendy" is noise; auto "healthy" on what is probably the demo photo `[INFERRED]`, which the user never asked to diagnose | `[OBSERVED]` |
+| 13 | home | greeting, offer banner, 4 tools | location (soft), claim offer | tool grid | "Location Unavailable Tap to enable geolocation and get weather updates." "Good Afternoon, plant lover!" "Try Premium Features for Free Claim your offer now" "Care Tools" "Diagnose" "Identify" "Water Calculator" "Reminders" "Plantum Tools" | warmth, curiosity (badge "1") | "1" badge on the offer's envelope graphic (whether it is a real notification is `[UNKNOWN]`); a second paywall entry on day 1 | `[OBSERVED]` |
 | 14 | explore | article cards loading | n/a | n/a | "Explore" "Care Guides" "Fertilizing" "Holidays" "Humidity" | content | placeholder state | `[OBSERVED]` |
 | 15 | explore | seasonal articles | read | content | "6 Amazing Botanical Gardens to Visit This Fall" "How to Bring Your Outdoor Plants Indoors This Fall" | seasonal relevance | red dot on the Explore tab pulls attention away from the core job | `[OBSERVED]` |
 
 ### 8 measures
 
-1. **First win.** A plant name appears on screen 12 after about 6–7 taps: Skip or Continue without registration, Continue ×3, Cancel on the paywall, "Show me how it works", plus possibly a shutter `[OBSERVED]`/`[INFERRED]`. It comes **after** the paywall. It is a demo on a stock photo, not the user's plant.
+1. **First win.** A plant name appears on screen 12 after about 6–7 taps: Skip or Continue without registration, Continue ×3, Cancel on the paywall, "Show me how it works", plus possibly a shutter `[OBSERVED]`/`[INFERRED]`. It comes **after** the paywall. It is probably the demo plant, not the user's: #10 offers the demo snake plant, #12 names a snake plant and its thumbnail resembles the #10 photo, and #12 still offers "Identify My Plant" `[INFERRED]`. #11 shows no image, so the screens don't prove which photo was identified.
 2. **Ask ledger.**
    1. Account sign-in plus an email opt-out you have to tick to avoid marketing (#2). Received so far: nothing.
    2. Trial framed as already "enabled" (#6–#7). Received so far: 3 promo cards.
    3. Paywall (#8). Received so far: promo cards only.
    4. Demo (#10). Received so far: nothing real.
-   5. Location, a soft banner on home (#13). Received so far: one demo ID.
+   5. Location, a soft banner on home (#13). Received so far: one ID, probably on the demo plant `[INFERRED]`.
 
    Four asks before any real value `[OBSERVED]`. Camera and notification prompts are `[UNKNOWN]`.
 3. **Abstractions.**
@@ -107,7 +107,7 @@ IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#9 have no sta
    - "Best Matches" is fine.
    - "Explore" articles are not needed for the job.
 4. **Feel-good moments.**
-   - "HOORAY! YOUR PLANT LOOKS HEALTHY!" (#12) is **manufactured**: a stock photo auto-diagnosed as healthy, a reassurance the user did not ask for.
+   - "HOORAY! YOUR PLANT LOOKS HEALTHY!" (#12) is **manufactured**: probably the demo photo `[INFERRED]` auto-diagnosed as healthy, a reassurance the user did not ask for.
    - "Good Afternoon, plant lover!" (#13) is mild warmth.
    - The seasonal articles (#15) are earned only if read.
 5. **Feel-bad moments.**
@@ -117,7 +117,7 @@ IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#9 have no sta
    - Pre-opted-in emails (#2).
    - The "trial is enabled" animation before price (#6–#7).
    - Contradictory tags: "Poisonous"/"Pet-safe" (#4) and "Easy"/"Medium" (#12). These are trust breakers on safety info.
-   - Fake "1" badge on the offer (#13).
+   - "1" badge on the offer graphic (#13), likely decorative `[INFERRED]`.
 6. **Paywall.** Soft, before the first ID. The trial is on the weekly plan (₹699/wk); the yearly ₹3,999 is shown as ₹76.69/week. The close is the weakest in the set `[OBSERVED #8]`. Downsell after Cancel was not captured `[UNKNOWN]`. The home banner (#13) is a second touchpoint.
 7. **Repeat cost.** Centre camera button on the tab bar, then shutter: 2 taps `[OBSERVED #13]`, `[INFERRED]` for the shutter. Return hooks: Reminders (#13), weather (needs location), seasonal articles (#15). The notification opt-in is `[UNKNOWN]`.
 8. **Feature map.**
@@ -140,9 +140,9 @@ IMG_2211 to IMG_2225, 2:47 to 2:48, in order. Screens #1 and #3–#9 have no sta
 - "ONLY NOW!" (#8).
 - The low-contrast Cancel (#8).
 - "$0.00" on a ₹ storefront (#8).
-- The auto-"healthy" verdict on a stock photo (#12).
+- The auto-"healthy" verdict on a (probably demo) photo (#12).
 - Contradictory safety tags (#4, #12).
-- The fake "1" badge (#13).
+- The "1" badge on the offer graphic (#13).
 - The Explore content tab (#15).
 
 **Different**

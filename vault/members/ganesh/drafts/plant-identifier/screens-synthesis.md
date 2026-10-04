@@ -29,7 +29,7 @@ Capture checklist: [[members/ganesh/apps/plant-identifier/picturethis]].
 |---|---|---|---|---|---|
 | Screens to first plant name | 11 | 12 | 13 | not reached in 13 | `[UNKNOWN]` |
 | Taps to first name (approx.) | ~8 | ~6–7 | ~9–10 | >12, not reached | `[UNKNOWN]` |
-| Whose plant is the first ID on | stock demo | stock demo | stock demo | n/a | `[UNKNOWN]` |
+| Whose plant is the first ID on | prepared demo photo (same image #8–#11) | probably the demo `[INFERRED]` (#11 shows no image) | prepared demo photo (same image #10–#12) | n/a | `[UNKNOWN]` |
 | Asks before any real value | 2 (consent, paywall) | 4 (account + email opt-out, trial theatre, paywall, demo) | 5–6 (unlabeled button, trial theatre, paywall, location, demo) | 7 (system prompt, location, 4-question quiz, paywall) | `[UNKNOWN]` |
 | Invented concepts visible by home | 3 (Plant Hero, Feed, weather) | 5 (Care Tools vs Plantum Tools, Water Calculator, Explore, account) | 6+ (Tree vs Plant Identifier, Light Meter, Water Meter, Ask Botanist, 3 tabs × 5 chips on result) | 9+ (4 quiz dimensions, insects/birds/mushrooms, Decorator, Community, AI Botanist) | `[UNKNOWN]` |
 | Paywall placement | after 5 cards, before ID | after cards + "trial enabled" animation, before ID | after cards + "trial enabled" animation, before ID | after 6 cards + location + 4-question quiz, before ID | xlsx: "After First Scan" `[DATA:ganesh-benchmark-xlsx]` |
@@ -60,7 +60,7 @@ Treat the xlsx price column as unreliable until reconciled.
      - PlantIn #8: "We've set up a plant for you!"
      - Plantum #10: "See Plantum in Action!"
      - Plant App #10: "We've prepared a plant"
-   - How it plays out: a stock photo is "identified" with staged analysis steps. The user gets a name on screen without ever pointing the camera at their own plant `[OBSERVED]`.
+   - How it plays out: a prepared photo is "identified" behind a loading screen (staged 3-step analysis in PlantIn and Plant App, a spinner in Plantum). The user gets a name without photographing their own plant. `[OBSERVED]` for PlantIn and Plant App, where the same prepared image runs through the scan screens; `[INFERRED]` for Plantum, whose loading screen (#11) shows no image.
    - Why it exists `[INFERRED]`:
      - It skips the camera permission.
      - It guarantees a correct result.
@@ -101,8 +101,8 @@ Treat the xlsx price column as unreliable until reconciled.
 
 **Verdict: partly confirmed, and the edge needs to be sharper.**
 
-- **Confirmed:** all 4 challengers put a paywall before the user's first identification `[OBSERVED]`. All 4 sell care and diagnosis on the paywall ("Plant disease autodetection", "Diagnose issues instantly", "Save your plants with instant diagnosis", "Spot plant issues in seconds") `[OBSERVED]`. Value is marketed as care and diagnosis, not ID.
-- **Not confirmed as stated:** the paywall is never hard. Every one is dismissible, and 3 of 4 then give a free name, on a demo plant. A "free first ID" alone would look the same as what they already do on a screenshot.
+- **Confirmed:** all 4 challengers put a paywall before the user's first identification `[OBSERVED]`. 3 of 4 sell diagnosis on the paywall itself ("Plant disease autodetection" Plantum #8, "Diagnose issues instantly" Plant App #8, "Save your plants with instant diagnosis" Plantiary #12); PlantIn's paywall (#7) has no feature copy, and it sells diagnosis in onboarding instead ("Spot plant issues in seconds", #3) `[OBSERVED]`. Value is marketed as care and diagnosis, not ID.
+- **Not confirmed as stated:** the paywall is never hard. Every one is dismissible, and 3 of 4 then give a free name on a demo plant (Plantum's demo use is `[INFERRED]`). A "free first ID" alone would look the same as what they already do on a screenshot.
 - **The real gap** `[INFERRED from screens]`:
   - The first ID is never on the user's own plant before a price.
   - Safety info (toxicity) is gated or contradictory.
@@ -160,7 +160,7 @@ Goal: the user names *their* plant and learns whether it's safe and what it need
 ## 5. Up to 3 differentiators (each tied to evidence)
 
 1. **"Your plant, first": a real ID on the user's own plant before any price, in about 2 taps.**
-   - Evidence: all 4 challengers show a price before any ID (PlantIn #7, Plantum #8, Plant App #8, Plantiary #12). 3 of 4 then use a stock demo plant (PlantIn #8, Plantum #10, Plant App #10). Plantiary reaches no ID in 13 screens `[OBSERVED]`.
+   - Evidence: all 4 challengers show a price before any ID (PlantIn #7, Plantum #8, Plant App #8, Plantiary #12). PlantIn (#8–#11) and Plant App (#10–#12) then identify a prepared demo photo `[OBSERVED]`; Plantum offers one (#10) and probably used it `[INFERRED]`. Plantiary reaches no ID in 13 screens `[OBSERVED]`.
    - Screenshot-1 promise: "Point. Name it. No sign-up, no paywall first."
 2. **"Is it safe?" is always free and never contradictory.**
    - Evidence:
@@ -192,7 +192,7 @@ Not chosen as a differentiator: diagnosis quality. All four promise it; none of 
 | Feed / Community / Explore articles | PlantIn #12; Plantiary #13; Plantum #14–#15 | Content treadmill; pulls attention from the user's plants |
 | Weather / location on home | PlantIn #12; Plant App #9; Plantum #13; Plantiary #7, #13 | A permission ask for marginal value. Only add if watering schedules measurably improve with it |
 | Identity labels ("Plant Hero", "Struggling", "Trendy") | PlantIn #1; Plantiary #10; Plantum #12 | Manufactured identity or shame; adds nothing to the job |
-| AI chatbot persona as a tab | Plantiary #5, #13; Plant App "Ask Botan…" tab | Maybe later as "Ask about this plant" inside a plant's page. Not a separate concept on day 1 |
+| AI chatbot persona as a tab or tool | Plantiary #5, #13 ("Ask AI Botanist" tool row, not a tab); Plant App "Ask Botan…" tab | Maybe later as "Ask about this plant" inside a plant's page. Not a separate concept on day 1 |
 | Plant Decorator / AR preview | Plantiary #13 | Different job (shopping/design) |
 
 ## 7. Open questions (send to review mining or a hands-on test)
@@ -200,7 +200,7 @@ Not chosen as a differentiator: diagnosis quality. All four promise it; none of 
 1. **PictureThis screens.** Does the winner really give the first ID free on the user's own plant ("After First Scan")? What is free on its result? How fast does the close button appear? Ganesh: see the capture checklist in [[members/ganesh/apps/plant-identifier/picturethis]].
 2. **US pricing.**
    - Are weekly plans also the default in the US storefront?
-   - What are the US prices? (The xlsx "$10 a week" quote suggests about $9.99/wk for Plantiary `[INFERRED]`.)
+   - What are the US prices? (A Plantiary review in the xlsx says "$10 a week"; the listed US price is `[UNKNOWN]`.)
    - Recapture all 5 paywalls with a US Apple ID.
 3. **xlsx vs screen price conflicts.** Plantum, Plant App and Plantiary differ (see §1). Is it A/B testing, a price change, or a data-entry error? Recapture on a fresh install twice.
 4. **Close-button timing on every paywall.** Stills can't show the delay. Screen-record.

@@ -24,11 +24,11 @@ sources: [itunes-lookup-us, ganesh-benchmark-xlsx]
 | Field | Value | Tag |
 |---|---|---|
 | Developer | Glority Global Group Ltd. | `[DATA:itunes-lookup-us 2026-10-04]` |
-| Price | Free download (IAP) | `[DATA:itunes-lookup-us]` |
+| Price | Free download | `[DATA:itunes-lookup-us]` |
 | US rating | 4.80 from 1,117,470 ratings (about 5× PlantIn, the next largest in the set) | `[DATA:itunes-lookup-us 2026-10-04]` |
 | Version / last update | 5.72.0, 2026-09-22 | `[DATA:itunes-lookup-us]` |
 | First release | 2017-07-20 (oldest in the set) | `[DATA:itunes-lookup-us]` |
-| Genre / size / age | Education, 244 MB, 4+ | `[DATA:itunes-lookup-us]` |
+| Genre / size / age | Education, 257 MB (256,506,880 bytes), 4+ | `[DATA:itunes-lookup-us]` |
 
 ## Ganesh's xlsx row
 
@@ -48,7 +48,7 @@ sources: [itunes-lookup-us, ganesh-benchmark-xlsx]
 
 The review quotes are undated and truncated in the xlsx, so they are not a mined sample. They are also titled/star-mismatched: "Too many bugs" is rated 5★.
 
-**What matters if Ganesh's row holds:** PictureThis is the only app in the set where the paywall comes *after* the first scan. It also gates pet toxicity, like PlantIn and Plant App. That would make it the only shortlisted app that already does "first ID before paywall". It would weaken our differentiator 1 to "first ID before paywall *on your own plant, unlimited for the first session*". We can't verify either point without screens `[UNKNOWN]`.
+**What matters if Ganesh's row holds:** PictureThis's paywall comes *after* the first scan. The xlsx also marks Plantum (and LeafSnap) "After Scan", but Plantum's screens show the paywall before the scan, so PictureThis is the only shortlisted app where that is not yet contradicted. Its xlsx paid column includes "pet toxicity warnings"; PlantIn and Plant App lock toxicity on screen. If the row holds, PictureThis already does "first ID before paywall". It would weaken our differentiator 1 to "first ID before paywall *on your own plant, unlimited for the first session*". We can't verify either point without screens `[UNKNOWN]`.
 
 ## Not in this run
 - A2 business performance: not in this run (screens-only).
