@@ -38,9 +38,9 @@ sources: [screens:9]
 
 ## Keep / Kill / Different
 
-- **Keep.** Familiar purple directional pad and branded app shortcuts p. 3 reduce learning. [OBSERVED] This does not prove an action worked.
-- **Kill.** Paywall screens repeat p. 2, 4, 5; empty disconnected state p. 6. [OBSERVED] Close X is visible p. 2; hard gating or delay is [UNKNOWN]. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** An initial scan p. 1 is followed immediately by a paywall p. 2; a remote appears p. 3, while Apps says “TV Not Connected” p. 6. [OBSERVED] No successful command/first-win taps are proven. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the familiar directional pad, transport controls and branded shortcuts (p. 3).
+- **Kill.** Remove the repeated full-access screens before the disconnected state is resolved (pp. 2, 4–6). [INFERRED]
+- **Different.** Show connection state and retry/help, then let one basic command work before presenting channels/casting or a paid tier. [INFERRED]
 
 ## Open questions and verification
 

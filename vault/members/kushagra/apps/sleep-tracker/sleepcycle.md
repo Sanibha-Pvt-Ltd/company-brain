@@ -34,9 +34,9 @@ sources: [screens:11]
 
 ## Keep / Kill / Different
 
-- **Keep.** Privacy explanation (p. 3) and optional tracking skip (p. 4) are user-respecting moments. [OBSERVED] No earned progress appears.
-- **Kill.** Account creation and consent precede a usable screen. [OBSERVED] No fear copy or hidden control is established by these pages. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** No first sleep result is present. Consent, referral question, login, goal, notifications and a subscription explanation precede any visible tracking screen. [UNKNOWN] First-win/taps. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the explicit health-data explanation and optional tracking skip (pp. 3–4).
+- **Kill.** Remove account creation and subscription before showing a first tracked night (pp. 6–11). [INFERRED]
+- **Different.** Allow local setup and first report without login; explain the paid tier after the report. [INFERRED]
 
 ## Open questions and verification
 

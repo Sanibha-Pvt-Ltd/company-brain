@@ -9,54 +9,58 @@ sources: [screenshots:28]
 ---
 # Nara Baby — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/narababy_app.pdf` (28 pages). All pages visually inspected in contact sheets; key paywall pages inspected at full resolution. Rows describe visible states only. `[UNKNOWN]` means the screenshot does not establish the action/result or legible detail. Prices shown are the India storefront (₹), not US pricing.
+Source: `kushagra screenshots/Baby tracker/screenshots/narababy_app.pdf`, 28 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
 
 ## Per-screen table
 
-| # | Stage / visible state | Asks | Gives before ask | Verbatim copy / friction / lever | Evidence |
+| # | What is on screen | Asks of user | Gives before / alongside ask | Lever / friction / copy | Evidence |
 |---:|---|---|---|---|---|
-| 1 | Tracking permission dialog | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.1 |
-| 2 | Welcome and account type | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.2 |
-| 3 | Welcome and account type | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.3 |
-| 4 | Account creation and baby information | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.4 |
-| 5 | Account creation and baby information | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.5 |
-| 6 | Select activities to track | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.6 |
-| 7 | Select activities to track | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.7 |
-| 8 | Postpartum health, optional categories and notification ask | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.8 |
-| 9 | Postpartum health, optional categories and notification ask | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.9 |
-| 10 | Postpartum health, optional categories and notification ask | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.10 |
-| 11 | Caregiver invitation and welcome | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.11 |
-| 12 | Caregiver invitation and welcome | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.12 |
-| 13 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.13 |
-| 14 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.14 |
-| 15 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.15 |
-| 16 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.16 |
-| 17 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.17 |
-| 18 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.18 |
-| 19 | Dashboard categories, activity logging, empty states and trends | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.19 |
-| 20 | Guides and articles | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.20 |
-| 21 | Guides and articles | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.21 |
-| 22 | Guides and articles | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.22 |
-| 23 | Account navigation | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.23 |
-| 24 | Subscription plans and account settings | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | “Support for the whole family”; lifetime ₹7,900 (crossed ₹9,900), monthly ₹799 (crossed ₹999) [OBSERVED, full-res p.24]; Subscription prompt follows account/tracking setup; close X [OBSERVED] | [OBSERVED] narababy_app.pdf p.24 |
-| 25 | Subscription plans and account settings | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.25 |
-| 26 | Family, quick settings and activity summary | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.26 |
-| 27 | Family, quick settings and activity summary | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.27 |
-| 28 | Family, quick settings and activity summary | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] narababy_app.pdf p.28 |
+| 1 | iOS tracking permission | Ask App Not to Track / Allow | Privacy choice only | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `narababy_app.pdf` p.1 |
+| 2 | Welcome | Get Started / login | Wellness tracker framing | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.2 |
+| 3 | Account path | I’m new to Nara / joining family / login | Account route selection | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.3 |
+| 4 | Create account | Name/email/password/relationship; create | Terms/privacy acceptance | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.4 |
+| 5 | Baby profile | Name/birthdate/sex/first child | Baby data needed for setup | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.5 |
+| 6 | Activity selection 1 | Toggle feeding/pumping/diaper/sleep/routines | Select categories | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.6 |
+| 7 | Activity selection 2 | Toggle growth/milestones/medical/vaccines | More category choices | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.7 |
+| 8 | Postpartum health question | Yes/no | Optional health tracking context | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.8 |
+| 9 | Health categories | Toggle hydration/nutrition/health/mood/journal/sleep | Category selection | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.9 |
+| 10 | Notifications | Enable / Not now | Timer reminders explained | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.10 |
+| 11 | Invite caregiver | Invite caregiver / Not now | Shared tracking offered | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `narababy_app.pdf` p.11 |
+| 12 | Welcome story | Start now | Narrative onboarding; no tracked event | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.12 |
+| 13 | Home/feed dashboard | Got it | Track session button and categories | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.13 |
+| 14 | Pump/diaper dashboard | Tap + on category | Event cards | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.14 |
+| 15 | Sleep/routine/growth dashboard | Tap + | Event types | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.15 |
+| 16 | No entries state | Start tracking | No data shown | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.16 |
+| 17 | Trends | Select feed/sleep/diaper trend | Zero or empty event stats | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.17 |
+| 18 | Category menu | Choose category | Activity list | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.18 |
+| 19 | Sleep trend detail | Select day/range | Sleep totals and day/night breakdown; no entries | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.19 |
+| 20 | Guides | Open guide | Article library | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.20 |
+| 21 | Guide detail | Read/scroll | Feeding article | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.21 |
+| 22 | Guide detail | Read/scroll | Sleep guide/article | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.22 |
+| 23 | Account | Choose account/subscription/settings | Menu options | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.23 |
+| 24 | Subscription sheet | Choose lifetime/monthly; Continue/restore | ₹7,900 lifetime, ₹799 monthly; claims listed | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `narababy_app.pdf` p.24 |
+| 25 | Settings | Set email/password/preferences | Account preferences | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.25 |
+| 26 | Children/family | Add child/caregiver | Family management | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.26 |
+| 27 | Dashboard overflow | Set reminders/edit activities | Shortcuts | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.27 |
+| 28 | Summary sheet | Today/last 24h | No activity | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `narababy_app.pdf` p.28 |
 
-## Eight screen-lens dimensions
+## Eight dimensions
 
-1. **First win:** A useful first recorded event is visible only after profile/setup on BabyConnect, Baby Daybook, Baby Tracker by Nighp, Huckleberry, Nappi, Nara Baby, Pebbi, and Tottli [OBSERVED, respective dashboard/log pages]. Napper shows a first wake/sleep prediction/logging sequence [OBSERVED, pp.31-45]. Wonder Weeks shows a setup and subscription path; no completed first diary event [OBSERVED, pp.1-13]. Exact launch-to-win taps and elapsed time are [UNKNOWN] from static screenshots.
-2. **Ask ledger:** Screens show profile fields, category choices, caregiver invite, notifications, account, and payment asks; received value by each point is [UNKNOWN] unless preview/UI text is explicit. The longest visible ask chain is Napper onboarding through profile questions and sleep science before its account/trial sequence [OBSERVED, pp.2-25].
-3. **Abstractions:** Tracking categories (feed/sleep/diaper/pump/growth) map to caregiver tasks [INFERRED]. Sleep predictions, routines, leaps, SleepSense/SweetSpot, and multi-tier bundles are extra concepts to explain [OBSERVED; cost is INFERRED].
-4. **Feel-good:** Child profile completion, timeline/history, caregiver sharing, and event completion can create earned reassurance [INFERRED]. “Unlimited happy baby!” and development/prediction promises cannot be validated by a still screen [OBSERVED copy; outcome UNKNOWN].
-5. **Feel-bad:** Repeated setup questions, pre-value paywalls, and feature/plan complexity increase effort [INFERRED]. No observed guilt/streak mechanic or hidden close delay in these screenshots. Copy in tiny areas is UNKNOWN.
-6. **Paywall:** See individual page rows for exact verified examples. Regional INR plans are India-storefront observations only. Hard/soft access after close and payment success are [UNKNOWN].
-7. **Repeat cost:** One-tap entry tiles are visible on several dashboards [OBSERVED]. Actual tap count, reminder delivery, widget setup outcomes, and repeat logging speed are [UNKNOWN].
-8. **Feature map:** Table stakes: fast feed/sleep/diaper logging, history, child profile, caregiver sync [INFERRED from repeated UI]. Differentiators to test: sleep scheduling/prediction and shared care [OBSERVED as positioning, not validated outcomes]. Bloat risk: broad unrelated family/health content and multiple premium bundles [INFERRED].
+1. **First win:** Home event cards shown p.13 after setup; no event completion until p.16 says no entries, with Start tracking.
+2. **Ask ledger:** {lens[1]}
+3. **Abstractions:** {lens[2]}
+4. **Feel-good moments:** {lens[3]}
+5. **Feel-bad moments:** {lens[4]}
+6. **Paywall:** {lens[5]}
+7. **Repeat cost:** {lens[6]}
+8. **Feature map:** {lens[7]}
 
 ## Keep / Kill / Different
 
-- **Keep:** Direct event tiles and visible history/trends; child-specific records and caregiver sharing. [OBSERVED UI; value INFERRED]
-- **Kill:** Asking for account, caregiver invite, and notification permission before a first useful log when optional. Never imply a sleep or developmental outcome is guaranteed. [INFERRED]
-- **Different:** Let a caregiver log one feed/sleep/diaper event before account creation or paywall; offer sync and reminders after the record exists. [INFERRED]
+- **Keep:** Keep optional postpartum switch and “Not Now” for caregiver invite (p.11).
+- **Kill:** Kill: tracking-permission request before user sees benefit (p.1) and extensive category selection as prerequisite.
+- **Different:** start with Feed/Sleep/Diaper; defer postpartum and extra categories until user asks.
+
+## Limits
+
+These are screenshot observations, not a live usability test. Tap count/time-to-value, conditional branches, saved-state confirmation unless captured, purchase success, reminder delivery, sync behavior, and free access after closing a paywall are UNKNOWN. Any recommendation above is tagged as inference.

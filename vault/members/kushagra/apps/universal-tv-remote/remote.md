@@ -36,9 +36,9 @@ sources: [screens:6]
 
 ## Keep / Kill / Different
 
-- **Keep.** The dark remote layout groups arrows, OK, channel, home and media controls on one screen p. 1. [OBSERVED] No confirmation feedback shown.
-- **Kill.** Premium is reached from Settings p. 3 and repeated at p. 4/6 while TV remains disconnected. [OBSERVED] The resulting price/gate is not clearly legible in contact sheets and is [UNKNOWN] here. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Remote screen p. 1 itself says TV is not connected; Apps is empty p. 2. [OBSERVED] No successful control shown; first win/taps unknown. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the standard arrow/OK/home/volume remote layout (p. 1).
+- **Kill.** Remove the premium prompt reached from settings while no TV is connected (pp. 3–6). [INFERRED]
+- **Different.** Put a clear TV picker and troubleshooting path first; offer touchpad premium after a successful basic command. [INFERRED]
 
 ## Open questions and verification
 

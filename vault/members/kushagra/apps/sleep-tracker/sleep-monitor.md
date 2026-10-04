@@ -39,9 +39,9 @@ sources: [screens:49]
 
 ## Keep / Kill / Different
 
-- **Keep.** Score and personalized action plan cards p. 17–18 look like a tailored payoff. [OBSERVED] The screenshot does not reveal whether personal sleep data underlies them.
-- **Kill.** Risk presentation and a “Try Your Luck!” offer/game appear p. 10–11 and p. 27–28. [OBSERVED] [INFERRED] Health-risk framing and chance-based discounts may distract from sleep tracking. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** A wellness score 69 is shown p. 17 and journal score 89 p. 34, after a long quiz and paywall p. 23. [OBSERVED] Data provenance is not visible, so first verified sleep benefit and taps are [UNKNOWN]. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the journal trend and factor editor (pp. 34–43), which connect data to a routine.
+- **Kill.** Remove the pre-result risk carousel and prize-wheel/discount game around the subscription (pp. 10–13, 27–28). [INFERRED]
+- **Different.** Show one real-night timeline first; offer the detailed coaching program after users see that data. [INFERRED]
 
 ## Open questions and verification
 

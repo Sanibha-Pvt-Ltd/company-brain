@@ -39,9 +39,9 @@ sources: [screens:54]
 
 ## Keep / Kill / Different
 
-- **Keep.** Journal reports and “Well done! You had a good rest.” p. 34 provide a concrete positive feedback loop. [OBSERVED] Provenance of score 89 is [UNKNOWN].
-- **Kill.** “100+ Risks Analyzed” and disease-risk framing p. 13 arrive before tracking. [OBSERVED] [INFERRED] This may overstate what a consumer sleep recorder can diagnose. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Journal p. 34 shows a score of 89 and report pages continue through p. 40, after onboarding and premium pages p. 15–21. [OBSERVED] Whether these screens reflect a recorded night is [UNKNOWN]. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the journal score/trend screens and editable sleep factors (pp. 34–43), with measurement provenance.
+- **Kill.** Remove the “100+ Risks Analyzed” claim before a recording and defer unrelated content modules (pp. 13, 31–40). [INFERRED]
+- **Different.** Start one recording, then present a sourced overnight timeline and only then optional risk/coaching content. [INFERRED]
 
 ## Open questions and verification
 

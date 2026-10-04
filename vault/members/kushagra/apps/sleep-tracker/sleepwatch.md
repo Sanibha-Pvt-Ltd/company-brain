@@ -36,9 +36,9 @@ sources: [screens:32]
 
 ## Keep / Kill / Different
 
-- **Keep.** Personalized goal choices and a direct quote card appear p. 2–5. [OBSERVED] Earned progress is not shown.
-- **Kill.** Account and permission sequence is long; “Care for your safety” requires acknowledgements p. 13–14. [OBSERVED] No delayed close or coercion claim is supportable. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** No actual sleep result is established. A demo-data home appears p. 22 after p. 15–21 premium asks; score page p. 15 is a sales preview. [OBSERVED] First verified result/taps [UNKNOWN]. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the visible Skip option on the premium intro and the simple Start Sleep Tracking action (pp. 15, 22).
+- **Kill.** Remove account, broad Health access and the premium carousel from before the first recorded night (pp. 6–21). [INFERRED]
+- **Different.** Offer a phone-only first recording and a free morning summary; ask for account/Health only to sync or compare. [INFERRED]
 
 ## Open questions and verification
 

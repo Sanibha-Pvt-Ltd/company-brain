@@ -41,9 +41,9 @@ sources: [screens:53]
 
 ## Keep / Kill / Different
 
-- **Keep.** Profile completion and explanatory energy-curve screens (p. 29–46) make the result feel personalized. [OBSERVED] Whether the output reflects a real night is [UNKNOWN].
-- **Kill.** On p. 2 the benefit list includes “Reduced anxiety and depression”; this is health-claim framing before setup. [OBSERVED] The capture cannot show coercion or delayed exits. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** A tailored sleep/energy profile first appears on p. 29, before the paywall at p. 50, but no completed sleep night is shown. [OBSERVED] First verified sleep benefit and taps to it: [UNKNOWN]. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the tangible weekday/weekend schedule and Energy Schedule walkthrough (pp. 31–46), while labeling predictions.
+- **Kill.** Remove the pre-recording demographics/challenge cascade and the anxiety/depression benefit claim (pp. 2, 7–21) from the critical path. [INFERRED]
+- **Different.** Let the user set bedtime, record a night, then show measured sleep duration before optional Health access and a trial. [INFERRED]
 
 ## Open questions and verification
 

@@ -37,9 +37,9 @@ sources: [screens:18]
 
 ## Keep / Kill / Different
 
-- **Keep.** Privacy and safety explanations (p. 2, 12–13) offer context before permissions. [OBSERVED] A first result or earned progress moment is absent.
-- **Kill.** Health and microphone permissions stack before tracking. [OBSERVED] Copy at p. 13 says “Pillow is not a medical app.” Permission necessity is [UNKNOWN] without hands-on test. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** No actual tracked-night report appears in p. 1–18; first visible benefit is premium access. [UNKNOWN] First win/taps and whether a real result is available before trial. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the privacy explanation and explicit medical-safety caveat (pp. 2, 13).
+- **Kill.** Remove the sequence of wearable, motion, Health, microphone and iCloud asks before first tracking (pp. 6–12). [INFERRED]
+- **Different.** Start with local phone tracking; ask for Watch, Health, sounds and cloud one at a time when needed. [INFERRED]
 
 ## Open questions and verification
 

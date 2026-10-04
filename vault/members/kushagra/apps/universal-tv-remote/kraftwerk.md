@@ -37,9 +37,9 @@ sources: [screens:7]
 
 ## Keep / Kill / Different
 
-- **Keep.** “Device found” p. 5 precedes the remote p. 7, an explicit reassurance state. [OBSERVED] It does not prove a command worked.
-- **Kill.** Feedback ask follows connecting (p. 3–4) and precedes/overlaps the paid offer (p. 5). [OBSERVED] No trick/close timing proven. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Brand picker p. 1, “Device found” paywall p. 5, remote p. 7. [OBSERVED] Device discovery appears successful in a screen, but no command response is shown. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the short feature illustrations and persistent Skip affordance (pp. 2–5).
+- **Kill.** Remove premium after five promotional screens but before a usable remote appears (p. 6). [INFERRED]
+- **Different.** Move device discovery and a working power button ahead of feature education and the subscription. [INFERRED]
 
 ## Open questions and verification
 

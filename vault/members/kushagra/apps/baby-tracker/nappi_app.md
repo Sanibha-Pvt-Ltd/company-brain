@@ -9,54 +9,58 @@ sources: [screenshots:28]
 ---
 # nappi — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/nappi_app.pdf` (28 pages). All pages visually inspected in contact sheets; key paywall pages inspected at full resolution. Rows describe visible states only. `[UNKNOWN]` means the screenshot does not establish the action/result or legible detail. Prices shown are the India storefront (₹), not US pricing.
+Source: `kushagra screenshots/Baby tracker/screenshots/nappi_app.pdf`, 28 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
 
 ## Per-screen table
 
-| # | Stage / visible state | Asks | Gives before ask | Verbatim copy / friction / lever | Evidence |
+| # | What is on screen | Asks of user | Gives before / alongside ask | Lever / friction / copy | Evidence |
 |---:|---|---|---|---|---|
-| 1 | Welcome carousel: logging, wearable/voice, family | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.1 |
-| 2 | Welcome carousel: logging, wearable/voice, family | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.2 |
-| 3 | Welcome carousel: logging, wearable/voice, family | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.3 |
-| 4 | Account sign in | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.4 |
-| 5 | Caregiver name | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.5 |
-| 6 | Family creation/invitation | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.6 |
-| 7 | Family creation/invitation | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.7 |
-| 8 | Notifications and welcome/value list | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.8 |
-| 9 | Notifications and welcome/value list | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.9 |
-| 10 | Dashboard and event log entry tutorials; activity picker | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.10 |
-| 11 | Dashboard and event log entry tutorials; activity picker | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.11 |
-| 12 | Dashboard and event log entry tutorials; activity picker | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.12 |
-| 13 | Dashboard and event log entry tutorials; activity picker | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.13 |
-| 14 | Lumi and Premium prompt | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.14 |
-| 15 | Lumi and Premium prompt | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.15 |
-| 16 | SleepSense, reports and memory screens | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.16 |
-| 17 | SleepSense, reports and memory screens | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.17 |
-| 18 | SleepSense, reports and memory screens | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.18 |
-| 19 | Child/family cards and home modules | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.19 |
-| 20 | Child/family cards and home modules | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.20 |
-| 21 | Settings, subscription and preferences | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.21 |
-| 22 | Settings, subscription and preferences | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.22 |
-| 23 | Settings, subscription and preferences | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.23 |
-| 24 | Premium benefits/plans and Apple purchase sheet | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | “Free for 1 week. Then it renews automatically at ₹3,999/year”; monthly ₹399 / yearly ₹3,999 [OBSERVED, full-res p.24-25]; Close X and Restore visible; trial terms explicit [OBSERVED] | [OBSERVED] nappi_app.pdf p.24 |
-| 25 | Premium benefits/plans and Apple purchase sheet | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | “Free for 1 week. Then it renews automatically at ₹3,999/year”; monthly ₹399 / yearly ₹3,999 [OBSERVED, full-res p.24-25]; Close X and Restore visible; trial terms explicit [OBSERVED] | [OBSERVED] nappi_app.pdf p.25 |
-| 26 | Premium benefits/plans and Apple purchase sheet | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.26 |
-| 27 | SleepSense summary and More categories | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.27 |
-| 28 | SleepSense summary and More categories | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] nappi_app.pdf p.28 |
+| 1 | Welcome slide 1 | Next | Log everything in seconds | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.1 |
+| 2 | Welcome slide 2 | Next | Watch/voice/Alexa benefits | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.2 |
+| 3 | Welcome slide 3 | Get Started | Share with family promise | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.3 |
+| 4 | Sign in | Sign in or create account | Google/Apple/email available | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `nappi_app.pdf` p.4 |
+| 5 | Parent name | Enter name | Personal greeting | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.5 |
+| 6 | Family setup | Create/join family or enter code | Family sharing framed as tracking with others | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `nappi_app.pdf` p.6 |
+| 7 | Invite family | Enter email / skip | Caregiver invitation; optional skip | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.7 |
+| 8 | Notification explainer | Enable notifications or Not now | Reminders, feeds, live timers described | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `nappi_app.pdf` p.8 |
+| 9 | Feature summary | Start tracking | What’s included list | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.9 |
+| 10 | Dashboard | Tap a category to start | SleepSense and quick log; no event shown | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.10 |
+| 11 | Sleep timer | Start | Start sleep event | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.11 |
+| 12 | Dashboard after timer entry | Choose another category | Event categories shown | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.12 |
+| 13 | More categories | Add photo / choose activity | Additional tracking options | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.13 |
+| 14 | Lumi assistant | Ask a question / prompt | Assistant intro; data guidance offers | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.14 |
+| 15 | Premium paywall preview | Try one week free / close | Feature list and close option | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `nappi_app.pdf` p.15 |
+| 16 | SleepSense | Open sleep insight | Sleep guidance and expected range positioning | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.16 |
+| 17 | Reports tab | Choose date/range | Empty calendar, no records | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.17 |
+| 18 | Memories | Add memory | Empty memory prompt | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.18 |
+| 19 | Child profile | Add another baby | Profile card | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.19 |
+| 20 | Family menu | Open category | Family calendar/health/milestones/reminders/sleep/guidance | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.20 |
+| 21 | Settings | Choose setting | Subscription/account/referrals | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.21 |
+| 22 | Settings preferences | Change units/notifications/shortcuts | Preferences | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.22 |
+| 23 | Settings support | Open help/rate/share | Support links | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.23 |
+| 24 | Premium benefits sheet | Try one week free / close | Benefit list including predictions, sounds, reporting, Lumi | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `nappi_app.pdf` p.24 |
+| 25 | Premium terms/plans | Choose yearly/monthly; trial CTA | ₹3,999/year, ₹399/month, free week details | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `nappi_app.pdf` p.25 |
+| 26 | Apple purchase sheet | Double-click to subscribe | Trial and renewal terms visible | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `nappi_app.pdf` p.26 |
+| 27 | SleepSense detail | No action visible | Sleep tracking guidance/expected age-range summary | [OBSERVED] No direct data/permission/payment ask is apparent on this captured screen. | [OBSERVED] `nappi_app.pdf` p.27 |
+| 28 | More category sheet | Choose potty/pumping/medical | Additional event categories | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `nappi_app.pdf` p.28 |
 
-## Eight screen-lens dimensions
+## Eight dimensions
 
-1. **First win:** A useful first recorded event is visible only after profile/setup on BabyConnect, Baby Daybook, Baby Tracker by Nighp, Huckleberry, Nappi, Nara Baby, Pebbi, and Tottli [OBSERVED, respective dashboard/log pages]. Napper shows a first wake/sleep prediction/logging sequence [OBSERVED, pp.31-45]. Wonder Weeks shows a setup and subscription path; no completed first diary event [OBSERVED, pp.1-13]. Exact launch-to-win taps and elapsed time are [UNKNOWN] from static screenshots.
-2. **Ask ledger:** Screens show profile fields, category choices, caregiver invite, notifications, account, and payment asks; received value by each point is [UNKNOWN] unless preview/UI text is explicit. The longest visible ask chain is Napper onboarding through profile questions and sleep science before its account/trial sequence [OBSERVED, pp.2-25].
-3. **Abstractions:** Tracking categories (feed/sleep/diaper/pump/growth) map to caregiver tasks [INFERRED]. Sleep predictions, routines, leaps, SleepSense/SweetSpot, and multi-tier bundles are extra concepts to explain [OBSERVED; cost is INFERRED].
-4. **Feel-good:** Child profile completion, timeline/history, caregiver sharing, and event completion can create earned reassurance [INFERRED]. “Unlimited happy baby!” and development/prediction promises cannot be validated by a still screen [OBSERVED copy; outcome UNKNOWN].
-5. **Feel-bad:** Repeated setup questions, pre-value paywalls, and feature/plan complexity increase effort [INFERRED]. No observed guilt/streak mechanic or hidden close delay in these screenshots. Copy in tiny areas is UNKNOWN.
-6. **Paywall:** See individual page rows for exact verified examples. Regional INR plans are India-storefront observations only. Hard/soft access after close and payment success are [UNKNOWN].
-7. **Repeat cost:** One-tap entry tiles are visible on several dashboards [OBSERVED]. Actual tap count, reminder delivery, widget setup outcomes, and repeat logging speed are [UNKNOWN].
-8. **Feature map:** Table stakes: fast feed/sleep/diaper logging, history, child profile, caregiver sync [INFERRED from repeated UI]. Differentiators to test: sleep scheduling/prediction and shared care [OBSERVED as positioning, not validated outcomes]. Bloat risk: broad unrelated family/health content and multiple premium bundles [INFERRED].
+1. **First win:** Dashboard and event buttons shown p.10; sleep timer start screen p.11. No stop/save confirmation captured.
+2. **Ask ledger:** {lens[1]}
+3. **Abstractions:** {lens[2]}
+4. **Feel-good moments:** {lens[3]}
+5. **Feel-bad moments:** {lens[4]}
+6. **Paywall:** {lens[5]}
+7. **Repeat cost:** {lens[6]}
+8. **Feature map:** {lens[7]}
 
 ## Keep / Kill / Different
 
-- **Keep:** Direct event tiles and visible history/trends; child-specific records and caregiver sharing. [OBSERVED UI; value INFERRED]
-- **Kill:** Asking for account, caregiver invite, and notification permission before a first useful log when optional. Never imply a sleep or developmental outcome is guaranteed. [INFERRED]
-- **Different:** Let a caregiver log one feed/sleep/diaper event before account creation or paywall; offer sync and reminders after the record exists. [INFERRED]
+- **Keep:** Keep clear category tiles and optional “Not now” on notification ask (p.8).
+- **Kill:** Kill: requiring family creation/invite before first log; avoid assistant presenting itself as medical authority.
+- **Different:** make sign-in and family invite optional until after a local entry; expose timer and save confirmation immediately.
+
+## Limits
+
+These are screenshot observations, not a live usability test. Tap count/time-to-value, conditional branches, saved-state confirmation unless captured, purchase success, reminder delivery, sync behavior, and free access after closing a paywall are UNKNOWN. Any recommendation above is tagged as inference.

@@ -9,40 +9,44 @@ sources: [screenshots:14]
 ---
 # Baby Tracker by Nighp — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/babytrackerbynighp.pdf` (14 pages). All pages visually inspected in contact sheets; key paywall pages inspected at full resolution. Rows describe visible states only. `[UNKNOWN]` means the screenshot does not establish the action/result or legible detail. Prices shown are the India storefront (₹), not US pricing.
+Source: `kushagra screenshots/Baby tracker/screenshots/babytrackerbynighp.pdf`, 14 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
 
 ## Per-screen table
 
-| # | Stage / visible state | Asks | Gives before ask | Verbatim copy / friction / lever | Evidence |
+| # | What is on screen | Asks of user | Gives before / alongside ask | Lever / friction / copy | Evidence |
 |---:|---|---|---|---|---|
-| 1 | Baby info form | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.1 |
-| 2 | Dashboard and expanded feed actions | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.2 |
-| 3 | Dashboard and expanded feed actions | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.3 |
-| 4 | Feeding and supplement log forms | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.4 |
-| 5 | Feeding and supplement log forms | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.5 |
-| 6 | Activity list, weekly charts and empty state | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.6 |
-| 7 | Activity list, weekly charts and empty state | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.7 |
-| 8 | Activity list, weekly charts and empty state | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.8 |
-| 9 | Settings, FAQ, export and help | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.9 |
-| 10 | Settings, FAQ, export and help | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.10 |
-| 11 | Settings, FAQ, export and help | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.11 |
-| 12 | Plus subscription plans | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.12 |
-| 13 | Remove ads one-time offer | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.13 |
-| 14 | Baby profile | [UNKNOWN] exact taps not established by still image | [UNKNOWN] whether prior event completed | [UNKNOWN] fine copy not legible/necessary to transcribe on contact sheet; [INFERRED] setup effort; exact taps/timing unknown | [OBSERVED] babytrackerbynighp.pdf p.14 |
+| 1 | Baby info form | Name, gender, birth date/time, due date | No value beyond profile setup | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.1 |
+| 2 | Home dashboard | Tap Feeding/Nappy change/Sleep/Pumping/Other | Categories available; greeting/personalized baby header | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.2 |
+| 3 | Expanded Feed choices | Nursing, expressed, formula, supplement | Feed subtypes shown | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.3 |
+| 4 | Feeding log form | Time, amount, note; save/checkmark | 100 ml amount control | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.4 |
+| 5 | Supplement log form | Supplement, amount, unit, note | Entry fields available | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.5 |
+| 6 | Today list | Choose date/category | No events visible | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.6 |
+| 7 | Weekly charts | Choose week/category | Chart templates, zeros/no records | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.7 |
+| 8 | Empty state | No action visible | No information available | [OBSERVED] No direct data/permission/payment ask is apparent on this captured screen. | [OBSERVED] `babytrackerbynighp.pdf` p.8 |
+| 9 | Settings list | Choose data backup/sync/export/photo copy | Export and backup controls | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.9 |
+| 10 | Settings support | FAQ, rate/share/about | Support options | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.10 |
+| 11 | Settings continuation | Explore Plus/remove ads | Plus and ads route | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.11 |
+| 12 | Plus paywall | Subscribe to Plus; select annual/monthly | Sleep tracking, alerts, ad-free benefits and INR prices | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `babytrackerbynighp.pdf` p.12 |
+| 13 | Remove ads offer | Remove Ads one-time purchase | ₹499 one-off; no ads promise | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.13 |
+| 14 | Baby info card | Edit profile/add another | Current child record shown | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `babytrackerbynighp.pdf` p.14 |
 
-## Eight screen-lens dimensions
+## Eight dimensions
 
-1. **First win:** A useful first recorded event is visible only after profile/setup on BabyConnect, Baby Daybook, Baby Tracker by Nighp, Huckleberry, Nappi, Nara Baby, Pebbi, and Tottli [OBSERVED, respective dashboard/log pages]. Napper shows a first wake/sleep prediction/logging sequence [OBSERVED, pp.31-45]. Wonder Weeks shows a setup and subscription path; no completed first diary event [OBSERVED, pp.1-13]. Exact launch-to-win taps and elapsed time are [UNKNOWN] from static screenshots.
-2. **Ask ledger:** Screens show profile fields, category choices, caregiver invite, notifications, account, and payment asks; received value by each point is [UNKNOWN] unless preview/UI text is explicit. The longest visible ask chain is Napper onboarding through profile questions and sleep science before its account/trial sequence [OBSERVED, pp.2-25].
-3. **Abstractions:** Tracking categories (feed/sleep/diaper/pump/growth) map to caregiver tasks [INFERRED]. Sleep predictions, routines, leaps, SleepSense/SweetSpot, and multi-tier bundles are extra concepts to explain [OBSERVED; cost is INFERRED].
-4. **Feel-good:** Child profile completion, timeline/history, caregiver sharing, and event completion can create earned reassurance [INFERRED]. “Unlimited happy baby!” and development/prediction promises cannot be validated by a still screen [OBSERVED copy; outcome UNKNOWN].
-5. **Feel-bad:** Repeated setup questions, pre-value paywalls, and feature/plan complexity increase effort [INFERRED]. No observed guilt/streak mechanic or hidden close delay in these screenshots. Copy in tiny areas is UNKNOWN.
-6. **Paywall:** See individual page rows for exact verified examples. Regional INR plans are India-storefront observations only. Hard/soft access after close and payment success are [UNKNOWN].
-7. **Repeat cost:** One-tap entry tiles are visible on several dashboards [OBSERVED]. Actual tap count, reminder delivery, widget setup outcomes, and repeat logging speed are [UNKNOWN].
-8. **Feature map:** Table stakes: fast feed/sleep/diaper logging, history, child profile, caregiver sync [INFERRED from repeated UI]. Differentiators to test: sleep scheduling/prediction and shared care [OBSERVED as positioning, not validated outcomes]. Bloat risk: broad unrelated family/health content and multiple premium bundles [INFERRED].
+1. **First win:** Baby profile p.1 then dashboard category cards p.2; screenshots do not show a completed saved event.
+2. **Ask ledger:** {lens[1]}
+3. **Abstractions:** {lens[2]}
+4. **Feel-good moments:** {lens[3]}
+5. **Feel-bad moments:** {lens[4]}
+6. **Paywall:** {lens[5]}
+7. **Repeat cost:** {lens[6]}
+8. **Feature map:** {lens[7]}
 
 ## Keep / Kill / Different
 
-- **Keep:** Direct event tiles and visible history/trends; child-specific records and caregiver sharing. [OBSERVED UI; value INFERRED]
-- **Kill:** Asking for account, caregiver invite, and notification permission before a first useful log when optional. Never imply a sleep or developmental outcome is guaranteed. [INFERRED]
-- **Different:** Let a caregiver log one feed/sleep/diaper event before account creation or paywall; offer sync and reminders after the record exists. [INFERRED]
+- **Keep:** Keep fast category cards and simple amount entry (pp.2-5).
+- **Kill:** Kill: blank charts presented without guidance (pp.6-8) and any forced paywall; none shown at launch.
+- **Different:** show a proposed “first event saved” confirmation and show a useful same-day timeline; keep subscription under settings.
+
+## Limits
+
+These are screenshot observations, not a live usability test. Tap count/time-to-value, conditional branches, saved-state confirmation unless captured, purchase success, reminder delivery, sync behavior, and free access after closing a paywall are UNKNOWN. Any recommendation above is tagged as inference.

@@ -37,9 +37,9 @@ sources: [screens:13]
 
 ## Keep / Kill / Different
 
-- **Keep.** Nightly plan checklist p. 4 and a sleep tip p. 5 imply small actions. [OBSERVED] A completed action or sleep result is not shown.
-- **Kill.** ATT prompt opens before the app’s purpose is explained (p. 1). [OBSERVED] Seven-night countdown framing appears before any result (p. 2); no guilt language can be confirmed. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Home p. 2 offers a “Track” flow and seven-night progress frame, but no measured sleep appears. [OBSERVED] First verified result/taps [UNKNOWN]; premium appears p. 13. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the Tonight’s Plan checklist and single central Track action (pp. 2–4).
+- **Kill.** Remove the ATT prompt before the product introduction and the seven-night countdown before any measured report (pp. 1–2). [INFERRED]
+- **Different.** Explain recording, ask permissions only when required, and show the first night result before the Remly Pro trial. [INFERRED]
 
 ## Open questions and verification
 

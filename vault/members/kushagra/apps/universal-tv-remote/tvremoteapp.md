@@ -38,9 +38,9 @@ sources: [screens:7]
 
 ## Keep / Kill / Different
 
-- **Keep.** “Device found” p. 3 is a positive state, followed by remote p. 5. [OBSERVED] The later no-TV state p. 7 prevents treating the connection as proven.
-- **Kill.** Feedback prompt appears immediately after brand picker p. 2; a “Mega Sale” interstitial appears p. 6. [OBSERVED] No claim about coercive behavior. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Brand selection/connection p. 1, then device-found/paywall p. 3; later p. 7 says “No TV Found.” [OBSERVED] These states conflict within the capture; successful connection/command cannot be concluded. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the concise feature illustrations of touchpad and keyboard input (pp. 2–5).
+- **Kill.** Remove the tracking prompt and multi-screen benefit carousel before TV selection (pp. 1–5). [INFERRED]
+- **Different.** Show compatible TV selection and connection state first; reveal keyboard/touchpad tips when those controls are available. [INFERRED]
 
 ## Open questions and verification
 

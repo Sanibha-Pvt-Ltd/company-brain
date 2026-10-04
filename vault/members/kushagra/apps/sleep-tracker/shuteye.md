@@ -39,9 +39,9 @@ sources: [screens:49]
 
 ## Keep / Kill / Different
 
-- **Keep.** An “All Set!” screen p. 34 and score explainer p. 31 offer reassurance. [OBSERVED] Claimed 93% improvement and other social proof on p. 12 are not individual progress.
-- **Kill.** P. 19 says “Identify your health risks through sleep tracker” before the report; this could raise anxiety. [OBSERVED] The images cannot verify medical accuracy or user distress. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** First visible score is 96 on p. 31, after a long quiz and paywall (p. 25–28). [OBSERVED] Screenshot does not establish that score came from a recorded night; first verified sleep benefit/taps [UNKNOWN]. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the score explainer and sleep-note/home surfaces (pp. 31, 35–40).
+- **Kill.** Remove the long diagnosis/risk quiz and disease-risk promise before the first verified recording (pp. 8–19). [INFERRED]
+- **Different.** Ask one sleep goal, start a recording, and show a morning report with source and confidence before a trial. [INFERRED]
 
 ## Open questions and verification
 

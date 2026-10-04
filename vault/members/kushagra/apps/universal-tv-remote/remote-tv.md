@@ -37,9 +37,9 @@ sources: [screens:9]
 
 ## Keep / Kill / Different
 
-- **Keep.** App list p. 7 names familiar services; remote mockup p. 2 presents a broad set of controls. [OBSERVED] No earned success state.
-- **Kill.** Discovery appears in a persistent refreshing state and TV-not-connected status (p. 1–2, 4–5). [OBSERVED] Whether this is temporary or a failure is unknown. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Capture begins on a refreshing connect list p. 1, then shows a remote marked TV not connected p. 2. [OBSERVED] First successful control unknown. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the visible per-service app list and full remote layout (pp. 2, 7).
+- **Kill.** Remove the premium offer while discovery remains in a refresh/not-connected state (pp. 1, 4–6). [INFERRED]
+- **Different.** Make pairing status actionable with retry/manual entry and verify command success before trial. [INFERRED]
 
 ## Open questions and verification
 

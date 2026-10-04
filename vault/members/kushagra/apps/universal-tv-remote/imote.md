@@ -38,9 +38,9 @@ sources: [screens:14]
 
 ## Keep / Kill / Different
 
-- **Keep.** Pairing is taught with an illustration and two explicit steps p. 3–4. [OBSERVED] Helpful setup is the clearest good moment.
-- **Kill.** Users are asked for local network access before pairing instructions (p. 2). Search can end at “Oops! No TV found” p. 10. [OBSERVED] No scary copy/close delay proven. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Pairing screen p. 5 searches; remote UI p. 6 appears with a “Connect to your TV” button. [OBSERVED] No connected TV/command result is proven. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the two illustrated pairing steps and connect CTA (pp. 3–6).
+- **Kill.** Remove premium placement and ad clutter from the still-unpaired connection sequence (pp. 5–10). [INFERRED]
+- **Different.** Explain local network before the OS permission, pair a TV, then test power/navigation before upsell. [INFERRED]
 
 ## Open questions and verification
 

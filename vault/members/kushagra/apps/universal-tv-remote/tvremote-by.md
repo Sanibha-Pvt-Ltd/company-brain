@@ -37,9 +37,9 @@ sources: [screens:14]
 
 ## Keep / Kill / Different
 
-- **Keep.** Four onboarding illustrations show controls and keyboard input. [OBSERVED] This is a feature promise, not an earned outcome.
-- **Kill.** ATT prompt precedes the app explanation (p. 1); several benefit screens precede TV discovery (p. 2–5). [OBSERVED] No exact hidden/delayed close claim. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
-- **Different.** Brand/device search p. 8 follows five onboarding pages and a premium offer p. 6–7. [OBSERVED] No TV command or first benefit is demonstrated. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+- **Keep.** [OBSERVED] Keep the brand picker and device-found state when they are accurate (pp. 1, 5).
+- **Kill.** Remove the feedback interstitials and timed sale surrounding an unverified pairing (pp. 3–8). [INFERRED]
+- **Different.** After brand selection, verify pairing with a command; then offer a clearly priced plan with a plain dismissal. [INFERRED]
 
 ## Open questions and verification
 
