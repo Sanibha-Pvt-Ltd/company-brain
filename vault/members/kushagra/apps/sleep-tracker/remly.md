@@ -1,0 +1,48 @@
+---
+type: app
+category: sleep-tracker
+app: Remly
+app_store_id: unknown
+member: kushagra
+updated: 2026-10-04
+status: draft
+sources: [screens:13]
+---
+
+# Remly — screenshot teardown
+
+**Scope.** Screens-only review of team capture `sleeptracker_remly.pdf` (PDF created 2026-10-03; 13 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
+
+## Per-screen table
+
+| Screen(s) | What user sees | Visible ask | What it gives | Verbatim copy (representative) | Lever | Friction / dark pattern | Source |
+|---:|---|---|---|---|---|---|---|
+| 1 | App Tracking Transparency prompt appears on launch. | Allow or ask app not to track. | No tracked-night outcome can be concluded from stills. | `System prompt: “Allow ‘Remly’ to track your activity across other companies’ apps and websites?”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 1 |
+| 2–4 | Home screen with a seven-night tracker countdown; sleep-recorder explanation and tonight plan. | Continue to recorder or choose “Not now”; home suggests paper journal and bedtime actions. | No tracked-night outcome can be concluded from stills. | `“Welcome to unique patented Sleep Recorder!”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 2–4 |
+| 5–8 | Sleep-help content and sound library. | Browse sleep tips, sounds and dream tools. | No tracked-night outcome can be concluded from stills. | `“Sleeping Tip of the Day.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 5–8 |
+| 9 | Apple Health permission how-to. | Go to Apple Health or select “Not now.” | No tracked-night outcome can be concluded from stills. | `“Grant access to Health App!”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 9 |
+| 10–12 | Profile with no collected data, sleep goal/reminder controls, and heart/breathing settings. | Log in/sign up or enable trackers/reminders. | No tracked-night outcome can be concluded from stills. | `“No data has been collected yet.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 10–12 |
+| 13 | Remly Pro personalized plan and trial offer. | Continue into trial; trial toggle is selected in the screenshot. | No tracked-night outcome can be concluded from stills. | `“Better Sleep in 7 Days.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `sleeptracker_remly.pdf`, pp. 13 |
+
+## Eight screen lenses
+
+1. **First win.** Home p. 2 offers a “Track” flow and seven-night progress frame, but no measured sleep appears. [OBSERVED] First verified result/taps [UNKNOWN]; premium appears p. 13.
+2. **Ask ledger.** ATT prompt p. 1; choose recorder or “Not now” p. 3; Health walkthrough p. 9; optional account p. 10; tracker/reminder toggles p. 11–12; trial p. 13.
+3. **Abstractions.** “Sleep Toolkit,” bedtime plan, “Dreamboat,” and “Focus areas” are shown on p. 2–7, 13. [OBSERVED] [INFERRED] These are secondary to setting a bedtime and recording one night.
+4. **Feel-good moments.** Nightly plan checklist p. 4 and a sleep tip p. 5 imply small actions. [OBSERVED] A completed action or sleep result is not shown.
+5. **Feel-bad moments.** ATT prompt opens before the app’s purpose is explained (p. 1). [OBSERVED] Seven-night countdown framing appears before any result (p. 2); no guilt language can be confirmed.
+6. **Paywall.** P. 13: 7 days free, then ₹999 on Oct. 10, 2026; auto-renewal/cancel-anytime visible. Trial is visibly enabled on this screen. [OBSERVED] India storefront, captured 2026-10-03. Whether enabled by default in flow is [UNKNOWN].
+7. **Repeat cost.** Home offers a central track action (p. 2–4); 7 nights are framed before score. [OBSERVED] Exact action count and post-night report are not captured.
+8. **Feature map.** [INFERRED] Table stakes: one-tap start, bedtime/reminder and morning summary. Differentiator: “Tonight’s Plan” checklist. Bloat risk: dream analysis and focus-area taxonomy before proven recording value.
+
+## Keep / Kill / Different
+
+- **Keep.** Nightly plan checklist p. 4 and a sleep tip p. 5 imply small actions. [OBSERVED] A completed action or sleep result is not shown.
+- **Kill.** ATT prompt opens before the app’s purpose is explained (p. 1). [OBSERVED] Seven-night countdown framing appears before any result (p. 2); no guilt language can be confirmed. [INFERRED] Remove steps or claims here that precede a verified result/command; test the precise step against a fresh install before shipping a similar flow.
+- **Different.** Home p. 2 offers a “Track” flow and seven-night progress frame, but no measured sleep appears. [OBSERVED] First verified result/taps [UNKNOWN]; premium appears p. 13. [INFERRED] Make the first successful sleep report/TV command visible, identify whether it is measured or a preview, and put optional permissions/account/payment after that first outcome.
+
+## Open questions and verification
+
+- [UNKNOWN] Exact launch-to-benefit taps/time, whether PDF pages form one continuous path, soft versus hard gating, close delays, trial defaults in action, checkout and successful result.
+- [UNKNOWN] Repeat-session taps, retention, notification behavior, US storefront prices, listing/review evidence and App Store ID.
+- **Checked:** all 13 pages of `sleeptracker_remly.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and the India storefront shown in the capture; prices are not US estimates.
