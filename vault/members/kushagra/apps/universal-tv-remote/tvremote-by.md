@@ -1,7 +1,7 @@
 ---
 type: app
 category: universal-tv-remote
-app: TV Remote (screenshot capture name tvremote by.pdf)
+app: TV Remote
 app_store_id: unknown
 member: kushagra
 updated: 2026-10-04
@@ -9,40 +9,44 @@ status: draft
 sources: [screens:14]
 ---
 
-# TV Remote (screenshot capture name tvremote by.pdf) — screenshot teardown
+# TV Remote — screenshot teardown
 
-**Scope.** Screens-only review of team capture `tvremote by.pdf` (PDF created 2026-10-03; 14 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
+**Scope.** Screens-only review of team capture `tvremote by.pdf` (PDF created 2026-10-03; 14 pages). Pages are grouped only where adjacent screenshots show the same flow; every page is indexed. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews, App Store ID and US pricing are unavailable. [UNKNOWN]
 
 ## Per-screen table
 
 | Screen(s) | What user sees | Visible ask | What it gives | Verbatim copy (representative) | Lever | Friction / dark pattern | Source |
 |---:|---|---|---|---|---|---|---|
-| 1 | App Tracking Transparency prompt on launch. | Allow or ask not to track. | No real-TV action outcome can be concluded from stills. | `System prompt: “Allow ‘TV Remote’ to track your activity across other companies’ apps and websites?”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 1 |
-| 2–5 | Onboarding benefit cards: smart TV control, search keyboard, customizable remote, broad access. | Continue through four benefit cards. | No real-TV action outcome can be concluded from stills. | `“TURN YOUR PHONE INTO A SMART TV CONTROLLER.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 2–5 |
-| 6–7 | Premium trial explanation and plan-selection/paywall pages. | Continue, trial and paid plan choices. | No real-TV action outcome can be concluded from stills. | `“GET FULL ACCESS TO UNIVERSAL TV REMOTE.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 6–7 |
-| 8 | TV search/selection. | Wait/search for device. | No real-TV action outcome can be concluded from stills. | `“Select a device to connect.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 8 |
-| 9–10 | Remote screen plus premium offer. | Use remote or subscribe; TV connection state not confirmed. | No real-TV action outcome can be concluded from stills. | `“Universal Remote Control.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 9–10 |
-| 11–14 | Cast/mirroring and settings/upgrade surfaces. | Select casting/settings features or premium. | No real-TV action outcome can be concluded from stills. | `“Screen Mirroring.”` (representative copy visible in this span) | onboarding / report / offer | Taps, delay, hard gating and outcome remain unverified from stills. | `tvremote by.pdf`, pp. 11–14 |
+| 1 | TV brand picker lists Roku, Samsung, LG, TCL, Hisense, Fire TV, Vizio and Sony. | Choose a TV brand and Continue. | A specific compatibility choice is visible before scanning. | `“Please select your TV brand!”` | device selection | [OBSERVED] The next page displays a connecting state. | `tvremote by.pdf`, p. 1 |
+| 2 | Connection progress overlay over the selected brand list. | Wait while connecting. | A visible connection status. | `“We’re connecting to your TV. Please wait a moment.”` | pairing progress | [OBSERVED] Success is not shown on this page. | `tvremote by.pdf`, p. 2 |
+| 3–4 | Two feedback screens titled “App improvements.” | Choose rating/feedback response. | Opportunity to report experience; not required to pair. | `“App improvements.”` | rating/feedback | [INFERRED] Feedback is asked before the captured device-found/premium state. | `tvremote by.pdf`, p. 3–4 |
+| 5 | “Device found” banner and a premium plan offer titled “Simplify your TV time.” | Free-trial toggle and plan selection, Continue for Free. | Offers app access, phone casting, major-brand compatibility; screen shows 3-day access and paid options. | `“Device found.”` | trial conversion | [OBSERVED] The high-resolution capture displays ₹76.90/week yearly equivalent and ₹999.00/week auto-renewal. India storefront. | `tvremote by.pdf`, p. 5 |
+| 6 | Trial timeline page: “3 Days Free No Risk,” then renewal. | Start free trial. | Shows today access, day-2 reminder, day-3 trial ends. | `“3 Days Free No Risk.”` | renewal disclosure | [OBSERVED] Screenshot lists ₹999/week after the trial. | `tvremote by.pdf`, p. 6 |
+| 7 | Remote control home with large directional pad and shortcuts. | Tap a remote control. | Provides a usable-looking control surface; command success is not demonstrated. | `“TV Remote.”` | core control | [UNKNOWN] A still does not prove the TV responded. | `tvremote by.pdf`, p. 7 |
+| 8 | “Mega Sale” graphic advertises 95% off. | Continue to discounted plan. | A limited-time discount claim. | `“Mega Sale.”` | discount conversion | [OBSERVED] Text says “Only ₹599/week”; no original/reference price is legible enough to validate the 95% claim. | `tvremote by.pdf`, p. 8 |
+| 9 | Empty remote state says “No TV Found.” | Connect TV. | Explicit failure/recovery state. | `“No TV Found.”` | pairing recovery | [OBSERVED] Conflicts with p. 5 “Device found”; connection status across capture is inconsistent. | `tvremote by.pdf`, p. 9 |
+| 10 | Second remote home capture with remote pad and brand shortcuts. | Tap remote controls. | Controls are visible again after the no-TV state. | `“TV Remote.”` | core control | [UNKNOWN] No command outcome is captured. | `tvremote by.pdf`, p. 10 |
+| 11–14 | Cast/mirroring tiles, premium/settings and support screens. | Choose screen mirroring/cast or settings; upgrade/feedback links visible. | Lists casting, tools and app settings. | `“Screen Mirroring.”` | feature discovery | [INFERRED] Adjacent features add navigation before connection reliability is established. | `tvremote by.pdf`, p. 11–14 |
 
 ## Eight screen lenses
 
-1. **First win.** Brand/device search p. 8 follows five onboarding pages and a premium offer p. 6–7. [OBSERVED] No TV command or first benefit is demonstrated.
-2. **Ask ledger.** ATT prompt p. 1; four feature pages p. 2–5; trial/paywall p. 6–7; device scan p. 8; remote/premium p. 9–10; cast/settings p. 11–14.
-3. **Abstractions.** Power/navigation, keyboard, touchpad, customization, device compatibility and premium access are introduced before connection. [OBSERVED] [INFERRED] Brand selection and pairing are the only prerequisites for core use.
-4. **Feel-good moments.** Four onboarding illustrations show controls and keyboard input. [OBSERVED] This is a feature promise, not an earned outcome.
-5. **Feel-bad moments.** ATT prompt precedes the app explanation (p. 1); several benefit screens precede TV discovery (p. 2–5). [OBSERVED] No exact hidden/delayed close claim.
-6. **Paywall.** Paywall p. 6 promotes 3-day free then ₹999/week; yearly/monthly option appears p. 7. [OBSERVED] India storefront, 2026-10-03; plan fine print beyond legibility [UNKNOWN].
-7. **Repeat cost.** Remote and casting screens p. 9–11; no pairing success state. [UNKNOWN] Repeat taps.
-8. **Feature map.** [INFERRED] Table stakes: discover/pair before explaining every control. Differentiator: search keyboard and touchpad. Bloat: four onboarding screens, casting and settings before verified control.
+1. **First win.** P. 5 claims “Device found”; p. 7 shows a remote; p. 9 then says “No TV Found.” [OBSERVED] This contradiction means successful pairing/command is [UNKNOWN].
+2. **Ask ledger.** Brand choice p. 1; wait p. 2; feedback p. 3–4; free-trial/plan at p. 5–6; continue to remote p. 7; sale p. 8; another connect ask p. 9. Exact taps are [UNKNOWN].
+3. **Abstractions.** The brand picker is concrete; casting, mirroring, tools and premium bundles are additional concepts (pp. 1, 11–14). [INFERRED] Keep them secondary to pairing.
+4. **Feel-good moments.** “Device found” p. 5 and the remote surface p. 7 look like progress. [OBSERVED] P. 9 undermines the success claim by showing no TV.
+5. **Feel-bad moments.** Two feedback screens p. 3–4 are followed by a trial and sale flow; the device status changes from “found” to “No TV Found” (p. 9). [OBSERVED] This is inconsistency; no hidden close is evidenced.
+6. **Paywall.** P. 5 lists ₹76.90/week yearly equivalent and ₹999/week auto-renewal; p. 6 says 3-day trial then ₹999/week; p. 8 advertises “95% off” and ₹599/week. [OBSERVED] India storefront, 2026-10-03. Offers differ within one capture; verify current offer and terms.
+7. **Repeat cost.** Remote controls appear p. 7 and p. 10, but no connected TV or successful action is shown. [UNKNOWN] Repeat taps.
+8. **Feature map.** [INFERRED] Table stakes: brand picker, reliable paired state, power/navigation. Differentiator: keyboard/touchpad promise across the TV-remote family. Bloat: rating prompts, sale and cast bundle before stable pairing.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the brand picker and device-found state when they are accurate (pp. 1, 5).
-- **Kill.** Remove the feedback interstitials and timed sale surrounding an unverified pairing (pp. 3–8). [INFERRED]
-- **Different.** After brand selection, verify pairing with a command; then offer a clearly priced plan with a plain dismissal. [INFERRED]
+- **Keep.** [OBSERVED] Keep the brand picker (p. 1) and make the “Device found” state trustworthy by reconciling it with later connection state.
+- **Kill.** [INFERRED] Remove feedback prompts and the “95% off” sale around an unresolved TV connection (pp. 3–9).
+- **Different.** [INFERRED] After brand choice, prove pairing with one working command; keep remote controls available and show a single, consistent plan only after success.
 
 ## Open questions and verification
 
-- [UNKNOWN] Exact launch-to-benefit taps/time, whether PDF pages form one continuous path, soft versus hard gating, close delays, trial defaults in action, checkout and successful result.
-- [UNKNOWN] Repeat-session taps, retention, notification behavior, US storefront prices, listing/review evidence and App Store ID.
-- **Checked:** all 14 pages of `tvremote by.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and the India storefront shown in the capture; prices are not US estimates.
+- [UNKNOWN] Exact launch-to-command taps/time; stills do not prove page order is a tap path, successful pairing, command response, repeat usage, trial selection in action, checkout, or hidden/delayed close behavior.
+- [UNKNOWN] App Store ID, current US prices, listing/reviews, actual TV compatibility and whether all TV brands require the same local-network setup.
+- **Checked:** all 14 pages of `tvremote by.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are India storefront, captured 2026-10-03.

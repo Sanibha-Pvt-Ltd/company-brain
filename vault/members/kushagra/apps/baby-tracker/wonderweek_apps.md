@@ -15,30 +15,30 @@ Source: `kushagra screenshots/Baby tracker/screenshots/wonderweek_apps.pdf`, 13 
 
 | # | What is on screen | Asks of user | Gives before / alongside ask | Lever / friction / copy | Evidence |
 |---:|---|---|---|---|---|
-| 1 | Launch/loading | Wait | Brand mark only | [OBSERVED] No direct data/permission/payment ask is apparent on this captured screen. | [OBSERVED] `wonderweek_apps.pdf` p.1 |
-| 2 | Language selection | Select language | Language choices | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.2 |
-| 3 | 10 Leaps intro | Start / partner code | Development-leap positioning | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.3 |
-| 4 | Baby name | Enter baby name / Login | Baby profile begins | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.4 |
-| 5 | Gender selection | Choose boy/girl or skip | Profile field | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.5 |
-| 6 | Profile photo | Add photo or skip | Photo optional | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.6 |
-| 7 | Calculation progress | Wait | “Calculating your leap!” | [OBSERVED] No direct data/permission/payment ask is apparent on this captured screen. | [OBSERVED] `wonderweek_apps.pdf` p.7 |
-| 8 | Notification education | Next | Notification value proposition | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.8 |
-| 9 | Subscription chooser | Select duration / Purchase / restore | 1,3,24 month plans and prices; 24-month highlighted | [OBSERVED] Paid tier/trial control is on this page; visibility of dismiss/close is noted only when shown. | [OBSERVED] `wonderweek_apps.pdf` p.9 |
-| 10 | Login form | Email/password / create account | Account requirement | [OBSERVED] Permission/account/sharing choice requested before the user can proceed from this captured state. | [OBSERVED] `wonderweek_apps.pdf` p.10 |
-| 11 | Email verification | Check email / next / resend | Email OTP required | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.11 |
-| 12 | Feature preview 1 | Next | Diary feature promo | [OBSERVED] Navigation or continue choice is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.12 |
-| 13 | Repeat plan chooser | Select duration / Purchase | Same subscription options; purchase CTA | [OBSERVED] Input or preference choice requested; whether it is mandatory is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.13 |
+| 1 | Launch/loading | Wait | Brand mark only | [OBSERVED] No setup, permission, account, or payment ask is visible on this screen. | [OBSERVED] `wonderweek_apps.pdf` p.1 |
+| 2 | Language selection | Select language | Language choices | [OBSERVED] Input or preference options are visible; whether required is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.2 |
+| 3 | 10 Leaps intro | Start / partner code | Development-leap positioning | [OBSERVED] Navigation or continue control is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.3 |
+| 4 | Baby name | Enter baby name / Login | Baby profile begins | [OBSERVED] Input or preference options are visible; whether required is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.4 |
+| 5 | Gender selection | Choose boy/girl or skip | Profile field | [OBSERVED] Input or preference options are visible; whether required is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.5 |
+| 6 | Profile photo | Add photo or skip | Photo optional | [OBSERVED] Navigation or continue control is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.6 |
+| 7 | Calculation progress | Wait | “Calculating your leap!” | [OBSERVED] No setup, permission, account, or payment ask is visible on this screen. | [OBSERVED] `wonderweek_apps.pdf` p.7 |
+| 8 | Notification education | Next | Notification value proposition | [OBSERVED] Navigation or continue control is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.8 |
+| 9 | Subscription chooser | Select duration / Purchase / restore | 1,3,24 month plans and prices; 24-month highlighted | [OBSERVED] Paid-tier/trial controls appear here; behavior after selection or close is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.9 |
+| 10 | Login form | Email/password / create account | Account requirement | [OBSERVED] Permission, account, or sharing choice is presented; completion is not captured. | [OBSERVED] `wonderweek_apps.pdf` p.10 |
+| 11 | Email verification | Check email / next / resend | Email OTP required | [OBSERVED] Input or preference options are visible; whether required is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.11 |
+| 12 | Feature preview 1 | Next | Diary feature promo | [OBSERVED] Navigation or continue control is visible; requirement to proceed is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.12 |
+| 13 | Repeat plan chooser | Select duration / Purchase | Same subscription options; purchase CTA | [OBSERVED] Input or preference options are visible; whether required is UNKNOWN. | [OBSERVED] `wonderweek_apps.pdf` p.13 |
 
 ## Eight dimensions
 
 1. **First win:** No first diary entry or tracking dashboard is shown in this 13-page set. First win UNKNOWN.
-2. **Ask ledger:** {lens[1]}
-3. **Abstractions:** {lens[2]}
-4. **Feel-good moments:** {lens[3]}
-5. **Feel-bad moments:** {lens[4]}
-6. **Paywall:** {lens[5]}
-7. **Repeat cost:** {lens[6]}
-8. **Feature map:** {lens[7]}
+2. **Ask ledger:** Language, infant name, gender/photo, notification education, sign-in/email verification, then payment choice [OBSERVED pp.2-11].
+3. **Abstractions:** The proprietary “10 Leaps” framework is the dominant explanatory model [OBSERVED p.3].
+4. **Feel-good moments:** Baby avatar/photo and diary preview [OBSERVED pp.5-6,12] create identity/anticipation; no recorded developmental milestone is shown.
+5. **Feel-bad moments:** Login/email verification and paywall happen before a usable diary screen in the provided capture [OBSERVED]; exact user path conditionality UNKNOWN.
+6. **Paywall:** Plan selector appears p.9 and p.13; India ₹ amounts visible. Trial terms and close behavior are not visible on the screenshot [UNKNOWN].
+7. **Repeat cost:** Repeat cost UNKNOWN because no tracker/dashboard is captured.
+8. **Feature map:** Must match: age-organized guidance if users need it. Differentiator: leap-timed guidance. Bloat: jargon/framework before first useful diary record [INFERRED].
 
 ## Keep / Kill / Different
 
