@@ -122,3 +122,23 @@ Appediet has the most *honest-feeling* plan screen in the category: transparent 
 - **Copy:** transparent, editable baseline; value-interleaved quiz; multi-mode log screen.
 - **Beat:** numeric correctness, billing honesty, ED-safe BMI copy.
 - **Evidence strength:** onboarding/paywall strong; core loop medium (log screen seen, no log completed).
+
+## Verification (2026-10-04)
+
+**Checked:** all 23 screenshots (IMG_1655–1677) opened; ~40 verbatim quotes, ~30 numbers/prices, 23 IMG refs and the screen order, 7 [INFERRED] calculations (BMI 55/1.76² = 17.76; hero 143+160+293 = 596; ₹76.90×52 = ₹3,998.80; ₹999×52 = ₹51,948; 51,948/3,999 ≈ 13×; macro split 274×4/1,996 = 55%, 100×4 = 20%, 55×9 = 25%; 1,663×1.2 = 1,995.6), 4 xlsx claims (developer B9, ₹3,999/yr and ₹699/week H9, "16 questions" E9) and 5 US listing fields against iTunes lookup.
+
+**IMG_1673 vs IMG_1674:** 1673 = plate hero ("248.8 Cal Total calories") + "Get a 3-Day FREE Trial" banner, with the plans dimmed behind it (₹76.90 Per Week, Free Trial pre-checked, reminder toggle off). 1674 = "Calorie Intake" chart hero, heading "Fast Food Tracking", and the line "Free for 3-Day, then ₹999.00 per week." above the plans. The ₹999/week text is on 1674 (and 1675), not 1673.
+
+**Corrections:**
+- Developer "Appediet (… per xlsx)" → "Appediet Information PTE. LTD" (iTunes lookup gives the full legal name).
+- Plans section: the ₹999/week line was attributed to the Free Trial option → it is a separate line under "Fast Food Tracking" on 1674 only; noted plans are also visible dimmed on 1673.
+- 1657: "10 more questions follow" → 9 (1658–1662, 1664–1665, 1668–1669).
+- 1658–1660: "sensible birth-year default" removed (whether 2001 is a default is not visible).
+- 1667: "rating ask before any use" / "stats don't reconcile (80% of 1M ≠ 100K)" → no rating dialog was captured; "80% of Appediet Users" has no predicate, so it can't be reconciled. Rating intent now [INFERRED].
+- 1671: "pre-on" → "on in capture" (default state [UNKNOWN]).
+- Ask ledger: 13 asks, value at asks 6/8/12 → 14 asks (goal on 1656 was omitted), value after asks 7/9/13.
+- "about 25+ taps [OBSERVED]" → tap count [UNKNOWN].
+- "three arithmetic errors" → two (BMI 1661, hero 1673); the 1667 stat is ambiguous, not wrong.
+- "most aggressive default in the set" → "only weekly-renewing default among the five" [INFERRED]; ₹52K / 13× now shown as arithmetic.
+
+**Not verifiable:** US price; whether the Free Trial / reminder-off states are defaults or user-set; tap counts; whether the crown on 1677 marks premium.

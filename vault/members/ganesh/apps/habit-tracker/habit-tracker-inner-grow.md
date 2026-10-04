@@ -36,10 +36,10 @@ Not in this run (screens-only).
 - **Plans (India storefront):** "Lifetime, Best Deal, One-Time payment, unlock pro forever ₹999 ~~₹2,497.5~~" and "Annual, Popular, 3 Days Free Trial, no paym[ent…] Only ₹49.92/month ₹599 ~~₹1,497.5~~" `[OBSERVED #17]`. The US price is `[UNKNOWN]`.
 - **Placement:** after the quiz, the "I promise" screen and a reviews screen, and before home. It is dismissible with a ✕ top-left `[OBSERVED #17]`.
 - **Default:** the Lifetime tile has the highlighted pink border `[OBSERVED]`.
-- **Downsell:** closing leads to "Limited-Time Offer ✨ 70% OFF", a **countdown 23:59:58** and "Only ₹799 ~~₹2,663.33~~ One-Time Purchase", with "Claim Offer" and a faint "Discard" `[OBSERVED #18]`. The struck ₹2,663.33 matches nothing on the previous screen (lifetime was ₹999 struck from ₹2,497.5). The anchor is invented `[INFERRED]`.
+- **Downsell:** closing leads to "Limited-Time Offer ✨ 70% OFF", a **countdown 23:59:58** and "Only ₹799 ~~₹2,663.33~~ One-Time Purchase", with "Claim Offer" and a faint "Discard" `[OBSERVED #18]`. The struck ₹2,663.33 matches nothing on the previous screen (lifetime was ₹999 struck from ₹2,497.5); it is exactly ₹799 ÷ 0.30, i.e. back-calculated from the "70% OFF" claim. The #17 anchors are likewise exactly price ÷ 0.4 (999 ÷ 0.4 = 2,497.5; 599 ÷ 0.4 = 1,497.5). The anchors look derived, not real former prices `[INFERRED]`.
 - **Pressure copy:** "Limited-time offer, price rising soon." `[OBSERVED #17]`.
 - **Paid features shown:** "Unlimited habits / Quit Habit / Habit reminders" (list continues below the fold) `[OBSERVED #17]`. Reminders behind the paywall is notable for a habit app.
-- **Disagreement with Ganesh's xlsx:** the xlsx says "₹1,499/yr or ₹1,999 Lifetime", "5 onboarding screens" and "Gentle Flow" `[DATA:ganesh-benchmark-xlsx]`. The screens show ₹599/yr and ₹999 lifetime, a ₹799 timed downsell, and **16 screens before home**. "Gentle" does not fit a countdown downsell. Ganesh, please correct the row. Prices may have changed since the xlsx was made.
+- **Disagreement with Ganesh's xlsx:** the xlsx says "₹1,499/yr or ₹1,999 Lifetime", "5 onboarding screens" and "Gentle Flow" `[DATA:ganesh-benchmark-xlsx]`. The screens show ₹599/yr and ₹999 lifetime, a ₹799 timed downsell, and **19 screens before home** (16 before the paywall). "Gentle" does not fit a countdown downsell. Ganesh, please correct the row. Prices may have changed since the xlsx was made.
 
 ## A4 Acquisition
 Not in this run (screens-only).
@@ -69,13 +69,13 @@ Not in this run (screens-only).
 | 17 | 2068 | paywall | Lifetime vs Annual tiles, features | buy / ✕ | — | "Unlock Pro now / Become better every day!" "Lifetime Best Deal ₹999 ~~₹2,497.5~~" "Annual Popular 3 Days Free Trial … Only ₹49.92/month ₹599 ~~₹1,497.5~~" "Limited-time offer, price rising soon." | anchoring, urgency | fake anchors, "price rising soon" | [OBSERVED] |
 | 18 | 2069 | downsell | gift box, timer | claim / Discard | — | "Limited-Time Offer 70% OFF 23:59:58 Only ₹799 ~~₹2,663.33~~ One-Time Purchase" "Claim Offer" / "Discard" | scarcity | **countdown downsell**, faint decline | [OBSERVED] |
 | 19 | 2070 | settings | sheet over empty home | choose tap vs swipe | — | "Check-in Method / Please choose your preferred check-in method. Swipe right to check in / Tap to check in" | — | **invented concept** asked before the user has a habit | [OBSERVED] |
-| 20 | 2071 | core-task | empty state, 5-tab bar, gift icon, lightbulb | add a habit | nothing | "No Habits / Tap "+" to add your first habit." | — | **18 screens later, zero habits**; the promises from #15 were not carried over | [OBSERVED] |
+| 20 | 2071 | core-task | empty state, 5-tab bar, gift icon, lightbulb | add a habit | nothing | "No Habits / Tap "+" to add your first habit." | — | **screen 20, zero habits**; the promises from #15 were not carried over | [OBSERVED] |
 
 ### The 8 measures
 
-1. **First win.** Not reached in the capture. The user lands on "No Habits" after 20 screens `[OBSERVED #20]`. The first check-in needs the add-habit flow, which was not captured `[UNKNOWN taps]`. That makes ≥22 taps from launch, after the paywall `[INFERRED]`.
+1. **First win.** Not reached in the capture. The user lands on "No Habits" on screen 20 `[OBSERVED #20]`. The first check-in needs the add-habit flow, which was not captured `[UNKNOWN taps]`. That makes ≥25 taps from launch, after the paywall `[INFERRED]`: 4 Continue (#2–#5) + 2 per quiz screen (select + Continue, #6–#10) = 10 + 1 (#11) + 3 (#12–#14) + 1 (#15) + 1 (#16) + 1 ✕ (#17) + 1 Discard (#18) + 1 Confirm (#19) + 1 "+" + 1 check-in, plus the uncaptured add-habit flow.
 2. **Ask ledger.** 5 quiz questions (#6–#10), 3 single-button "Yes" questions (#12–#14), a pledge (#15), the paywall (#17), the downsell (#18) and the check-in method (#19): **12 asks**. Gives back: 4 product mocks, an uncited chart and reviews. Nothing personal comes back. The quiz answers visibly change nothing, because the user still lands on an empty list `[OBSERVED #20]`.
-3. **Abstractions:** habits, categories ("Habit Formation / Exercise / Control Habits", #2), quantitative goals ("2400/2000 ml", #2), Quit Habit (#17, paid), groups with friends (#4), "BestDay" (#3), check-in method (#19), a gift box and a lightbulb icon (#20), Pro. That makes **≈8**. The job needs habit + check-in. The check-in method is pure invention.
+3. **Abstractions:** habits, categories ("Habit Formation / Exercise / Control Habits", #2), quantitative goals ("2400/2000 ml", #2), Quit Habit (#17, paid), groups with friends (#4), "BestDay" (#3), check-in method (#19), a gift box and a lightbulb icon (#20), Pro. That makes **9** as listed (gift box and lightbulb counted as one; 10 if counted separately). The job needs habit + check-in. The check-in method is pure invention.
 4. **Feel-good:** only previews of other people's progress (#2–#5). Nothing earned. Manufactured: "Studies show…" (#11) and the yes-ladder (#12–#14).
 5. **Feel-bad:** before/after shame imagery (#13–#14); fake anchors and "price rising soon" (#17); a 24-hour countdown downsell (#18); arriving empty after making promises (#15 → #20). Missed-day behaviour: `[UNKNOWN]`. The app's own showcased reviews mention "lost the streak" and "guilt" (#16) `[OBSERVED]`.
 6. **Paywall:** pre-home, dismissible with ✕, lifetime highlighted, then a timed downsell. See A3.
@@ -93,7 +93,7 @@ Not in this run (screens-only).
 - Pledges that are not turned into habits (#15 → #20).
 - Invented anchors, "price rising soon" and countdown downsells (#17–#18).
 - Asking for a check-in method before the user owns a habit (#19).
-- Landing on an empty state after 20 screens (#20).
+- Landing on an empty state on screen 20 (#20).
 
 **Different**
 - Whatever the user picks or promises in onboarding **is** their habit list. Never land on an empty list.
@@ -108,3 +108,15 @@ Not in this run (screens-only).
 A solid, simple tracker (4.79★, 147k US ratings) hidden behind a conversion-funnel onboarding copied from the quiz-app playbook. That onboarding has 4 previews, 5 quiz questions, a 3-step yes-ladder with shame imagery, a pledge, a paywall and a countdown downsell, and the payoff is an **empty screen**. **Copy:** skippable questions and the journal-grid look. **Beat:** everything before the first habit. **Most exploitable weakness:** the onboarding promises ("I promise I will…") that silently vanish. It is the clearest case in the set of asks with nothing given back.
 
 Evidence strength: A1 strong · A3 strong (India) · A5 strong for onboarding, weak for the core loop (not captured).
+
+## Verification (2026-10-04)
+
+Checked against all 20 screenshots (IMG_2052–2071), opened visually and OCR'd; xlsx "5 Parameters Benchmark" row 30; iTunes lookup US (id 1438388363) on 2026-10-04.
+- Checked: ≈25 verbatim quotes, ≈15 numbers/prices (₹999/₹2,497.5, ₹599/₹1,497.5, ₹49.92, 70%, 23:59:58, ₹799/₹2,663.33, 2400/2000 ml, 5%), 20 per-screen IMG refs + ≈30 in-text #refs, 3 xlsx claims (₹1,499/yr or ₹1,999 lifetime; 5 screens; "Gentle Flow": all match the cell), 7 API fields (incl. release notes and the widget line: all match).
+- Corrections:
+  - Downsell anchor "matches nothing… invented" → kept, plus the arithmetic: ₹2,663.33 = 799 ÷ 0.30, and both #17 anchors = price ÷ 0.4 `[INFERRED]`.
+  - xlsx comparison "16 screens before home" → 19 before home (16 before the paywall).
+  - "18 screens later, zero habits" / "after 20 screens" → on screen 20.
+  - Taps "≥22" → ≥25 (sum now shown), plus the uncaptured add-habit flow.
+  - Concepts "≈8" → 9 (10 if the gift box and lightbulb are counted separately).
+- Could not verify: the add-habit flow and first check-in; the paid-feature list below the fold on #17; US prices.

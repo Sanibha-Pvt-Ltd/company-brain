@@ -149,3 +149,14 @@ Evidence strength:
 - A3 medium (one paywall still, no recording)
 - A5 medium (no real ID, care or diagnosis screens)
 - A8 weak to medium
+
+## Verification (2026-10-04)
+Checked against all 12 screenshots (IMG_2199–IMG_2210), xlsx row 16, and the US iTunes lookup (id 1527399597).
+- Checked: ~76 quoted strings, ~53 screen/IMG refs, 16 ₹ figures (₹2,999, ₹4,999, struck ₹19,996.00), 5 xlsx claims (onboarding 5, placement, offer, paid list, EvergreenEmily quote), 6 US listing fields. #4 is a duplicate of #3 (2:45 vs 2:46). The tap count of 8 recomputes.
+- Demo claim: `[OBSERVED]` holds. The same snake-plant image runs through #8, #9, #10 and #11.
+- Corrections:
+  - Price model "subscription + lifetime IAP `[DATA:itunes-lookup-us]`" → the US lookup only says "Free". Plans are now attributed to the India paywall (#7).
+  - Size "214 MB" → "224 MB" (224,424,960 bytes).
+  - "Outdated latin name" (stated as fact, from outside knowledge) → `[INFERRED]`, citing Plantum #12's *Dracaena trifasciata*.
+  - "Local weather … needs location `[OBSERVED]`" → the need for location is `[INFERRED]`.
+- Could not verify: X delay on #7, the camera prompt, and whether ₹19,996 was ever charged.

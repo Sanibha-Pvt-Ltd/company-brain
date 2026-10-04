@@ -35,11 +35,11 @@ Not in this run (screens-only).
 
 ## A3 Monetization (from screens)
 
-- **Plans (India storefront):** "Not sure? Enable free trial" (toggle **off**). "Most popular / Yearly ₹108.25 / mo / Start your journey for ₹1,299 / ~~₹299.00 / mo~~". "Monthly ₹299.00 / mo". "Lifetime ₹2,499". Plus "Cancel at any time" and "Get Full Access" `[OBSERVED #37]`. The US price is `[UNKNOWN]`.
+- **Plans (India storefront):** "Not sure? Enable free trial" (toggle **off**). "Most popular / Yearly ₹108.25 / mo / Start your journey for ₹1,299 / ~~₹299.00 / mo~~". "Monthly ₹299.00 / mo". "Lifetime ₹2,499". Plus "Cancel at any time" and "Get Full Access" `[OBSERVED #38]`. The US price is `[UNKNOWN]`.
 - **Framing:** the yearly price leads as a monthly equivalent, with the monthly price struck through as the anchor. That is a real comparison, not an invented one `[OBSERVED]`. The trial is opt-in and its length is not shown `[UNKNOWN]`.
-- **Placement:** pre-home, after 36 onboarding screens, personalised ("Hey Ganesh Varma, it's time to get full access to Grit"). Dismissible ✕ top-right `[OBSERVED #37]`.
+- **Placement:** pre-home, after 37 onboarding screens (#1–#37), personalised ("Hey Ganesh Varma, it's time to get full access to Grit"). Dismissible ✕ top-right `[OBSERVED #38]`.
 - **After closing:** a permanent "Unlock everything / With Grit Premium" card in the habit list `[OBSERVED #40]`.
-- **Disagreement with Ganesh's xlsx:** the xlsx says "₹1,499/yr (3-day trial) or ₹1,999 Lifetime", "6 onboarding screens" and "Gentle Flow" `[DATA:ganesh-benchmark-xlsx]`. The screens show ₹1,299/yr, ₹299/mo and ₹2,499 lifetime, with **36 screens before the paywall**. The tone is gentle; the length is not. Ganesh, please correct the row.
+- **Disagreement with Ganesh's xlsx:** the xlsx says "₹1,499/yr (3-day trial) or ₹1,999 Lifetime", "6 onboarding screens" and "Gentle Flow" `[DATA:ganesh-benchmark-xlsx]`. The screens show ₹1,299/yr, ₹299/mo and ₹2,499 lifetime, with **37 screens before the paywall**. The tone is gentle; the length is not. Ganesh, please correct the row.
 
 ## A4 Acquisition
 Not in this run (screens-only).
@@ -80,7 +80,7 @@ Not in this run (screens-only).
 | 28 | 2039 | interstitial | illustration | Continue | — | "Life can be easier" | — | — | [OBSERVED] |
 | 29 | 2040 | interstitial | "+ Happiness / + Energy / − Stress / + Calmness" | Continue | — | "Real progress people can feel" | — | — | [OBSERVED] |
 | 30 | 2041 | loading | ring + review | wait | — | "Creating your personalized journey…" "APPS WE LOVE" "4.8/5" | labour illusion | **manufactured** | [OBSERVED] |
-| 31 | 2042 | result | 4 scores | Continue | diagnosis | "Here's where you are today / Focus / Productivity / Self-control / Well-being — Could be better" "There's room to grow, and that's completely okay." | gap framing | **every score is "Could be better"**, a generic verdict presented as personal | [OBSERVED] |
+| 31 | 2042 | result | 4 scores | Continue | diagnosis | "Here's where you are today / Focus / Productivity / Self-control / Well-being — Could be better" "There's room to grow, and that's completely okay." | gap framing | **every score is "Could be better"**; likely a generic verdict presented as personal `[INFERRED]` | [OBSERVED] |
 | 32 | 2043 | result | 4 scores → "Good" | Continue | promise | "Here's where we're heading in just a few weeks" | future pacing | manufactured | [OBSERVED] |
 | 33 | 2044 | interstitial | owl in sunglasses | "I'm ready for change" | — | "Ganesh Varma, ready to build a routine you actually enjoy?" | commitment | — | [OBSERVED] |
 | 34 | 2045 | permission | 3 toggles, all **on** | Continue | — | "Hard time getting started? Gentle reminders can help you keep going / Evening energy / Start small / Helpful updates — Get personalized recommendations and special offers." | defaults | **marketing opt-in pre-ticked** next to the reminder toggles | [OBSERVED] |
@@ -93,14 +93,14 @@ Not in this run (screens-only).
 
 ### The 8 measures
 
-1. **First win.** 1 tap past #40 (⊕ on "Get Out of Bed"), so ≈**42 taps** from launch, approximate (1 per screen, +2 for name typing and multi-select), **after the paywall** `[INFERRED]`. Not captured `[UNKNOWN]`. The longest path in the set.
-2. **Ask ledger.** Name, 13 quiz questions, 4 "Does this sound like you?" cards, reminders (with a pre-ticked marketing toggle), the first steps, the pledge and the paywall: **≈22 asks**. Gives: 9 interstitials of encouragement, a fake diagnosis (#31), a fake forecast (#32) and the user's name repeated back 4 times. The quiz answers lead to a generic "Could be better" on every axis `[OBSERVED #31]`.
-3. **Abstractions:** habit type (Good/Bad), groups, goal (count/duration), repeat, colour/icon/description (#3), timer habits (0/5 min ▶, #40), streak flames (#2), to-do items ("Plan Tomorrow To-do", #2), statistics and Premium. That makes **≈8–9**. The home screen is clean (3 rows). The concepts live in creation and settings.
+1. **First win.** 1 tap past #40 (⊕ on "Get Out of Bed"), so ≈**41 taps** from launch, approximate: 38 screens with one action each (#1–#39 minus the #30 loader) + 2 extra for name typing and the multi-select + 1 check-in = 41, **after the paywall** `[INFERRED]`. Not captured `[UNKNOWN]`. The longest path in the set.
+2. **Ask ledger.** Name, 11 quiz questions (#6, #10–#15, #18–#21), 4 "Does this sound like you?" cards, reminders (with a pre-ticked marketing toggle), the first steps, the pledge and the paywall: **20 asks**. Gives: 8 interstitials of encouragement (#7, #9, #16, #17, #28, #29, #33, #35), a fake diagnosis (#31), a fake forecast (#32) and the user's name repeated back 4 times. In this capture the quiz answers led to "Could be better" on every axis `[OBSERVED #31]`; whether every user gets the same verdict is `[INFERRED]`.
+3. **Abstractions:** habit type (Good/Bad), groups, goal (count/duration), repeat, colour/icon/description (#3), timer habits (0/5 min ▶, #40), streak flames (#2), to-do items ("Plan Tomorrow To-do", #2), statistics and Premium. That makes **10** as listed (colour/icon/description counted as one). The home screen is clean (3 rows). The concepts live in creation and settings.
 4. **Feel-good:** good copy that lowers the bar: "Progress doesn't have to be extreme" (#4), "There's room to grow, and that's completely okay." (#31), "I will stay consistent, not perfect" (#37), "You don't need to change your whole life overnight." (#39). Manufactured: the forecast curve (#23), the diagnosis (#31–#32), the loader (#30) and "Congratulations!" before any action (#39).
 5. **Feel-bad:** 4 pain-priming cards (#24–#27); a pre-ticked "special offers" toggle (#34); uncited "Research shows…" (#37). Missed-day behaviour: `[UNKNOWN]`. The "consistent, not perfect" pledge suggests forgiveness, but the streak-flame counts on the mock (#2) suggest consecutive-day streaks `[INFERRED]`.
 6. **Paywall:** pre-home, after 37 screens, personalised, ✕ visible, yearly default, opt-in trial, a persistent premium card afterwards. The cleanest price framing in the set.
 7. **Repeat cost:** 1 tap (⊕) for a yes/no habit; ▶ starts a timer for duration habits `[OBSERVED #40]`. Hooks: reminders (#34), widgets (per release notes `[DATA]`), statistics.
-8. **Feature map.** Table stakes: list, one-tap check, reminders, stats, iCloud sync. Differentiators: timer habits, Apple Health, strong statistics (the current release focus). Bloat in onboarding: 9 interstitials, 4 yes/no cards, the diagnosis and the forecast.
+8. **Feature map.** Table stakes: list, one-tap check, reminders, stats, iCloud sync. Differentiators: timer habits, Apple Health, strong statistics (the current release focus). Bloat in onboarding: 8 interstitials, 4 yes/no cards, the diagnosis and the forecast.
 
 ## Keep / Kill / Different
 
@@ -111,7 +111,7 @@ Not in this run (screens-only).
 - A home screen that is just the list (#40).
 
 **Kill**
-- 36 screens before the paywall and 40 before the list. Every interstitial (#7, #16, #17, #28, #29, #35) and the yes/no pain cards (#24–#27).
+- 37 screens before the paywall and 39 before the list. Every interstitial (#7, #16, #17, #28, #29, #35) and the yes/no pain cards (#24–#27).
 - The fake diagnosis and forecast (#31–#32) and the forecast curve (#23).
 - Marketing consent pre-ticked among reminder toggles (#34).
 - "Hold to agree" contracts with uncited research (#37); "Congratulations!" for nothing (#39).
@@ -125,6 +125,21 @@ Not in this run (screens-only).
 
 ## A8 Verdict (short)
 
-Grit is a good, actively developed tracker with the kindest copy in the set. Its onboarding is the longest in the set: 40 screens and about 42 taps before the first check-in. It copies the quiz-funnel pattern wholesale, down to a diagnosis that says "Could be better" to everyone. **Copy:** forgiving language, micro-habit chips, honest plan framing. **Beat:** time to first check-in (about 42 taps for Grit; our target is 2). **Most exploitable weakness:** the gap between "gently become your best self" and a 40-screen funnel that ends in a paywall.
+Grit is a good, actively developed tracker with the kindest copy in the set. Its onboarding is the longest in the set: 39 screens before the list and about 41 taps before the first check-in. It copies the quiz-funnel pattern wholesale, down to a diagnosis that said "Could be better" on all four axes (likely for everyone `[INFERRED]`). **Copy:** forgiving language, micro-habit chips, honest plan framing. **Beat:** time to first check-in (about 41 taps for Grit; our target is 2). **Most exploitable weakness:** the gap between "gently become your best self" and a 40-screen funnel that ends in a paywall.
 
 Evidence strength: A1 strong · A3 strong (India) · A5 strong for onboarding, weak for the core loop.
+
+## Verification (2026-10-04)
+
+Checked against all 40 screenshots (IMG_2012–2051), opened visually and OCR'd; xlsx "5 Parameters Benchmark" row 31; iTunes lookup US (id 6446997766) on 2026-10-04.
+- Checked: ≈40 verbatim quotes, ≈15 numbers/prices (₹108.25, ₹1,299, ₹299.00, ₹2,499, 4M+/90K+/4.8, 0/5 minutes, Sat 3), 40 per-screen IMG refs + ≈35 in-text #refs, 3 xlsx claims (₹1,499/yr 3-day trial or ₹1,999 lifetime; 6 screens; "Gentle Flow": all match the cell), 7 API fields (incl. release notes: all match).
+- Corrections:
+  - Paywall cited as #37 (×2 in A3) → #38 (IMG_2049); #37 is the pledge.
+  - "after 36 onboarding screens" / "36 screens before the paywall" → 37.
+  - Kill list "40 before the list" → 39; verdict "40 screens" → 39 screens before the list.
+  - "13 quiz questions" → 11 (#6, #10–#15, #18–#21; #22 is a re-capture); asks "≈22" → 20.
+  - "9 interstitials" (×2) → 8, as tagged in the table.
+  - Taps "≈42" → ≈41 (sum now shown).
+  - Concepts "≈8–9" → 10 (the items listed).
+  - "says 'Could be better' to everyone" / "a generic verdict" → observed on all four axes in this run; generic-for-everyone tagged `[INFERRED]` (one capture).
+- Could not verify: the system notification dialog; trial length; whether the diagnosis varies by answers.

@@ -17,7 +17,7 @@ sources: [screenshots:7 (6 in-app + 1 App Store page), ganesh-benchmark-xlsx (ro
 
 Screens: `ganesh_screenshots/Storage Cleaners/Cleaner Kit - Clean Up Storage/` IMG_2264, 2266–2271 (**IMG_2265 missing**), India storefront. IMG_2264 is the **App Store product page**, not the app. It is used only as proof of capture context (India listing: "39K RATINGS 4.4", "Utilities") and is excluded from the screen analysis per the source rule. Context: [[research/categories/storage-cleaner/overview]] · [[members/ganesh/drafts/storage-cleaner/screens-synthesis]]
 
-**xlsx row match is uncertain.** The only BP Mobile LLC storage row is named "Storage Cleaner*". It says "After Photo Scan · ₹1,499/yr (3-day trial) or ₹3,499 Lifetime" `[DATA:ganesh-benchmark-xlsx]`. The screens show neither of these (see A3). It may be another BP Mobile app, or the row is outdated. Ganesh to confirm.
+**xlsx row match is uncertain.** The only BP Mobile LLC storage row is named "Storage Cleaner*". It says "After Photo Scan · ₹1,499/yr (3-day trial) or ₹3,499 Lifetime" `[DATA:ganesh-benchmark-xlsx]`. The screens show neither of these (see A3). The row's third review begins "CleanerKit has quickly become a must-have on my phone" `[DATA:ganesh-benchmark-xlsx]`, so the row probably is this app and its placement and prices are outdated or wrong `[INFERRED]`. Ganesh to confirm.
 
 ## A1 Snapshot (short)
 
@@ -82,9 +82,9 @@ Not in this run. The India product page shows "Featured by Apple" and "70M+ user
 5. **Feel-bad moments.** "240 GB of 256 GB used" in red (#1, #3) is fake fear. Notifications on screen 2. "MOST POPULAR" on a ₹11,748 12-month lock-in dressed as "MONTHLY" (#6). No visible close (#6).
 6. **Paywall.** Hard-looking (no visible ✕), placed at the end of onboarding, before any scan. Three plans with decoy pricing. The trial exists only on weekly (7 days, ₹699/week). India storefront.
 7. **Repeat cost.** `[UNKNOWN]`: no post-paywall screens.
-8. **Feature map** (from the paywall copy only).
+8. **Feature map** (from the onboarding and paywall copy).
    - **Table stakes:** duplicates, video compress.
-   - **Differentiators claimed:** contacts, calendar, email ("Ad-free").
+   - **Differentiators claimed:** contacts, calendar (#6), email (#4), "Ad-free" (#6).
    - **Bloat:** calendar, email for a storage job, the "junk" catch-all.
 
 ## Keep / Kill / Different
@@ -102,10 +102,20 @@ Not in this run. The India product page shows "Featured by Apple" and "70M+ user
 - At most 2 plans, each shown at its true billing period and total. Mark as "most popular" only the plan that actually is, in our own data.
 
 ## A6 Failure mining
-Not in this run (screens-only). The xlsx BP Mobile row includes a 1★ review saying the contact merge "merged many entries that were for completely different people" `[DATA:ganesh-benchmark-xlsx]`, if that row is this app. It is a lead for review mining: destructive merges are a trust breaker.
+Not in this run (screens-only). The xlsx BP Mobile row includes a 1★ review saying the contact merge "merged many entries that were for completely different people" `[DATA:ganesh-benchmark-xlsx]`, if that row is this app (its third review names "CleanerKit", so it probably is). It is a lead for review mining: destructive merges are a trust breaker.
 
 ## A8 Verdict (short)
 
 Cleaner Kit is the incumbent bundle (since 2017, 351K US ratings) and runs the most aggressive funnel in the set. It shows fake capacity, asks for notifications on screen 2, cites unverifiable social proof, and ends at a three-plan paywall with a 12-month commitment labelled "MONTHLY" and no visible close, all before showing anything real. Its 4.44★ US rating is the lowest of the four `[DATA:itunes-lookup-us]`. **Copy:** nothing in the UI; the breadth only as an ad-angle list. **Beat:** every ask-before-value step. **Most exploitable weakness:** price framing users will feel cheated by once they notice (₹11,748 vs ₹4,999 for the same year). Confirm in review mining.
 
 Evidence strength: A3 **strong** for the paywall screen itself · A5 **weak** (6 in-app screens, all pre-paywall; xlsx row match uncertain).
+
+## Verification (2026-10-04)
+
+**Checked:** all 7 screenshots (IMG_2264 store page, IMG_2266–2271) opened. IMG_2265 is confirmed absent from the folder. About 30 verbatim quotes, about 35 numbers and prices, about 35 screen/IMG references, 2 xlsx claims, and 5 US listing fields. xlsx "Storage Cleaner*" / BP Mobile LLC: "After Photo Scan" and "₹1,499/yr (3-day trial) or ₹3,499 Lifetime" match. The 1★ merge quote matches. iTunes lookup, 2026-10-04: BP Mobile LLC, Free, 4.44313 / 351,373, 5.32 on 2026-09-30, first release 2017-01-26. Recomputed: 979 × 12 = 11,748. 11,748 / 4,999 = 2.35×. 4.44 is the lowest of the four (4.52, 4.65, 4.78).
+
+**Corrections (old → new):**
+- The xlsx row match was "may be another BP Mobile app" → the row's own third review names "CleanerKit", so the row probably is this app. Its placement and prices still disagree with the screens. Same change in A6.
+- Feature map "(from the paywall copy only)" listed email, which is not in the paywall copy → "(from the onboarding and paywall copy)", with screen refs.
+
+**Not verified:** overview citations S10 (US weekly $4.99–$6.99, already `[ESTIMATE]`) and S15 (additional offers). Their wording matches the overview, but the original sources were not checked. "800,000+ 5-star ratings" is unverifiable, as the note says. "Free with IAP": the API gives "Free"; the India store page shows "In-App Purchases".

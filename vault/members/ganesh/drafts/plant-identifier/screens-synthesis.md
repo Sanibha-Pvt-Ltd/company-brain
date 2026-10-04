@@ -224,3 +224,12 @@ Not chosen as a differentiator: diagnosis quality. All four promise it; none of 
 2. Run A6 review mining for all 5 apps (`scripts/fetch-app.py`).
 3. Write stage 0 lens for plant-identifier.
 4. Stage B market.
+
+## Verification (2026-10-04)
+Every claim was traced to the four verified app notes, to the screenshot, or to xlsx/API. Checked: ~90 quoted strings, ~69 screen refs, 25 ₹ figures, 18 xlsx mentions (all price/placement/onboarding conflicts re-read from cells E–H of rows 15, 19, 20 and Category Winners B4), and PictureThis 4.80 / 1,117,470 against the API. Screen counts 12+15+13+13 = 53.
+- Corrections:
+  - **"All 4 sell care and diagnosis on the paywall"** → 3 of 4. PlantIn's paywall (#7) has no feature copy; "Spot plant issues in seconds" is onboarding #3.
+  - **Plantum's first ID "stock demo" `[OBSERVED]`** → probably the demo `[INFERRED]`, because #11 shows no image. Edited in the pattern table, pattern 1, the verdict and differentiator 1. PlantIn and Plant App remain `[OBSERVED]`: the same image runs through their scan screens.
+  - "AI chatbot persona as a tab, Plantiary #13" → in Plantiary it is a tool row, not a tab.
+  - "$9.99/wk for Plantiary `[INFERRED]`" → US price `[UNKNOWN]`. The review says "$10 a week".
+- Unverifiable here: close-button delays, US plan mix, and all PictureThis screen behaviour.

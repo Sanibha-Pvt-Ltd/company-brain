@@ -156,3 +156,13 @@ Evidence strength:
 - A3 strong for this capture (conflicts with the xlsx price unit)
 - A5 medium (no own-plant ID, diagnosis or settings)
 - A8 medium
+
+## Verification (2026-10-04)
+Checked against all 13 screenshots (IMG_2151–IMG_2163), xlsx row 15 of "5 Parameters Benchmark", and the US iTunes lookup (id 1595795215).
+- Checked: ~115 quoted strings, ~60 screen/IMG refs, 16 ₹ figures (incl. ₹1,499 × 52 = ₹77,948), 7 xlsx claims (onboarding 5, placement, free/paid text, offer, 2 review quotes), 6 US listing fields. Screen order matches the file order. All verbatim copy matched.
+- Demo claim: `[OBSERVED]` holds. #10 offers "We've prepared a plant", and the same monstera image appears in #10, #11 and #12.
+- Corrections:
+  - "All captures are at 2:27" → every visible clock reads 2:27; #10–#11 show no clock.
+  - Size "179 MB" → "188 MB". The API gives 187,792,384 bytes; 179 was MiB.
+  - "3 tabs × 5 chips" → "3 tabs plus 5 chips under Plant Info". Chips under the other tabs were not captured.
+- Could not verify: purpose of #1's icon button, X delay on #8, the location/camera prompts, and whether the user tapped "Try for Free" or closed #8.

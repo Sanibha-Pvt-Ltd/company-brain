@@ -13,17 +13,17 @@ sources: [screenshots:35 in-app (Cleanup 10, Phone Storage Cleaner 12, Clever Cl
 
 App notes: [[members/ganesh/apps/storage-cleaner/cleanup]] · [[members/ganesh/apps/storage-cleaner/phone-storage-cleaner]] · [[members/ganesh/apps/storage-cleaner/clever-cleaner]] · [[members/ganesh/apps/storage-cleaner/cleaner-kit]]. Desk research: [[research/categories/storage-cleaner/overview]] (this note extends §5 and §9; it does not repeat them).
 
-**Setup note.** All four apps were captured on one iPhone within about 10 minutes (2:51–3:01), India storefront, on or about 2026-10-03 `[OBSERVED status-bar times]` `[INFERRED date from trial end dates]`. Two apps independently read the device as **120 GB of 255 GB used** (Phone Storage Cleaner #11, Clever Cleaner #6), and Clever splits it as "Photo Library 2% · Data and apps 45% · Free 53%" `[OBSERVED]`. That one fact lets us check every storage claim in every onboarding against the truth.
+**Setup note.** Status bars read 2:51 (Cleanup), 2:55 (Phone Storage Cleaner), 2:56 (Cleaner Kit's store page) and 3:01 (Clever), so the captures were taken within about 10 minutes, India storefront, on or about 2026-10-03 `[OBSERVED status-bar times]` `[INFERRED date from trial end dates]`. Cleaner Kit's in-app screens show no status bar, so the same device for Kit is `[INFERRED]`. Two apps independently read the device as **120 GB of 255 GB used** (Phone Storage Cleaner #11, Clever Cleaner #6), and Clever splits it as "Photo Library 2% · Data and apps 45% · Free 53%" `[OBSERVED]`. That one fact lets us check every storage claim in every onboarding against the truth.
 
 ## 1. Pattern table
 
 | | Cleanup (winner) | Phone Storage Cleaner | Clever Cleaner | Cleaner Kit |
 |---|---|---|---|---|
 | Screens analysed | 10 | 12 | 7 | 6 (+1 store page) |
-| Taps to *found* GB (real scan number) | ~7, home "5.0 GB Space to Clean" | ~10, home "427 MB" + "281 MB" | ~5–6, home "Similars 1.35 GB / Videos 2.62 GB" | not reached |
+| Taps to *found* GB (real scan number) | ~6–7, home "5.0 GB Space to Clean" | ~7–9, home "427 MB" + "281 MB" | ~5–6, home "Similars 1.35 GB / Videos 2.62 GB" | not reached |
 | Taps to *freed* GB | `[UNKNOWN]` | `[UNKNOWN]` | `[UNKNOWN]` (2 GB/day free) | `[UNKNOWN]` |
 | Found-GB before or after paywall | after | after | after (✕ is immediate) | n/a |
-| Asks before any real data | 3–4 (Photos?, 3× Next, trial; notifications right after) | 8+ (terms, ATT, 4 claim screens, trial) | 4 (ATT, 3× Continue, closable trial) | 6 (terms, notifications, 3× Next, paywall) |
+| Asks before any real data | 4–5 (Photos?, 3× Next, trial; notifications right after) | 7–8 (terms, ATT, 4 claim screens, trial; Photos somewhere) | 5 (ATT, 3× Continue, closable trial) | 6 (terms, notifications, 3× Next, paywall) |
 | Fake storage claim | "95 from 100% used" | "62 of 64 GB used" | "Almost Full" | "240 GB of 256 GB used" |
 | Other unverifiable claims | "up to 80%", "7.002" emails | "+86%", "160", "8h", "50% faster" | — | "up to 80%", "800,000+ 5-star ratings" |
 | Day-1 concepts | ~8 (Similars, Duplicates, Videos, Screenshots, Optimize, Secret Storage, Email, Contacts, Extras) | ~5 (Quick Clean, Large Files, Photo Cleaning, Contacts, "Goal") | ~6 (Smart cleanup, Swipe, Compress, Similars, Heavies, Lives) | ~7 promised (duplicates, iCloud, email, contacts, calendar, junk, compress) |
@@ -42,7 +42,7 @@ All prices are India storefront `[OBSERVED]`. US prices were not captured. Ganes
 
 | Part | Verdict | Evidence |
 |---|---|---|
-| "Value is visible within seconds (GB found)" | **Partly confirmed.** The scan *is* fast, and every app that got past the paywall showed a real GB/MB number on home. But it takes 5–10 taps, not seconds, because onboarding comes first | Cleanup #7, PSC #11, Clever #6 |
+| "Value is visible within seconds (GB found)" | **Partly confirmed.** The scan *is* fast, and every app that got past the paywall showed a real GB/MB number on home. But it takes about 5–9 taps `[INFERRED]`, not seconds, because onboarding comes first | Cleanup #7, PSC #11, Clever #6 |
 | "Winners show the problem before the paywall" | **Killed.** No app shows the *user's real* problem before the paywall. All four show a **fabricated** problem instead (95% / 62 of 64 GB / Almost Full / 240 of 256 GB) on a phone that is 47% full | Cleanup #5, PSC #2, Clever #5, Kit #1 |
 | "Anger point = hard paywalls *after the scan*" | **Revised.** The paywall comes *before* the scan in all four. The likely anger point is a hard paywall *after review effort* (the user spends time selecting, then deletion is gated). Ganesh's xlsx has one such review for PSC | xlsx PSC 2★ "Spent about two hrs… Don't Waste You're Time" `[DATA:ganesh-benchmark-xlsx]`; to be confirmed by A6 |
 | "Fear copy" | **Confirmed and sharpened.** The fear is not in words; it is in **fake meters**. Each app's red bar is a drawing, not a reading | as above |
@@ -54,6 +54,8 @@ All prices are India storefront `[OBSERVED]`. US prices were not captured. Ganes
 
 Rule: one ask before value (Photos access), zero invented numbers, the paywall only after the first freed MB.
 
+Numbers in the copy below are illustrative, taken from this test phone: 120 / 255 GB (PSC #11, Clever #6); 5.1 GB = Clever's "Photo Library 2%" × 255 GB `[INFERRED]`; 918 MB from Cleanup's "New photos (918.3 MB)" chip. "1.9 GB" and "1.0 GB more" are placeholders, not observations.
+
 | # | Screen | Asks | Gives | Copy direction |
 |---|---|---|---|---|
 | 1 | Welcome: one sentence plus a looping 2-second demo of picking the best shot of 5 near-identical photos | Tap "Scan my photos" | A clear promise | "Find the repeats and big videos in your photos. You choose what goes." |
@@ -64,7 +66,7 @@ Rule: one ask before value (Photos access), zero invented numbers, the paywall o
 | 6 | Offer, after the win and only now: "Keep going: 1.0 GB more found, plus big-video shrink and a weekly tidy-up" | Choose a plan or "Not now" (an equal-weight button) | A free path that stays useful (the first full clean of a category is free; new photos are scanned free) | Show annual first, with its full price and billing period. Weekly can exist but is not the default. No "free" interstitials, no pre-enabled toggles, close visible on frame 1. US price is a stage B/C decision |
 | 7 | (Later, after the 2nd session) "Tell me when new repeats pass 500 MB?" | Notifications, opt-in with a stated trigger | A reason to say yes | Never on day 1 before a win |
 
-Taps to freed GB: about 4 (Scan → Allow → Free 918 MB → done), with 1 ask before value. Every competitor captured needs 5–10 taps just to *see* a real number.
+Taps to freed GB: about 4 (Scan → Allow → Free 918 MB → done), with 1 ask before value. Every competitor captured that reaches a real number needs about 5–9 taps just to *see* it, and Cleaner Kit never reaches one in our captures `[INFERRED tap counts]`.
 
 ## 4. Up to 3 differentiators (each tied to evidence)
 
@@ -99,3 +101,15 @@ Taps to freed GB: about 4 (Scan → Allow → Free 918 MB → done), with 1 ask 
 8. **Missing captures to retake:** Cleanup welcome/permission (#0), Clever IMG_2277, Cleaner Kit IMG_2265, plus all four apps' post-paywall core task, result, and settings screens.
 
 **Next stage:** A2/A4/A6 for these four (listing.json plus negatives.md via `scripts/fetch-app.py`), then B Market.
+
+## Verification (2026-10-04)
+
+**Checked:** every claim in the synthesis was traced to the four app notes (each verified the same day against all 36 screenshots, the xlsx and the iTunes API), or directly to a screenshot. That covers about 40 quotes, about 55 numbers, about 40 screen references, and 4 xlsx claims (Cleanup "₹999/yr", PSC "₹999/yr or ₹1,999 Lifetime", no CleverFiles row, the PSC 2★ review). Screen references in §2, §4 and §5 (Cleanup #3/#5/#6/#7, PSC #2/#4–#7/#9/#11, Clever #3–#6, Kit #1/#4/#5/#6) all match the app-note tables. 120/255 = 47%.
+
+**Corrections (old → new):**
+- Setup note: "all four apps captured on one iPhone … 2:51–3:01" → per-app status-bar times. Kit's in-app screens have no status bar, so "same device" is `[INFERRED]` for Kit.
+- Taps to found GB: Cleanup "~7" → "~6–7". PSC "~10" → "~7–9" (PSC has 5 Continue screens, not 6). "5–10 taps" → "about 5–9 taps" (§2, §3).
+- Asks before real data: Cleanup "3–4" → "4–5". PSC "8+" → "7–8". Clever "4" → "5". The old counts did not match their own listed items.
+- §3: the mock copy's numbers are now labelled illustrative. "1.9 GB" and "1.0 GB more" are placeholders, not observations.
+
+**Not verified:** overview citations (§2, §5, §6.1, §9, S13) were not re-checked against their original sources. Open question 5 (whether Cleanup's 611/329 badges reflect a real pre-scan) remains open.

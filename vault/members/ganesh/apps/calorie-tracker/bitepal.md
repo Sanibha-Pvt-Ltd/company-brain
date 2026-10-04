@@ -146,3 +146,22 @@ BitePal proves emotion sells in this category. A 2024 entrant has 55,700 US rati
 - **Copy:** tone choice; normalising quitting; plan before paywall; the first-log prompt.
 - **Beat:** ask count; honest pricing; no guilt mechanics.
 - **Evidence strength:** onboarding/paywall strong; core loop weak (no log captured); ED handling `[UNKNOWN]` beyond the onboarding copy.
+
+## Verification (2026-10-04)
+
+**Checked:** all 48 screenshots (IMG_1771–1818) opened; ~45 verbatim quotes, ~25 numbers/prices, 48 IMG refs and the back-and-forth order (status-bar clock confirms 1786 at 1:15 came after 1783 at 1:14), 6 [INFERRED] calculations (BMI 60/1.6² = 23.4; ₹291.58×12 = ₹3,498.96; ₹478.95×12 = ₹5,747.40; 6 pm→8 am = 14 h; macros 59×4+195×9+95×4 = 2,371 ≈ 2,376), 4 xlsx claims (H10 prices, G10 "Unlimited AI food photo recognition", E10 "16 questions", J10 ED review "there's no calorie count") and 5 US listing fields.
+
+**Corrections:**
+- 1774 button "Continue" → "Next"; 1776 button "Love It!" → "Let's go" ("Love It!" is a sticker).
+- 1781 "typed 'Wasabi'" → field shows "Wasabi" (typed vs dice is not visible).
+- 1784/1785 "pre-ticked" → "ticked"; 1788 shows nothing ticked.
+- 1787 heart-drain mechanic → tagged [INFERRED] (only a mock notification is shown).
+- 1789 "already answered 10+ asks" → 9.
+- 1812 macro digits noted as partly hidden behind the button.
+- "BitePal Plus 🔒 tab" → badge.
+- First win: "about 46 screens / about 50+ taps [OBSERVED]" → 47th captured screen (incl. 2 repeats); taps [UNKNOWN]. "about screen 36" → screens 37–38.
+- Ask ledger "about 26 asks before any value" → 25 asks before the plan (27 with payment and account); "before any value" contradicted the pet at screen 10.
+- "7 invented concepts" → 6 plus fasting (not needed).
+- Verdict: "pet and tone are why it reached 55.7K ratings" → causal link marked [INFERRED].
+
+**Not verifiable:** whether reminder tick and tone are defaults; free scan allowance; hide-calories mode; US price.

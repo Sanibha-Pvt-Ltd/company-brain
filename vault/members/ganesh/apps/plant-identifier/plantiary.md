@@ -164,3 +164,13 @@ Evidence strength:
 - A3 strong for this capture (conflicts with the xlsx)
 - A5 weak (no ID, result, care or diagnosis)
 - A8 weak to medium
+
+## Verification (2026-10-04)
+Checked against all 13 screenshots (IMG_2186–IMG_2198), xlsx row 19, and the US iTunes lookup (id 1596971856).
+- Checked: ~127 quoted strings, ~55 screen/IMG refs, 18 ₹ figures (incl. ₹699 × 52 = ₹36,348), 10 xlsx mentions (onboarding 4, placement, free/paid text, ₹1,499/yr + ₹499/mo + 3-day trial, 2 review quotes), 6 US listing fields. Order, typos ("Orchild", "Diffuculty"), quiz options and paywall copy all matched. "Oldest update in the set" holds (2026-08-05 vs ≥2026-09-02 for the other four).
+- Corrections:
+  - Size "146 MB" → "154 MB" (153,985,024 bytes).
+  - "The 'Free' plan is a ₹699/week subscription" (stated as fact) → tagged `[INFERRED]`. The screen shows the ₹699/wk line under the preselected Free card, not on it.
+  - "US weekly price is $9.99 `[INFERRED]`" → `[UNKNOWN]`. No source gives $9.99; the review says "$10 a week".
+- Not a correction: #13 also shows a partly hidden "Light Meter" row behind the tab bar.
+- Could not verify: what the #6 system alert was, and the post-paywall flow (no ID captured).

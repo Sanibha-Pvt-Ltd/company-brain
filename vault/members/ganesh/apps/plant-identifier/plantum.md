@@ -176,3 +176,16 @@ Evidence strength:
 - A3 strong for this capture (prices conflict with the xlsx, so recheck)
 - A5 medium (no own-plant ID, diagnose or settings)
 - A8 medium
+
+## Verification (2026-10-04)
+Checked against all 15 screenshots (IMG_2211–IMG_2225), xlsx row 20, and the US iTunes lookup (id 1476047194).
+- Checked: ~141 quoted strings, ~66 screen/IMG refs, 18 ₹ figures (₹3,999.00, ₹76.69, ₹699.00; ₹699 × 52 = ₹36,348 ≈ 9.1× ₹3,999), 7 xlsx claims (onboarding 4, "After Scan", ₹1,999/yr + ₹449/mo, free/paid text, 3★ quote), 6 US listing fields. Paywall copy, tags ("Poisonous"/"Pet-safe" #4; "Easy"/"Medium" #12) and home copy all matched.
+- Corrections:
+  - **The demo ID is downgraded `[OBSERVED]` → `[INFERRED]`.** #11 shows no image, the #12 hero photo differs from #10, and only the thumbnail resembles #10. The screens don't prove which photo was identified. Edited in rows 11 and 12, first win, the ask ledger, feel-good and the kill list.
+  - Price model "`[DATA:itunes-lookup-us]` weekly + yearly" → the US lookup only says "Free". Plans are now attributed to the India paywall.
+  - Size "103 MB" → "109 MB" (108,835,840 bytes).
+  - "Screens #1 and #3–#9 have no status bar" → "#1 and #3–#10".
+  - #5 quote "…TO HELP YOUR PLANT STAY HEALTHY" → marked as cut off on screen ("HEL[P]", "HEALTH[Y]").
+  - "Checkbox unchecked = opted in" → tagged `[INFERRED]` (a reading of the wording).
+  - "Fake notification badge" ×3 → "'1' badge on the offer graphic". Whether it is fake is `[UNKNOWN]` / `[INFERRED]`.
+- Could not verify: Cancel delay, what follows the account wall, and which demo button was tapped.

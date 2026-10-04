@@ -68,25 +68,25 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
 | 1649 | onboarding | height + weight on one form | 2 fields | reassurance | "It's OK to estimate, you can update this later." | permission to be imperfect | none; kind copy | [OBSERVED] |
 | gap | — | progress segment 5 not captured | — | — | — | — | likely goal weight / pace | [INFERRED] |
 | 1650 | account | email + password + T&C | 3 fields | — | "Almost done! Create your account." / "10 characters minimum" | — | **mandatory email account** before the plan | [OBSERVED] |
-| 1651 | result | **2,500 net calories**, plus 3 **pre-ticked** opt-ins | Next | **the plan** | "Congratulations, G!" / "Your daily net calorie goal is: 2,500" / ✓ Keep me on track with reminders / ✓ Use my phone to track my steps / ✓ Would you like to receive our emails? | — | **pre-ticked marketing email opt-in** | [OBSERVED] |
+| 1651 | result | **2,500 net calories**, plus 3 opt-ins shown **ticked** | Next | **the plan** | "Congratulations, G!" / "Your daily net calorie goal is: 2,500" / ✓ Keep me on track with reminders / ✓ Use my phone to track my steps / ✓ Would you like to receive our emails? | — | **marketing email opt-in ticked** on arrival (pre-ticked by default is [INFERRED]; no user action on this screen is visible) | [OBSERVED] |
 | 1652 | upsell | barcode / voice / photo | Next / X | — | "Scan a barcode to log lightning fast" … "Take a photo to log your entire meal" | — | the fast log methods are premium | [OBSERVED] |
 | 1653 | paywall | annual vs monthly | Try it free / X | — | "Your first week is free" / "Trust the process." | anchor | soft; honest terms | [OBSERVED] |
 | 1654 | home (free) | calories 0 / 2,500; macros 0/312 C, 0/83 F, 0/125 P; ad; Breakfast / Lunch / Dinner / Snacks with Log buttons; streak 0 ⚡ | Log | **a usable free diary** | "Get ad-free tracking in Premium—upgrade now" | — | a banner ad on home | [OBSERVED] |
 
 ### The 8 measures
 
-1. **First win.** The plan number arrives at 1651, after account creation. The first log comes **after a soft paywall the user can close**, on a free home [OBSERVED]. Launch to the free home is about 18 screens / about 25 taps plus typing (name, age, postcode, height, weight, email, password). **The only incumbent where logging is free.**
-2. **Ask ledger.** Account method → name → goals → habits → planning frequency → meal plans → activity → sex/age/country/postcode → height/weight → [gap] → email/password → *(given: 2,500 kcal)* → 3 pre-ticked opt-ins → paywall. That is **about 11 screens and about 16 fields before the number**. The typing is heavy (7 typed fields). Three praise interstitials (1641, 1643, 1645) give nothing.
+1. **First win.** The plan number arrives at 1651, after account creation. The first log comes **after a soft paywall the user can close**, on a free home [OBSERVED]. Launch to the free home is 18 captured screens plus typing (name, age, postcode, height, weight, email, password); tap count [UNKNOWN]. Free manual diary logging is stated in the xlsx ("Manual food search & diary logging" under What's FREE) [DATA:ganesh-benchmark-xlsx]; a first free log was not performed in the capture.
+2. **Ask ledger.** Account method → name → goals → habits → planning frequency → meal plans → activity → sex/age/country/postcode → height/weight → [gap] → email/password → *(given: 2,500 kcal)* → 3 ticked opt-ins → paywall. That is **about 11 screens and about 16 fields before the number**. The typing is heavy (7 typed fields). Three praise interstitials (1641, 1643, 1645) give nothing.
 3. **Abstractions.** **"Net calories"** (the job needs calories; "net" adds exercise maths). Macros (needed). Meal plans (upsell). The **streak ⚡** (invented). "Healthy habits" chips (invented framing).
 4. **Feel-good moments.** "It's OK to estimate, you can update this later." (1649) is earned kindness. The praise cards are manufactured. "Congratulations, G!" is half-earned.
 5. **Feel-bad moments.**
-   - Pre-ticked email opt-in (1651).
+   - Email opt-in already ticked (1651) [default state INFERRED].
    - A postcode asked before value (1648).
    - The banner ad on home (1654).
    - The fast log methods shown, then gated (1652).
    - ED: "net calorie goal" implies exercise offsets food [INFERRED]. Otherwise MFP's copy is neutral.
 6. **Paywall.** Soft, with an X. A 7-day trial with honest terms. Two touchpoints (upsell, then plans). No downsell captured.
-7. **Repeat cost.** Home → "Log" on a meal → search → pick → add is about **4 taps plus typing** for a free user [INFERRED from 1654]. The faster methods (photo, barcode, voice) are premium [OBSERVED 1652; DATA:xlsx]. Hooks: a streak, reminders (pre-ticked), emails (pre-ticked), the week strip.
+7. **Repeat cost.** Home → "Log" on a meal → search → pick → add is about **4 taps plus typing** for a free user [INFERRED from 1654]. The faster methods (photo, barcode, voice) are premium [OBSERVED 1652; DATA:xlsx]. Hooks: a streak, reminders (ticked on 1651), emails (ticked on 1651), the week strip.
 8. **Feature map.**
    - Table stakes: database search, diary by meal, macros, steps.
    - Differentiators: the database size and brand trust (the xlsx says 20M+ foods [DATA:ganesh-benchmark-xlsx]).
@@ -103,7 +103,7 @@ Related: [[members/ganesh/drafts/calorie-tracker/screens-synthesis]]
   - The account before the plan (1650).
   - The postcode (1648).
   - Three praise interstitials (1641, 1643, 1645).
-  - Pre-ticked marketing emails (1651).
+  - Ticked-by-default marketing emails (1651) [default state INFERRED].
   - Ads on the home screen (1654).
 - **Different:** Free manual logging, like MFP, but **without ads and without an account up front**. Use local storage first, and offer iCloud / Sign in with Apple only when the user has something to lose (for example after 3 logged days).
 
@@ -114,3 +114,14 @@ MFP wins on habit, database and a free diary. Its onboarding is the most "form-l
 - **Copy:** estimate-is-OK copy; job-example activity levels; honest trial terms.
 - **Beat:** a free fast log; no account wall; no ads.
 - **Evidence strength:** onboarding/paywall strong; repeat cost medium (home seen, log not done).
+
+## Verification (2026-10-04)
+
+**Checked:** all 18 screenshots (IMG_1637–1654) opened; ~35 verbatim quotes, ~20 numbers/prices, 18 IMG refs and order, the progress-segment gap (1649 at 4 of 7 → 1650 at 6 of 7), 3 [INFERRED] calculations (₹619×12 = ₹7,428 and ₹3,099/₹7,428 = 41.7% → "Save 58%" accurate; ₹258.25×12 = ₹3,099; macros 312×4+83×9+125×4 = 2,495 ≈ 2,500), field counts (16 fields, 7 typed, 18 habit chips), 4 xlsx claims (H6 prices, G6 paid barcode/photo, F6 20M+ database, no trial mentioned) and 5 US listing fields.
+
+**Corrections:**
+- 1651 opt-ins "pre-ticked" → shown ticked; default state [INFERRED] (all mentions).
+- "about 25 taps [OBSERVED]" → tap count [UNKNOWN].
+- "The only incumbent where logging is free" → removed; the xlsx lists manual logging as free for MFP (and for Healthify, Appediet and BitePal), and no free log was performed in the capture.
+
+**Not verifiable:** the missing segment-5 screen; US price and copy; free logging tap count.

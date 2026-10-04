@@ -18,7 +18,7 @@ sources: [screenshots:12 (11 App Store preview images + 1 listing page; 0 in-app
 Screens folder: `ganesh_screenshots/Habit Trackers/Streaks/` IMG_2111–2122 (12 files). Context: [[members/ganesh/drafts/habit-tracker/screens-synthesis]]
 
 **No A5 teardown is possible.** All 12 files are App Store captures, not in-app screens `[OBSERVED]`:
-- IMG_2111–2121 are the App Store **preview images** viewed full screen. They have the App Store ✕ top-right, neighbouring preview cards at the edges and the marketing "09:41" status bar inside a device frame. IMG_2112 and IMG_2113 are identical.
+- IMG_2111–2121 are the App Store **preview images** viewed full screen. They have the App Store ✕ top-right, neighbouring preview cards at the edges and the marketing "09:41" status bar inside a device frame. IMG_2112 and IMG_2113 show the same preview image (visually identical; the files differ byte-wise).
 - IMG_2122 is the **App Store listing page** (India): "Streaks / The habit-forming to-do list / ₹599 / 701 RATINGS 4.8 / No.11 Health & Fitness".
 
 Under the screens-lens source rule, listing images are marketing, not the product. That makes **screens_analysed: 0** `[UNKNOWN] no team in-app screenshots`. The app is paid upfront (₹599 in India), so it was most likely not bought for capture `[INFERRED]`.
@@ -58,3 +58,11 @@ Not in this run (screens-only).
 
 ## A8 Verdict (short)
 No screen verdict. As positioning, Streaks is the benchmark for "small, paid once, beautiful, no funnel". It is proof that a habit tracker can hold 4.8★ across 27k US ratings without a quiz or a paywall. Evidence strength: A1 strong · A3 strong · A5 none.
+
+## Verification (2026-10-04)
+
+Checked against all 12 files (IMG_2111–2122), opened visually and OCR'd; xlsx "5 Parameters Benchmark" row 27; iTunes lookup US (id 963034692) on 2026-10-04.
+- Folder claim confirmed: IMG_2111–2121 are App Store preview images (App Store ✕ top-right, neighbouring cards at the edges, "09:41" device frames); IMG_2122 is the listing page ("Streaks / The habit-forming to-do list / ₹599 / 701 RATINGS 4.8 / No.11 Health & Fitness"). No in-app screens.
+- Checked: 5 listing values, 9 API fields ($5.99, 4.81/27,347, 11.4.2 2026-09-27, 2015-06-01, Health & Fitness, release notes, "up to 24 tasks", "streak of consecutive days", "Apple Design Award winner", Health auto-complete: all match), 2 xlsx claims ("₹599 One-Time Purchase on App Store"; "12 daily tasks": both match the cell), the preview-image feature list (Health tasks, DON'T SMOKE, timers, shared task, widgets, lock-screen timer: all present).
+- Corrections: "IMG_2112 and IMG_2113 are identical" → visually identical; the files differ byte-wise.
+- Could not verify: IAP existence; the India listing's storefront (inferred from ₹).

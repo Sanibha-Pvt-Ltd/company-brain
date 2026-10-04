@@ -91,3 +91,11 @@ Use a fresh install, the India storefront (note it), and a real potted plant in 
 8. **Day 2 (optional but valuable):** reopen the next day. Capture any notification received, the home state, and the taps needed for a second ID.
 
 Then re-run stage A screens-only for PictureThis and update [[members/ganesh/drafts/plant-identifier/screens-synthesis]].
+
+## Verification (2026-10-04)
+Checked: the US iTunes lookup (id 1252497129; 6 fields) and xlsx rows A17–L17 plus Category Winners B4 (9 cells, including 3 review quotes against cells J17/K17/L17). The note contains no screen claims (0 IMG refs), as required. 1,117,470 / 229,566 = 4.87 supports "about 5× PlantIn".
+- Corrections:
+  - "Free download (IAP)" → "Free download". IAP is not in the lookup response.
+  - Size "244 MB" → "257 MB" (256,506,880 bytes; 244 was MiB).
+  - **"PictureThis is the only app in the set where the paywall comes after the first scan"** → false per the xlsx, which also marks Plantum E20 and LeafSnap E21 "After Scan". Reworded: PictureThis is the only shortlisted app where the xlsx "after scan" claim isn't contradicted by screens.
+- Could not verify: everything about the screens (none captured).
