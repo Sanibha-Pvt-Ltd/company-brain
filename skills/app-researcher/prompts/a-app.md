@@ -17,6 +17,7 @@ Model (weekly/monthly/annual/lifetime/consumable/ads), prices, trial, intro offe
 ASO: title/subtitle/keywords, screenshot story, rating-prompt timing. Paid: Meta Ad Library, TikTok Creative Center — analyse 5+ creatives (hook in first 3s, angle, format, CTA). Organic: Reddit, TikTok, YouTube, press, creator seeding.
 
 ## A5 Product teardown (from the member's real screenshots)
+Read `prompts/a5-screens-lens.md` first and apply all 8 measures and the Keep / Kill / Different output.
 Order screens into the user journey even if uploaded shuffled; flag gaps. Table per screen:
 `# | stage (first-launch / onboarding / permission / paywall / core-task / result / upsell / settings) | what user sees | what user can do | verbatim copy | psychological lever | friction or dark pattern | tag`
 Then: time-to-value (taps from launch to first useful result; before or after paywall?), onboarding length and promises, permission framing, core loop, retention hooks (notifications, widgets, streaks), trust signals and trust breakers.

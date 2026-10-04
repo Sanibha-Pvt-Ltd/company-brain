@@ -10,6 +10,8 @@ Sanibha builds iOS apps; web SEO matters for app landing pages, support/help pag
 
 Evidence tags: map DOCUMENTED / OBSERVED / INFERRED / HYPOTHESIS onto the brain's `[DATA:<source>]` / `[OBSERVED]` / `[INFERRED]` tags in notes.
 
+**Accuracy rules (binding, `rules/company.md`):** no made-up data points; another agent's output or a summary is not evidence; double-check every key number, quote and claim against its source before final output.
+
 ## Where output goes
 
 Brain connected: `get_context` first, then `read_note` prior work; write with `update_note` only inside `vault/members/<member>/` (`members/<member>/drafts/<project>/seo-<topic>.md`, frontmatter as in `skills/app-researcher/SKILL.md`); end with `save_session`; `log_decision` for choices that would be re-litigated. Not connected: output the full note for `_inbox/` and say nothing was saved.

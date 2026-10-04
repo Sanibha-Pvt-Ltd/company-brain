@@ -36,6 +36,7 @@ If any input is missing, say exactly what is missing and continue with what exis
 
 ## Evidence discipline (applies to every stage)
 
+- **Accuracy rules (binding, `rules/company.md`):** no made-up data points; another agent's output or a summary is not evidence (trace it to the source); re-open the source for every key number, quote and claim before final output, and say what was checked.
 - Tag every claim: `[OBSERVED]` seen in screenshot/listing · `[DATA:<source>]` tool/API/file · `[REVIEW]` verbatim quote + stars + date · `[ESTIMATE:<source>]` third-party number · `[INFERRED]` your reasoning · `[UNKNOWN]`.
 - Every number carries source + date range. When two sources disagree, report the spread, not one number.
 - Quote reviews verbatim with stars/date/version. Never paraphrase a quote.
