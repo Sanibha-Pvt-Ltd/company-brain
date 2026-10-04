@@ -32,7 +32,7 @@ US App Store data comes from the iTunes Search API, pulled 2026-10-04 `[DATA:itu
 | Calorie | Appediet | 83 | 4.78 | 47,333 | 23 | AI challenger |
 | Calorie | BitePal | 82 | 4.66 | 55,700 | 48 | AI challenger, fast growth |
 | Habit | Finch | 99 | 4.95 | 759,175 | 35 | winner |
-| Habit | Habit Tracker (Davetech) | 88 | 4.79 | 147,561 | 20 | |
+| Habit | Habit Tracker (Inner Grow) | 88 | 4.79 | 147,561 | 20 | |
 | Habit | Productive | 82 | 4.60 | 91,069 | 17 | |
 | Habit | Grit | 80 | 4.78 | 15,958 | 40 | |
 | Habit | Streaks | 80 | 4.81 | 27,347 | 12 | design-led, paid upfront |
