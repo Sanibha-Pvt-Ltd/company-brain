@@ -1,61 +1,113 @@
 ---
-type: category-lens
+type: category-screens
 category: universal-tv-remote
 member: kushagra
 updated: 2026-10-04
 status: draft
-sources: [screens:7 PDFs / 66 pages]
+scope: screens-only
+sources: [screenshots:7 PDFs / 66 pages]
 ---
 
-# Universal TV remote — screens synthesis
+# Universal TV remote: screens synthesis
 
-**Scope.** Screens-only comparison of seven team screenshot PDFs, 66 pages total. Source PDFs have 2026-10-03 creation metadata; screenshot capture dates are unknown unless a screen itself shows a date. Any shown prices are INR and do not represent US pricing. Companion `TV_Remote_App_Analysis.pdf` was not used as evidence.
+App notes: [[members/kushagra/apps/universal-tv-remote/tvremote]] · [[members/kushagra/apps/universal-tv-remote/remote]] · [[members/kushagra/apps/universal-tv-remote/imote]] · [[members/kushagra/apps/universal-tv-remote/remote-tv]] · [[members/kushagra/apps/universal-tv-remote/kraftwerk]] · [[members/kushagra/apps/universal-tv-remote/tvremote-by]] · [[members/kushagra/apps/universal-tv-remote/tvremoteapp]].
 
-## Pattern table
+**Main finding.** A remote interface is only a promise until a command reaches a TV. Across these seven screenshot sets, several show search, disconnected states, or a remote UI, but none proves a successful button press on a paired television. One capture even moves from “Device found” to a later “No TV Found” screen (`tvremote by.pdf`, pp. 5, 9). The recommended product decision is to optimize the first session around an honest connection state and one verified command; secondary tools and paid plans should follow that proof. This is a screen-based product recommendation, not evidence of user demand. `[INFERRED]`
 
-| App | First visible control / value | Visible asks before it | Concepts | Paywall placement | Repeat cost evidence |
-|---|---|---|---|---|---|
-| TV Remote (`Tvremote.pdf`) | Search p. 1; remote UI p. 3; Apps says disconnected p. 6. No command success. | Search then offer p. 2; later repeated offers p. 4–5. | Pairing, remote, channels, casting, IPTV/browser/chatbot. | p. 2 before captured remote; repeated p. 4–5. p. 2 shows 3-day trial then ₹699/week, yearly ₹1,799, lifetime ₹4,999. | Buttons visible p. 3; connection and response unknown. [[members/kushagra/apps/universal-tv-remote/tvremote]] |
-| Remote (`remote.pdf`) | Remote layout p. 1 but it says TV is not connected. | Premium appears in settings p. 3–4; connection search p. 5. | Touchpad, mobile power, forgotten devices, apps. | p. 4 and p. 6. p. 4 displays ₹1,999/year or 3-day trial then ₹499/week. | No connected TV. [[members/kushagra/apps/universal-tv-remote/remote]] |
-| iMote (`remoteControl.pdf`) | Pairing instructions pp. 3–4; scan p. 5; remote modes pp. 6–9 still ask to connect. | Local network p. 2, two setup cards, repeated connect CTA; offer p. 7. | Local network, pairing confirmation, touchpad/keypad modes, cast. | p. 7 shows ₹0 3-Day Full Access selected, ₹76.90/week for yearly access, and a separate ₹999/week auto-renewable line. | Not connected in captured screens. [[members/kushagra/apps/universal-tv-remote/imote]] |
-| Universal Remote Control (`remotetv.pdf`) | Search p. 1; disconnected remote p. 2. | Repeated refresh pp. 4–5; offer p. 6. | Remote, cast, mirror, app shortcuts. | p. 6; toggle appears on, 3-day trial then ₹699/week or 12 months at ₹2,499/year. | No successful command. [[members/kushagra/apps/universal-tv-remote/remote-tv]] |
-| TV Remote by Kraftwerk (`tvremote by kraftwerk.pdf`) | Search p. 1 and p. 7; no device found. | Four feature cards pp. 2–5; paywall p. 6. | Touchpad, keyboard, compatibility, remote modes. | p. 6; 3-day trial with ₹3,499/year or ₹299/week. | No remote screen. [[members/kushagra/apps/universal-tv-remote/kraftwerk]] |
-| TV Remote (`tvremote by.pdf`) | “Device found” p. 5 and remote p. 7; later “No TV Found” p. 9. Pairing is contradictory. | Brand choice p. 1; wait p. 2; feedback pp. 3–4; offers pp. 5–8. | Brand list, feedback, control, screen mirroring/cast. | p. 5: trial toggle off; ₹9,900/year (₹190.38/week display), ₹999/week. p. 8: “95% off,” ₹599/week. | Remote p. 7/10 but disconnected p. 9. [[members/kushagra/apps/universal-tv-remote/tvremote-by]] |
-| TV Remote (`tvremoteapp.pdf`) | No picker/control; capture ends in purchase screens. [OBSERVED] | ATT p. 1; four promo cards pp. 2–5; purchase/plan p. 6–7. | Search, touchpad, keyboard, customization. | p. 6 shows three-day trial then ₹999/week; p. 7 lists that trial option, ₹1,999/month and ₹4,999/year. | Not captured. [[members/kushagra/apps/universal-tv-remote/tvremoteapp]] |
+**Scope and evidence.** Screens-only review of seven supplied screenshot PDFs, 66 pages total. PDF metadata creation date is 2026-10-03; screenshot capture dates are unknown except dates visibly printed inside a screenshot. Prices are in INR as displayed; these screens do not prove storefront location or US prices. The companion `TV_Remote_App_Analysis.pdf` was excluded. Every source page was visually inspected. Large renders were re-opened for the key offers: `Tvremote.pdf` p. 2; `remote.pdf` p. 4; `remoteControl.pdf` p. 7; `remotetv.pdf` p. 6; `tvremote by kraftwerk.pdf` p. 6; `tvremote by.pdf` p. 5; and `tvremoteapp.pdf` pp. 6–7. Representative first-state and connection pages were also re-opened in the original PDFs, including `Tvremote.pdf` pp. 1, 3, 6–7; `remote.pdf` pp. 1, 5; `remoteControl.pdf` pp. 2, 5–6; `remotetv.pdf` pp. 1–2; Kraftwerk pp. 1, 7; `tvremote by.pdf` pp. 1, 5, 7, 9; and `tvremoteapp.pdf` pp. 1, 5.
 
-Page order and ask counts above describe the PDFs, not verified linear tap flows. A remote UI is not a first win unless a command reaches a real TV; none of these stills proves that outcome. [OBSERVED]
+No historical hypotheses were supplied for this category. Hypotheses below are proposed in this synthesis as `[INFERRED]`, assessed only against the screenshot PDFs, and not market validated.
 
-## Our first five minutes
+## Cross-app evidence table
 
-1. **Explain the requirement:** phone and TV must be on the same Wi-Fi when required; explain local network access before opening the OS prompt. [INFERRED]
-2. **Find the TV:** show detected devices, brand/model, and a manual retry/help route. Never leave a spinner without next steps. [INFERRED]
-3. **Pair:** explain any on-TV confirmation/code in one concise step. Keep a visible back/retry action. [INFERRED]
-4. **Prove control:** expose power, arrows/OK, volume and home. Confirm each action state or report that the TV did not respond. [INFERRED]
-5. **After success:** offer keyboard/touchpad as optional quality-of-life features; explain a single plan and renewal terms after one command works. [INFERRED]
+| App / source | First visible state vs completed outcome | Visible asks / abstractions in captured pages | Offer placement and displayed terms | Repeat-cost evidence |
+|---|---|---|---|---|
+| TV Remote — `Tvremote.pdf` | Search p. 1; directional remote p. 3; “TV Not Connected” p. 6. No command success. | Same-Wi-Fi instruction in search; repeated offer pages; tabs for Remote, Apps, Cast, Settings; cast screen includes photo, video, IPTV, browser, mirroring and AI chatbot. | p. 2 offers 3 days free then ₹699/week, yearly ₹1,799 and lifetime ₹4,999. Offers recur pp. 4–5. X visible on p. 2; whether dismissible in the live sequence is unknown. | Remote buttons and an ad banner are visible p. 3; no connected session or repeat command. [[members/kushagra/apps/universal-tv-remote/tvremote]] |
+| TV Remote — `remote.pdf` | Remote layout p. 1 explicitly says TV is not connected; Apps empty p. 2; scan p. 5. | Connect prompts; settings include premium unlock, haptics, touchpad lock, mobile power, forgotten devices and FAQ. | p. 4: annual ₹1,999/year (₹38.33/week shown) or 3-day trial then ₹499/week; another offer capture p. 6. | Standard remote controls are visible, but TV remains disconnected in the captured pages. [[members/kushagra/apps/universal-tv-remote/remote]] |
+| iMote / Remote Control — `remoteControl.pdf` | Local-network permission p. 2; illustrated pairing steps pp. 3–4; search p. 5; three remote modes pp. 6, 8–9 retain “Connect to your TV.” No paired command. | Local-network access, confirm pairing, wait/search and connect CTA; Cast/Apps/Settings surfaces later. | p. 7 shows “3-Day Full Access” at ₹0 selected, yearly access ₹76.90/week, and ₹999/week auto-renewable. Trial toggle appears enabled in the still. Renewal amount for the selected 3-day option is not shown. | Directional, touchpad and keypad modes are visible, but persistent connect CTA means the capture does not evidence a successful action. [[members/kushagra/apps/universal-tv-remote/imote]] |
+| Universal Remote Control — `remotetv.pdf` | Search p. 1 and a remote p. 2 that says TV is not connected. | Device refresh/retry pages pp. 4–5, remote/cast/mirror/app shortcuts and pro controls. | p. 6 presents 3 days free then ₹699/week or 12 months ₹2,499/year (₹48.06/week shown); trial toggle appears off in this still. | Remote and touchpad are visible, but not linked to a TV. [[members/kushagra/apps/universal-tv-remote/remote-tv]] |
+| TV Remote by Kraftwerk — `tvremote by kraftwerk.pdf` | Device search p. 1 and again p. 7; no found device or remote. | Four onboarding cards pp. 2–5 preview compatibility, buttons, touchpad/keyboard and remote basics; Skip is visible. | p. 6 shows ₹3,499/year and ₹299/week; each plan lists a 3-day trial. Annual is selected and close X is visible. | Repeat use cannot be assessed because no remote screen appears. [[members/kushagra/apps/universal-tv-remote/kraftwerk]] |
+| TV Remote — `tvremote by.pdf` | Brand picker p. 1, “Device found” offer p. 5, remote p. 7, and “No TV Found” p. 9. UI states conflict within one capture; a working command remains unproven. | Brand selection, waiting, feedback screens pp. 3–4, premium choices, remote/channels/cast/settings. | p. 5 trial toggle appears off; ₹9,900/year (₹190.38/week equivalent shown) or ₹999/week. p. 6 says 3 days then ₹999/week; p. 8 advertises “95% off” and ₹599/week without a readable comparison baseline. | Remote appears pp. 7 and 10, but p. 9 says no TV found; no response is captured. [[members/kushagra/apps/universal-tv-remote/tvremote-by]] |
+| TV Remote — `tvremoteapp.pdf` | ATT permission p. 1, then promotional/payment pages through p. 7; no picker or remote captured. | Tracking permission, four benefit cards, premium promotion, Apple purchase sheet and plan selection. | p. 6 Apple sheet says 3 days free then ₹999/week, “Starting on 6 Oct 2026” (screen text). p. 7 shows that trial option, ₹1,999/month and ₹4,999/year. | No remote screen or repeat action appears. [[members/kushagra/apps/universal-tv-remote/tvremoteapp]] |
 
-## Up to three differentiators
+“Asks” describe visible requests and choices in PDF order, not verified mandatory taps or a continuous journey. The native purchase screen is not proof of payment. A visible remote is not proof of connection. A screenshot showing an enabled toggle establishes only its state in that still, not its default in an install or the outcome after Continue. No exact tap count, scan duration, trial activation, hard paywall, close delay or successful command is inferred here.
 
-1. **Pairing that tells the truth.** One capture moves from “Device found” p. 5 to “No TV Found” p. 9; four other captures remain searching/disconnected. [OBSERVED] A persistent, accurate connection state with clear retry can stand out. [INFERRED]
-2. **One command before the offer.** Several apps show premium screens before any proven successful control (TV Remote p. 2; TV Remote by Kraftwerk p. 6; TV Remote app pp. 5–7). [OBSERVED] Let users test power/navigation first. [INFERRED]
-3. **Control first, cast second.** Cast/mirroring, IPTV, browser, chatbot and tool bundles appear alongside basic remote controls (Tvremote pp. 7–9; iMote pp. 10–14; `tvremote by.pdf` pp. 11–14). [OBSERVED] Keep the main remote uncluttered and make casting a separate destination. [INFERRED]
+## Cross-app patterns and product implications
 
-## Concepts we refuse to add
+1. **The core dependency is connection, yet some surfaces lead with controls before proving it.** `remote.pdf` p. 1 shows a full control layout with “TV is not connected”; `remotetv.pdf` p. 2 does the same. iMote's p. 6 remote keeps a “Connect to your TV” CTA. `Tvremote.pdf` has controls p. 3 but its Apps page says disconnected p. 6. These are useful previews, but users cannot tell whether tapping will work from the still. **Exception:** `tvremote by.pdf` does present an explicit brand picker (p. 1), and `Tvremote.pdf` search explains the same-Wi-Fi condition (p. 1). **Implication:** Sanibha should keep connection status adjacent to the controls, distinguish demo/unpaired controls from live controls, and acknowledge command response. The “first win” is a confirmed command, not a rendered D-pad. `[INFERRED]`
 
-- A toolbox bundle (IPTV, browser, chatbot, scanner and unrelated tools) in the main remote flow; these appear in `Tvremote.pdf` pp. 7–9 and settings surfaces in other captures. [OBSERVED]
-- Repeated sale prompts before a first working command; repeated trial/sale pages appear in `Tvremote.pdf` pp. 2, 4–5 and `tvremote by.pdf` pp. 5–8. [OBSERVED]
-- Brand compatibility claims without a visible working pairing outcome. Several screenshots show only search or disconnected states. [OBSERVED]
+2. **Searching states need a visible next step.** `Tvremote.pdf` p. 1 and Kraftwerk pp. 1, 7 show searching; iMote p. 5 includes a “Troubles finding your TV?” help route; `remotetv.pdf` p. 1 has “I don’t see the device”; `remote.pdf` p. 5 shows scan plus a help affordance. This is a concrete design contrast: some captures expose recovery in the same frame as wait, others mostly show a spinner/blank list. **Exception:** a blank list may be a transient moment in a longer scan; stills cannot establish scan duration or whether an error arrives later. **Implication:** pair every search state with explicit conditions, retry, manual recovery and a way to leave; test the text against supported protocols before promising same-network discovery. `[INFERRED]`
 
-## Open questions and what would change the call
+3. **The strongest captured contradiction is state credibility.** In `tvremote by.pdf`, p. 5 says “Device found,” p. 7 shows a remote, and p. 9 says “No TV Found.” The sequence could reflect different captures or state transitions; screenshots do not prove the cause. It is nevertheless an observed inconsistency within the supplied PDF. **Implication:** treat device identity and connection health as persistent product state; if connection drops, say when and why the remote is unavailable, preserve the selected TV, and make reconnect explicit. Validate this with a recording across app navigation and TV sleep/restart before positioning reliability as a differentiator. `[INFERRED]`
 
-- [UNKNOWN] Which TV brands/models, network conditions and pairing methods are supported; actual connection latency, command reliability, IR hardware limits, permission requirements and recovery success.
-- [UNKNOWN] Whether the paid plans gate basic controls, live close/dismiss behavior, trial default state, renewal and checkout behavior, US storefront prices, and real repeat cost. Confirm with hands-on tests on multiple TV brands.
-- [UNKNOWN] Demand for casting/mirroring vs remote-only control. Review mining and a working prototype would change feature priority; this pass establishes neither market demand nor business performance.
+4. **Offers sometimes precede any proven control, while product value is described as a bundle.** `Tvremote.pdf` shows search then offer (pp. 1–2), with later offers on pp. 4–5. Kraftwerk inserts four feature cards and a paywall between two search states (pp. 1–7). `tvremoteapp.pdf` shows ATT and four promotional cards before purchase pages, with no device picker in its seven pages (pp. 1–7). `remote.pdf` reaches premium from settings while the TV remains disconnected (pp. 1–4). **Exception:** `tvremote by.pdf` displays “Device found” behind the p. 5 offer, and Remotetv's offer is preceded by search/disconnected remote; this still does not prove a command. **Implication:** let users test one basic command before upsell if technically and commercially viable. Then price advanced input modes or ad-free extras separately and make exact renewal terms legible. The captures alone do not prove any offer is a hard gate. `[INFERRED]`
 
-## Source map
+5. **Feature breadth can obscure the primary job.** Basic power, arrows, OK, volume, home and playback coexist with keyboard/touchpad modes, brand/channel shortcuts, casting/mirroring, IPTV, browser, chatbot and tool bundles (`Tvremote.pdf` pp. 3, 7–9; iMote pp. 6–14; `tvremote by.pdf` pp. 7, 11–14). This breadth might be useful after pairing, but the images do not establish demand or successful operation. **Exception:** text entry and shortcuts solve a specific TV-search/navigation job; they are not intrinsically bloat. **Implication:** keep the primary remote surface focused, and let users discover keyboard, touchpad, cast and other features as separate destinations after connection. Prototype which secondary mode users reach for; do not select based on the number of tiles competitors show. `[INFERRED]`
 
-All sources are in `kushagra screenshots/Universal TV Remote/screenshots/`; all pages in each PDF were visually inspected. The analysis PDF was excluded.
+6. **Price presentation varies enough that screen arithmetic deserves explicit verification.** The screens show weekly, annual, lifetime and monthly choices, often with equivalent weekly figures or trials. Examples: `Tvremote.pdf` p. 2 has ₹699/week, ₹1,799/year and ₹4,999 lifetime; `remote.pdf` p. 4 has a ₹1,999/year offer and a separate 3-day trial then ₹499/week; `tvremote by.pdf` p. 5 has ₹9,900/year and ₹999/week while p. 8 shows ₹599/week; `tvremoteapp.pdf` offers weekly, monthly and yearly choices. These are different captures/apps, not a common price comparison. **Implication:** show the billing period and full renewal amount next to the plan, avoid “save” percentages unless the baseline is shown, and do not rely on a weekly equivalent to explain annual commitment. `[INFERRED]`
 
-| Teardown | Screenshot source | Pages |
+## Proposed hypotheses and verdicts
+
+The hypotheses below are proposed in this synthesis as `[INFERRED]`; there are no historical category priors. Verdicts assess only what the captures show, not market attractiveness.
+
+| Proposed hypothesis | Verdict against captures | Evidence and decision consequence |
+|---|---|---|
+| One verified command should precede the first paid offer. | Strong design opportunity, unvalidated commercially. | No PDF proves command success. Multiple offers appear before a captured working result (`Tvremote.pdf` p. 2; Kraftwerk p. 6; `tvremoteapp.pdf` pp. 5–7). Test whether an optional free command can be supported without changing unit economics. |
+| Connection-state honesty can differentiate the experience. | Supported as an observed product gap; differentiation is a hypothesis. | “Device found” and “No TV Found” both occur in `tvremote by.pdf` (pp. 5, 9); several others remain disconnected/searching. Implement state persistence and recovery, then test reconnect reliability. |
+| The main remote should exclude cast/tool breadth. | Partly supported. Keep distinct input modes; defer unrelated tools. | Cast, IPTV, browser/chatbot and media options appear with controls, but there is no usage evidence. Keyboard/touchpad have clear text-entry/navigation purposes in feature previews. Use separate destinations and observe actual use. |
+| All apps require the same Wi-Fi/network permission path. | Not supported; do not assume. | Some screens state same Wi-Fi or request local-network access, while captures differ and omit technical details. Test each supported protocol and TV model before writing a universal promise. |
+
+## First five minutes: proposed experience
+
+The steps below are a proposed flow, not an observed competitor journey. Use only connection methods validated for the supported TV/device combination. Copy examples are original direction; they avoid claiming universal compatibility, a fixed scan time or guaranteed command success.
+
+| Step | Screen and original copy direction | Ask | What the user gets | Rationale and evidence |
+|---|---|---|---|---|
+| 1 | **Choose connection path:** “Connect a TV to use the remote. Choose how you want to find it.” Offer only validated methods, with a help link. | Select discovery method. | Understands the necessary first job and can see the recovery route. | Brand picker p. 1 in `tvremote by.pdf`; search screens in `Tvremote.pdf` p. 1 and `remotetv.pdf` p. 1. `[INFERRED]` |
+| 2 | **Explain permission before OS prompt:** describe what local-network access enables and what remains unavailable if declined. | Local-network permission only if selected method requires it. | An informed choice tied to finding this TV. | iMote p. 2 asks to find devices on local networks and explains Wi-Fi discovery; other sources display same-Wi-Fi instructions (`Tvremote.pdf` p. 1; `remoteControl.pdf` p. 5). Validate platform necessity. `[INFERRED]` |
+| 3 | **Find or recover:** show device names as found; if none, state “No TV found yet” with retry, connection checklist, manual route and exit. | Choose a detected TV or retry/help. | A visible state rather than an indefinite spinner. | Search plus help appears in iMote p. 5 and Remotetv p. 1; Kraftwerk shows a repeated search at pp. 1, 7. `[INFERRED]` |
+| 4 | **Pair:** provide one instruction at a time for any on-TV prompt/code; identify the selected TV and allow back/retry. | Confirm/code only where the protocol requires it. | Understands which TV is being paired and can recover from mismatch. | iMote's two pairing cards pp. 3–4 are the clearest pairing explanation; screenshots do not establish protocol success. `[INFERRED]` |
+| 5 | **Test one command:** show power plus arrows/OK and a connection indicator; after a tap, request “Did the TV respond?” or detect response only if supported. | Send one reversible test action and confirm status. | Evidence that the remote controls the selected device; if no response, an actionable error. | Remote controls are visible in `Tvremote.pdf` p. 3, `remote.pdf` p. 1 and iMote p. 6; none proves a command. `[INFERRED]` |
+| 6 | **Offer optional modes after success:** keyboard/touchpad, volume/home and service shortcuts; put cast in a separate destination. | Choose a mode; defer plan choice until after the successful test. | A useful remote before learning peripheral concepts. | Keyboard/touchpad previews in Kraftwerk pp. 2–5 and Remotetv p. 9; cast/tool surfaces in `Tvremote.pdf` p. 7. `[INFERRED]` |
+
+## Up to three differentiated proposals
+
+1. **A connection state users can trust.** Keep a named device and explicit states such as searching, found, paired, unavailable and reconnecting; show why the state changed only when the app can verify it. Evidence: `tvremote by.pdf` p. 5 “Device found,” p. 7 remote, and p. 9 “No TV Found”; other captures stay searching or disconnected (`Tvremote.pdf` p. 1; Kraftwerk pp. 1, 7; `remote.pdf` pp. 1–2). Tradeoff: state detection and reconnect handling may be technically hard and differ by TV platform. Falsifier: a multi-device prototype cannot reliably detect connection status, or users find the additional status language more confusing than a simple reconnect control. `[INFERRED]`
+2. **One command before monetization.** Let the user try one basic, reversible control after pairing, then explain which advanced features are paid. Evidence: offers precede any proven command in `Tvremote.pdf` p. 2, Kraftwerk p. 6, and `tvremoteapp.pdf` pp. 5–7; `remote.pdf` promotes premium while disconnected. Tradeoff: free-control economics and abuse prevention require testing. Falsifier: product/engineering constraints make a free control unsafe or impossible, or an experiment shows an honest post-pair offer harms outcomes without improving successful connections. `[INFERRED]`
+3. **A task-focused remote with discoverable input modes.** Keep arrows/OK, power, volume, home and playback primary; expose keyboard/touchpad when typing/navigation is relevant; separate media casting from the remote. Evidence: keyboard/touchpad are explicitly promoted in Kraftwerk pp. 2–5 and Remotetv p. 9; broad tool bundles appear in `Tvremote.pdf` p. 7 and later settings/cast screens. Tradeoff: fewer visible tiles may reduce feature discovery. Falsifier: usability tests show people cannot find secondary features without top-level tiles or repeatedly use casting as their first job. `[INFERRED]`
+
+## Concepts to refuse in the connection path
+
+| Concept | Screenshot evidence | Why defer or refuse |
+|---|---|---|
+| Browser, chatbot, IPTV, scanner and unrelated toolbox links beside first pairing | `Tvremote.pdf` pp. 7–9; other cast/settings bundles | They do not establish TV connection or a working remote. Keep them outside first-use unless a validated user job supports them. `[INFERRED]` |
+| Repeated trial/sale screens before a confirmed control action | `Tvremote.pdf` pp. 2, 4–5; `tvremote by.pdf` pp. 5–8; `remote.pdf` pp. 3–6 | Repetition adds price decisions while connection outcome remains unclear in these captures. Offer after one command and state exactly what is included. `[INFERRED]` |
+| Compatibility claims broader than the tested set | “all major TV brands” language on `tvremote by.pdf` p. 5; compatibility card on Kraftwerk pp. 2–5 | Screens cannot establish successful coverage. Publish only a tested model/protocol list and update it from support data. `[INFERRED]` |
+| Trial toggle as the substitute for a clear price | `remoteControl.pdf` p. 7; `remotetv.pdf` p. 9; `tvremote by.pdf` p. 5 | A still shows a toggle position, not a live default or renewal details for every selection. State total, cadence and renewal beside the selected plan. `[INFERRED]` |
+
+## Prioritized open questions and decision impact
+
+1. **Which pairing mechanisms are actually supported?** Test representative Samsung, LG, Roku, Fire TV and other named models across the network conditions we plan to support. Record permission requirements, discovery, pairing, command response and recovery. This determines the first screen and which compatibility claims we may make.
+2. **Can the app detect real connection and command response?** Use screen recordings plus device logs for background/resume, TV sleep, Wi-Fi changes and command timeouts. This decides whether we can show paired/failed states or need explicit user confirmation.
+3. **Which basic controls work across devices?** Test power, arrows/OK, volume, home and playback separately; remote buttons in a screenshot do not prove protocol support. This determines table stakes and the first command test.
+4. **Does one free command before the offer help or hurt?** Compare paired users who can test a command with a post-pair offer, measuring pairing completion, response success, offer comprehension and paid conversion. This can reverse the paywall recommendation.
+5. **Which extra modes have repeat value?** Instrument keyboard, touchpad, shortcuts, casting and mirror separately; conduct short usability sessions. This sets navigation architecture and any paid bundle.
+6. **What are the real subscription states?** Fresh-install hands-on checks should capture close behavior, plan preselection, trial renewal, Apple purchase sheet, restore and cancellation path. Stills cannot establish hard gates, delays or completed payment.
+7. **What varies by market and version?** Re-capture offers on the intended storefront and version only when pricing decisions are in scope. This pass cannot establish US price, current terms or demand.
+
+## What would change the call / next stage
+
+If device/command telemetry cannot establish success, the product should use an explicit user-confirmed test state and avoid claiming auto-detected connectivity. If users consistently arrive to cast media rather than control a TV, the core flow may need a separate casting-first entry point; current tile presence is not evidence of demand. If free test commands are technically or economically unavailable, make the reason and scope clear before the paywall, and test whether users can assess compatibility without paying. If selected devices need materially different pairing steps, the flow should branch on validated device capability rather than promise one universal sequence.
+
+**Next stage:** prototype discovery, recovery and one command across a small but explicitly documented device matrix; capture working and failure paths, including TV sleep/network changes. Follow with pricing/offer usability testing. Review mining and market research would be separate stages; no market or review claims are made here.
+
+## Verification and source map
+
+**Verification corrections:** app offers above were checked against full-size page renders. `remoteControl.pdf` p. 7 is ₹0 3-Day Full Access selected, yearly ₹76.90/week, plus a separate ₹999/week auto-renewable line. `remote.pdf` p. 4 is ₹1,999/year (₹38.33/week display) or three-day trial then ₹499/week. `remotetv.pdf` p. 6 shows ₹2,499/year and 3-day trial then ₹699/week. Kraftwerk p. 6 shows ₹3,499/year and ₹299/week, both with 3-day trials. `tvremote by.pdf` p. 5 shows ₹9,900/year / ₹190.38 weekly equivalent and ₹999/week with trial toggle off in that still; p. 9 says “No TV Found” after p. 5's “Device found.” `tvremoteapp.pdf` p. 6 is an Apple purchase sheet and p. 7 separately lists weekly, monthly and annual options. “Starting on 6 Oct 2026” is text on its p. 6 screen, not screenshot capture date. All app/page references map to original screenshots; stills do not establish taps, timing, hard gates, payment or command success.
+
+All pages in the seven screenshot PDFs were visually inspected; originals are in `kushagra screenshots/Universal TV Remote/screenshots/`. `TV_Remote_App_Analysis.pdf` was not used as evidence.
+
+| Teardown | Exact screenshot PDF | Pages |
 |---|---|---:|
 | [[members/kushagra/apps/universal-tv-remote/tvremote]] | `Tvremote.pdf` | 9 |
 | [[members/kushagra/apps/universal-tv-remote/remote]] | `remote.pdf` | 6 |
@@ -65,4 +117,4 @@ All sources are in `kushagra screenshots/Universal TV Remote/screenshots/`; all 
 | [[members/kushagra/apps/universal-tv-remote/tvremote-by]] | `tvremote by.pdf` | 14 |
 | [[members/kushagra/apps/universal-tv-remote/tvremoteapp]] | `tvremoteapp.pdf` | 7 |
 
-**Count check:** 9 + 6 + 14 + 9 + 7 + 14 + 7 = 66 screenshot pages across 7 apps. [OBSERVED]
+**Count check:** 9 + 6 + 14 + 9 + 7 + 14 + 7 = 66 pages across 7 app PDFs. `[OBSERVED]`
