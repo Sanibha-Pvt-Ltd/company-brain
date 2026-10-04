@@ -24,17 +24,17 @@ sources: [screens:14]
 | 6 | Trial timeline page: “3 Days Free No Risk,” then renewal. | Start free trial. | Shows today access, day-2 reminder, day-3 trial ends. | `“3 Days Free No Risk.”` | renewal disclosure | [OBSERVED] Screenshot lists ₹999/week after the trial. | `tvremote by.pdf`, p. 6 |
 | 7 | Remote control home with large directional pad and shortcuts. | Tap a remote control. | Provides a usable-looking control surface; command success is not demonstrated. | `“TV Remote.”` | core control | [UNKNOWN] A still does not prove the TV responded. | `tvremote by.pdf`, p. 7 |
 | 8 | “Mega Sale” graphic advertises 95% off. | Continue to discounted plan. | A limited-time discount claim. | `“Mega Sale.”` | discount conversion | [OBSERVED] Text says “Only ₹599/week”; no original/reference price is legible enough to validate the 95% claim. | `tvremote by.pdf`, p. 8 |
-| 9 | Empty remote state says “No TV Found.” | Connect TV. | Explicit failure/recovery state. | `“No TV Found.”` | pairing recovery | [OBSERVED] Conflicts with p. 5 “Device found”; connection status across capture is inconsistent. | `tvremote by.pdf`, p. 9 |
+| 9 | Empty remote state says “No TV Found.” | Connect TV. | Explicit failure/recovery state. | `“No TV Found.”` | pairing recovery | [OBSERVED] The same PDF includes “Device found” p. 5; whether these pages show a continuous state change, separate captures or a disconnect is [UNKNOWN]. | `tvremote by.pdf`, p. 9 |
 | 10 | Second remote home capture with remote pad and brand shortcuts. | Tap remote controls. | Controls are visible again after the no-TV state. | `“TV Remote.”` | core control | [UNKNOWN] No command outcome is captured. | `tvremote by.pdf`, p. 10 |
 | 11–14 | Cast/mirroring tiles, premium/settings and support screens. | Choose screen mirroring/cast or settings; upgrade/feedback links visible. | Lists casting, tools and app settings. | `“Screen Mirroring.”` | feature discovery | [INFERRED] Adjacent features add navigation before connection reliability is established. | `tvremote by.pdf`, p. 11–14 |
 
 ## Eight screen lenses
 
-1. **First win.** P. 5 claims “Device found”; p. 7 shows a remote; p. 9 then says “No TV Found.” [OBSERVED] This contradiction means successful pairing/command is [UNKNOWN].
+1. **First win.** P. 5 claims “Device found”; p. 7 shows a remote; p. 9 then says “No TV Found.” [OBSERVED] These different states leave continuity unclear; successful pairing/command is [UNKNOWN].
 2. **Ask ledger.** Brand choice p. 1; wait p. 2; feedback p. 3–4; free-trial/plan at p. 5–6; continue to remote p. 7; sale p. 8; another connect ask p. 9. Exact taps are [UNKNOWN].
 3. **Abstractions.** The brand picker is concrete; casting, mirroring, tools and premium bundles are additional concepts (pp. 1, 11–14). [INFERRED] Keep them secondary to pairing.
-4. **Feel-good moments.** “Device found” p. 5 and the remote surface p. 7 look like progress. [OBSERVED] P. 9 undermines the success claim by showing no TV.
-5. **Feel-bad moments.** Two feedback screens p. 3–4 are followed by a trial and sale flow; the device status changes from “found” to “No TV Found” (p. 9). [OBSERVED] This is inconsistency; no hidden close is evidenced.
+4. **Feel-good moments.** “Device found” p. 5 and the remote surface p. 7 look like progress. [OBSERVED] P. 9 shows “No TV Found”; the relationship to p. 5 is unknown.
+5. **Feel-bad moments.** Two feedback screens p. 3–4 are followed by a trial and sale flow; the PDF contains “Device found” (p. 5) and “No TV Found” (p. 9). [OBSERVED] Their relationship is unresolved; no hidden close is evidenced.
 6. **Paywall.** P. 5 lists ₹9,900/year (₹190.38/week displayed as equivalent) and ₹999/week; p. 6 says 3-day trial then ₹999/week; p. 8 advertises “95% off” and ₹599/week. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Offers differ within one capture; verify current offer and terms.
 7. **Repeat cost.** Remote controls appear p. 7 and p. 10, but no connected TV or successful action is shown. [UNKNOWN] Repeat taps.
 8. **Feature map.** [INFERRED] Table stakes: brand picker, reliable paired state, power/navigation. Differentiator: keyboard/touchpad promise across the TV-remote family. Bloat: rating prompts, sale and cast bundle before stable pairing.

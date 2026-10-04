@@ -19,6 +19,10 @@ Three GPT Luna agents prepared category teardowns across five categories from th
 
 The totals count app screenshot PDFs only: Baby tracker 10/299, Sleep tracker 8/279, TV remote 7/66, Fax 8/121, Focus apps 7/252. Counts were verified directly against each original PDF’s page metadata; category-analysis PDFs were not included.
 
+## Synthesis structure
+
+Each category synthesis is a **draft available for review, not an approved product decision**. The summaries compare visible cross-app patterns and exceptions, assess working hypotheses proposed in the synthesis against the supplied captures, and lay out a detailed proposed first-five-minutes flow. Each also proposes up to three differentiators with evidence, tradeoffs and falsifiers; identifies concepts to refuse in the core path; prioritizes open questions by the product decision they affect; and records verification/source references. Recommendations are marked as inference. This structure supports screenshot-based product discussion; it does not establish user behavior, market demand, feature functionality or business outcomes.
+
 ## Scope and limits
 
 This is screenshot-only interface analysis. The notes describe visible UI and distinguish recommendations as inference. They do not establish actual tap counts, elapsed time, whether displayed events were saved, conditional onboarding paths, dismissed-paywall behavior, purchase/trial success, or reminder/sync functionality. Displayed currency does not independently identify a storefront; US pricing is unverified. Dates shown in notes are analysis/update dates, not verified capture dates. No external market, listing, or review research was used.
