@@ -11,7 +11,7 @@ sources: [screens:53]
 
 # RISE — screenshot teardown
 
-**Scope.** Screens-only review of team capture `Rise_sleeptracker.pdf` (PDF created 2026-10-03; 53 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
+**Scope.** Screens-only review of team capture `Rise_sleeptracker.pdf` (PDF metadata creation date 2026-10-03; screenshot capture date unknown; 53 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
 
 ## Per-screen table
 
@@ -35,7 +35,7 @@ sources: [screens:53]
 3. **Abstractions.** “Sleep need,” “sleep debt,” and “Energy Schedule” dominate p. 35–46. [OBSERVED] [INFERRED] A plain sleep-hours result could precede these derived ideas.
 4. **Feel-good moments.** Profile completion and explanatory energy-curve screens (p. 29–46) make the result feel personalized. [OBSERVED] Whether the output reflects a real night is [UNKNOWN].
 5. **Feel-bad moments.** On p. 2 the benefit list includes “Reduced anxiety and depression”; this is health-claim framing before setup. [OBSERVED] The capture cannot show coercion or delayed exits.
-6. **Paywall.** Offer p. 50: 7 days free then ₹6,900/year (also says ₹575/month); monthly option ₹99.00. [OBSERVED] India storefront; source PDF metadata creation date 2026-10-03; screenshot capture date unknown. Apple sheet p. 52; no visible close control on p. 50, but hardness/exit delay is [UNKNOWN].
+6. **Paywall.** Offer p. 50: 7 days free then ₹6,900/year (also says ₹575/month); monthly option ₹99.00. [OBSERVED] INR is displayed; US pricing is unknown. The PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Apple sheet p. 52; no visible close control on p. 50, but hardness/exit delay is [UNKNOWN].
 7. **Repeat cost.** No repeat-session path or real nightly report. [UNKNOWN] P. 22–49 describe schedule, energy and features; exact repeat action count is not shown.
 8. **Feature map.** [INFERRED] Table stakes: personalized bedtime guidance tied to measured sleep. Differentiator: energy schedule (p. 41–46). Bloat risk: extensive demographics, goals and strategy categories before any recorded sleep.
 
@@ -49,4 +49,4 @@ sources: [screens:53]
 
 - [UNKNOWN] Exact launch-to-benefit taps/time, whether PDF pages form one continuous path, soft versus hard gating, close delays, trial defaults in action, checkout and successful result.
 - [UNKNOWN] Repeat-session taps, retention, notification behavior, US storefront prices, listing/review evidence and App Store ID.
-- **Checked:** all 53 pages of `Rise_sleeptracker.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and the India storefront shown in the capture; prices are not US estimates.
+- **Checked:** all 53 pages of `Rise_sleeptracker.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and are displayed in INR; US pricing is unknown.

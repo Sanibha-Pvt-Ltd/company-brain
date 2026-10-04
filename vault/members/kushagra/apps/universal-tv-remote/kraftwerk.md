@@ -11,7 +11,7 @@ sources: [screens:7]
 
 # TV Remote by Kraftwerk — screenshot teardown
 
-**Scope.** Screens-only review of team capture `tvremote by kraftwerk.pdf` (PDF created 2026-10-03; 7 pages). Pages are grouped only where adjacent screenshots show the same flow; every page is indexed. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews, App Store ID and US pricing are unavailable. [UNKNOWN]
+**Scope.** Screens-only review of team capture `tvremote by kraftwerk.pdf` (PDF metadata creation date 2026-10-03; screenshot capture date unknown; 7 pages). Pages are grouped only where adjacent screenshots show the same flow; every page is indexed. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews, App Store ID and US pricing are unavailable. [UNKNOWN]
 
 ## Per-screen table
 
@@ -19,7 +19,7 @@ sources: [screens:7]
 |---:|---|---|---|---|---|---|---|
 | 1 | TV-device picker with “Searching for device…” and a blank result list. | Wait for scan; “Select device to connect.” | Explains discovery is in progress; no device result is shown. | `“Select a device to connect.”` | pairing progress | [INFERRED] Asking the user to wait without a result; capture cannot establish scan duration. | `tvremote by kraftwerk.pdf`, p. 1 |
 | 2–5 | Four onboarding cards explain remote basics, familiar buttons, touchpad/keyboard navigation, and device compatibility. | Continue through each card; Skip is visible. | Promises ease of control, app navigation and compatibility. | `“Your TV Remote, Now on iPhone.”` | feature preview | [INFERRED] Four promotional screens occur before the next captured device scan. | `tvremote by kraftwerk.pdf`, p. 2–5 |
-| 6 | Premium screen: touchpad benefit, annual plan selected, weekly alternative, 3-day trials on both plans. | Choose plan and Continue; close X and Restore Purchases visible. | Discloses an annual ₹3,499.00 plan or ₹299.00/week, each with a 3-day free trial. | `“Get Access to All Features.”` | trial conversion | [OBSERVED] India storefront. Trial toggle/default behavior cannot be established from the still. | `tvremote by kraftwerk.pdf`, p. 6 |
+| 6 | Premium screen: touchpad benefit, annual plan selected, weekly alternative, 3-day trials on both plans. | Choose plan and Continue; close X and Restore Purchases visible. | Discloses an annual ₹3,499.00 plan or ₹299.00/week, each with a 3-day free trial. | `“Get Access to All Features.”` | trial conversion | [OBSERVED] INR is displayed; US pricing is unknown. Trial toggle/default behavior cannot be established from the still. | `tvremote by kraftwerk.pdf`, p. 6 |
 | 7 | Return to “Select a device to connect” search state. | Wait/scan again. | The screenshot does not show a found TV or working command. | `“Select a device to connect.”` | pairing retry | [OBSERVED] The capture ends at search, so onboarding and offer did not establish connection. | `tvremote by kraftwerk.pdf`, p. 7 |
 
 ## Eight screen lenses
@@ -43,4 +43,4 @@ sources: [screens:7]
 
 - [UNKNOWN] Exact launch-to-command taps/time; stills do not prove page order is a tap path, successful pairing, command response, repeat usage, trial selection in action, checkout, or hidden/delayed close behavior.
 - [UNKNOWN] App Store ID, current US prices, listing/reviews, actual TV compatibility and whether all TV brands require the same local-network setup.
-- **Checked:** all 7 pages of `tvremote by kraftwerk.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown.
+- **Checked:** all 7 pages of `tvremote by kraftwerk.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are displayed in INR; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown.

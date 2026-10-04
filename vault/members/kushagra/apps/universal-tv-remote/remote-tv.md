@@ -11,7 +11,7 @@ sources: [screens:9]
 
 # Universal Remote Control — screenshot teardown
 
-**Scope.** Screens-only review of team capture `remotetv.pdf` (PDF created 2026-10-03; 9 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
+**Scope.** Screens-only review of team capture `remotetv.pdf` (PDF metadata creation date 2026-10-03; screenshot capture date unknown; 9 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
 
 ## Per-screen table
 
@@ -45,4 +45,4 @@ sources: [screens:9]
 
 - [UNKNOWN] Exact launch-to-benefit taps/time, whether PDF pages form one continuous path, soft versus hard gating, close delays, trial defaults in action, checkout and successful result.
 - [UNKNOWN] Repeat-session taps, retention, notification behavior, US storefront prices, listing/review evidence and App Store ID.
-- **Checked:** all 9 pages of `remotetv.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and the India storefront shown in the capture; prices are not US estimates.
+- **Checked:** all 9 pages of `remotetv.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and are displayed in INR; US pricing is unknown.

@@ -10,7 +10,7 @@ sources: [screenshots:12]
 
 # Fax by Municorn — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). The captures show an India locale (+91, ₹). The +91 number field and ₹ amounts suggest India localization; storefront is not independently verified. All claims refer only to the supplied screenshots.
+Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). The captures show a +91 number field and prices in ₹; storefront is not independently verified. All claims refer only to the supplied screenshots.
 
 ## Screen map
 

@@ -48,7 +48,7 @@ Source: `kushagra screenshots/FAX/screenshots/ifax.pdf` (17 pages). Captures dis
 ## Keep / Kill / Different
 
 - **Keep:** Trial renewal terms appear in the Apple sheet (p.2); broad import options (p.8); editable scan before send (p.9); login is not presented on first home screenshot (p.5).
-- **Kill:** Conflicting $0.00/₹ framing in an storefront not independently verified (p.1), duplicate paywalls and number-selection steps without clear differences (p.1–4, p.10–12), and early folder/template work (p.13, p.16–17).
+- **Kill:** Mixed “$0.00”/₹ framing on the same offer (p.1), duplicate paywalls and number-selection steps without clear differences (p.1–4, p.10–12), and early folder/template work (p.13, p.16–17).
 - **Different:** Show one consistent storefront currency and one plan for the user’s chosen task; let them prepare the fax first, then present a single price/trial with renewal in the same visual hierarchy. Defer folder and cover-page customization behind an optional action. [INFERRED]
 
 ## Verification and unknowns

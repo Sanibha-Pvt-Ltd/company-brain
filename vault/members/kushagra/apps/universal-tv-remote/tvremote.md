@@ -11,7 +11,7 @@ sources: [screens:9]
 
 # TV Remote (screenshot capture name unknown) — screenshot teardown
 
-**Scope.** Screens-only review of team capture `Tvremote.pdf` (PDF created 2026-10-03; 9 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
+**Scope.** Screens-only review of team capture `Tvremote.pdf` (PDF metadata creation date 2026-10-03; screenshot capture date unknown; 9 pages). Each page is covered by a screen-span row below; adjacent pages are grouped only when they belong to the same visible flow. Companion analysis PDF is secondary and was not used as evidence. Listing, reviews and App Store ID are unavailable. [UNKNOWN]
 
 ## Per-screen table
 
@@ -32,7 +32,7 @@ sources: [screens:9]
 3. **Abstractions.** Pairing, remote controls, channels, casting, IPTV, browser and chatbot all appear. [OBSERVED] [INFERRED] Pairing + basic buttons are necessary; the rest is a separate media toolbox.
 4. **Feel-good moments.** Familiar purple directional pad and branded app shortcuts p. 3 reduce learning. [OBSERVED] This does not prove an action worked.
 5. **Feel-bad moments.** Paywall screens repeat p. 2, 4, 5; empty disconnected state p. 6. [OBSERVED] Close X is visible p. 2; hard gating or delay is [UNKNOWN].
-6. **Paywall.** P. 2: 3-day trial then ₹699/week, yearly ₹1,799, lifetime ₹4,999. [OBSERVED] India storefront, capture 2026-10-03; no payment outcome.
+6. **Paywall.** P. 2: 3-day trial then ₹699/week, yearly ₹1,799, lifetime ₹4,999. [OBSERVED] INR is displayed; US pricing is unknown. Screenshot capture date is unknown; the PDF metadata creation date is 2026-10-03. No payment outcome is shown.
 7. **Repeat cost.** Core control surface p. 3; cast p. 7; repeated ad banner visible on app screens. [OBSERVED] Repeat taps/TV response [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: connect status + directional/power/volume/playback. Differentiator: channel shortcuts. Bloat: chatbot, browser/IPTV and repeated upsells.
 
@@ -46,4 +46,4 @@ sources: [screens:9]
 
 - [UNKNOWN] Exact launch-to-benefit taps/time, whether PDF pages form one continuous path, soft versus hard gating, close delays, trial defaults in action, checkout and successful result.
 - [UNKNOWN] Repeat-session taps, retention, notification behavior, US storefront prices, listing/review evidence and App Store ID.
-- **Checked:** all 9 pages of `Tvremote.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and the India storefront shown in the capture; prices are not US estimates.
+- **Checked:** all 9 pages of `Tvremote.pdf` were visually inspected from rendered contact sheets. High-resolution offer pages were separately checked when cited above. Every numeric offer reported in this note is tied to an individual screenshot page and are displayed in INR; US pricing is unknown.

@@ -10,7 +10,7 @@ sources: [screenshots:28]
 
 # Focus Friend — screens-only teardown
 
-Source: `kushagra screenshots/Focus_Apps/screenshots/focusfriendapp.pdf` (28 pages). This is a highly illustrated narrative and focus-timer experience; screenshots show no storefront price for Pro.
+Source: `kushagra screenshots/Focus_Apps/screenshots/focusfriendapp.pdf` (28 pages). This is a highly illustrated narrative and focus-timer experience; Pro prices are displayed in ₹, with storefront context unverified.
 
 ## Screen map
 
