@@ -30,7 +30,7 @@ Source: `kushagra screenshots/Focus_Apps/screenshots/focusfriendapp.pdf` (28 pag
 1. **First win:** Timer screen provides a first clear focus action (p.16–18); no successful session is visible in stats (p.20), which show 0 minutes and 0 sessions. Exact taps/outcome are [UNKNOWN].
 2. **Ask ledger:** notification prompt (p.1), story and bean naming (p.3–15), Pro narrative/purchase exposure (p.15, shop p.21), session setup (p.17), account credentials in settings (p.26), streak check-in p.28. The precise path is not proven; timer is accessible in the supplied captures without a signup form.
 3. **Abstractions:** bean narrative, room decorations, knitting/scarf, beans and socks currencies/rewards, Pro, deep-focus allow list, daily check-in/streaks (p.3–28). Character and scarf map directly to focus duration; separate currency/store/streak systems add concepts. [INFERRED]
-4. **Feel-good:** A cute focus companion and tangible knitted scarf reflect time spent (p.9–15); completion panel says “Great Work! 30 study mins +3” (p.6) with optional ad multiplier. The captured completion screen is evidence of UI, not a verified session in this run. [OBSERVED]
+4. **Feel-good:** A cute focus companion and tangible knitted scarf reflect time spent (p.9–15). The bean introduction “A BEAN? I like it!” (p.6) develops the character before the timer; it is not a session reward. [OBSERVED]
 5. **Feel-bad:** Notification request comes first (p.1); the bean says work “unravels” when user returns to phone (p.11–12), which could evoke guilt. The timer explicitly exposes cancellation (p.18) and no miss/broken-streak guilt is visible in the selected screenshots.
 6. **Paywall:** Focus Friend Pro shop (p.21) lists ₹399/month, ₹1,999/year, ₹3,999 lifetime; no trial copy on this screen. Close and Restore are visible. The paywall is tied to longer sessions, cosmetics and app allow list; whether features are gated elsewhere is [UNKNOWN]. US price is [UNKNOWN]; storefront is not independently verified.
 7. **Repeat cost:** Exact taps unknown. Timer defaults to 15 minutes and Start is visible (p.17). The visible completion reward (p.6) shows 30 study minutes, which is a different captured state; don’t assume exact default/completion consistency. Return hooks include room customization, daily check-in, rewards and focus stats (p.20–28).
@@ -38,10 +38,10 @@ Source: `kushagra screenshots/Focus_Apps/screenshots/focusfriendapp.pdf` (28 pag
 
 ## Keep / Kill / Different
 
-- **Keep:** Story makes distraction consequences legible in the bean’s own terms (p.11–15); timer offers clear Start/Cancel and optional blocking (p.17–18); reward screen shows minutes and beans (p.6).
+- **Keep:** Story makes distraction consequences legible in the bean’s own terms (p.11–15); timer offers clear Start/Cancel and optional blocking (p.17–18). The p.6 bean introduction gives the character a memorable voice before the timer.
 - **Kill:** Do not ask for notifications before explaining their value (p.1). Avoid guilt copy around lost stitches (p.11–12) as a daily penalty; do not introduce store currencies before first focus.
 - **Different:** Put a no-account, no-notification timer up front, then let users opt into the bean story/rewards. Celebrate attended focus time without implying that leaving the app or missing a day harmed the companion. [INFERRED]
 
 ## Verification and unknowns
 
-Reviewed all 28 pages; enlarged timer, shop, reward, and settings captures. Confirmed 15:00 timer setup, p.21 ₹ plan amounts (storefront unverified), and p.6 reward text. The 30-minute completion page and 15-minute timer are distinct screenshots and not reconciled. US prices, paid gating, live reward behavior, exact taps, and session success are [UNKNOWN].
+Reviewed all 28 pages; enlarged timer, shop, and settings captures. Confirmed 15:00 timer setup, p.21 ₹ plan amounts (storefront unverified), and that p.6 is the bean introduction. Study Bunny’s separate `studybunny.pdf` p.6 contains the “Great Work! 30 study mins +3” screen; it does not belong to this app. US prices, paid gating, live reward behavior, exact taps, and session success are [UNKNOWN].
