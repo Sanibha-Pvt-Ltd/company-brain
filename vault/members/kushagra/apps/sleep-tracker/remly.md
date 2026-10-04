@@ -31,13 +31,13 @@ sources: [screens:13]
 3. **Abstractions.** “Sleep Toolkit,” bedtime plan, “Dreamboat,” and “Focus areas” are shown on p. 2–7, 13. [OBSERVED] [INFERRED] These are secondary to setting a bedtime and recording one night.
 4. **Feel-good moments.** Nightly plan checklist p. 4 and a sleep tip p. 5 imply small actions. [OBSERVED] A completed action or sleep result is not shown.
 5. **Feel-bad moments.** ATT prompt opens before the app’s purpose is explained (p. 1). [OBSERVED] Seven-night countdown framing appears before any result (p. 2); no guilt language can be confirmed.
-6. **Paywall.** P. 13: 7 days free, then ₹999 on Oct. 10, 2026; auto-renewal/cancel-anytime visible. Trial is visibly enabled on this screen. [OBSERVED] India storefront, captured 2026-10-03. Whether enabled by default in flow is [UNKNOWN].
+6. **Paywall.** P. 13: 7 days free, then ₹999 on Oct. 10, 2026; auto-renewal/cancel-anytime visible. Trial is visibly enabled on this screen. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Whether enabled by default in flow is [UNKNOWN].
 7. **Repeat cost.** Home offers a central track action (p. 2–4); 7 nights are framed before score. [OBSERVED] Exact action count and post-night report are not captured.
 8. **Feature map.** [INFERRED] Table stakes: one-tap start, bedtime/reminder and morning summary. Differentiator: “Tonight’s Plan” checklist. Bloat risk: dream analysis and focus-area taxonomy before proven recording value.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the Tonight’s Plan checklist and single central Track action (pp. 2–4).
+- **Keep.** [INFERRED] Keep the Tonight’s Plan checklist and single central Track action (pp. 2–4).
 - **Kill.** Remove the ATT prompt before the product introduction and the seven-night countdown before any measured report (pp. 1–2). [INFERRED]
 - **Different.** Explain recording, ask permissions only when required, and show the first night result before the Remly Pro trial. [INFERRED]
 

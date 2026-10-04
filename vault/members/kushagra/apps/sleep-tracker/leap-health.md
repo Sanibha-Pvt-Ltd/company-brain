@@ -33,13 +33,13 @@ sources: [screens:54]
 3. **Abstractions.** Sleep score, sleep stages, sleep apnea risk, dream analysis, activity and sleep factors all appear. [OBSERVED] [INFERRED] The score/report bundle should be layered after raw sleep duration and recording.
 4. **Feel-good moments.** Journal reports and “Well done! You had a good rest.” p. 34 provide a concrete positive feedback loop. [OBSERVED] Provenance of score 89 is [UNKNOWN].
 5. **Feel-bad moments.** “100+ Risks Analyzed” and disease-risk framing p. 13 arrive before tracking. [OBSERVED] [INFERRED] This may overstate what a consumer sleep recorder can diagnose.
-6. **Paywall.** Premium carousel p. 15–20 advertises a 7-day trial then ₹3,599/year; Apple purchase modal p. 21. [OBSERVED] India storefront, captured 2026-10-03. Confirm terms/close behavior in hands-on test.
+6. **Paywall.** Premium carousel p. 15–20 advertises a 7-day trial then ₹3,599/year; Apple purchase modal p. 21. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Confirm terms/close behavior in hands-on test.
 7. **Repeat cost.** P. 22/28 show “Start Sleep Tracking”; p. 34–40 show report screens. [OBSERVED] Repeat taps, overnight recording and report-generation path are [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: start recording and show a morning sleep summary. Differentiator: a trend journal and editable sleep factors (p. 34–43). Bloat risk: health-risk carousel plus sounds, meditation, dreams and exercise modules before one verified report.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the journal score/trend screens and editable sleep factors (pp. 34–43), with measurement provenance.
+- **Keep.** [INFERRED] Keep the journal score/trend screens and editable sleep factors (pp. 34–43), with measurement provenance.
 - **Kill.** Remove the “100+ Risks Analyzed” claim before a recording and defer unrelated content modules (pp. 13, 31–40). [INFERRED]
 - **Different.** Start one recording, then present a sourced overnight timeline and only then optional risk/coaching content. [INFERRED]
 

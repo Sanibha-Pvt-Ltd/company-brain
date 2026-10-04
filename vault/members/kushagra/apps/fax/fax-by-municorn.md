@@ -10,7 +10,7 @@ sources: [screenshots:12]
 
 # Fax by Municorn — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). The captures show an India locale (+91, ₹). Prices below are therefore observed India storefront amounts, not US prices. All claims refer only to the supplied screenshots.
+Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). The captures show an India locale (+91, ₹). The +91 number field and ₹ amounts suggest India localization; storefront is not independently verified. All claims refer only to the supplied screenshots.
 
 ## Screen map
 
@@ -22,11 +22,11 @@ Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). T
 | 4 | Camera | Camera interface behind permission dialog | “Allow ‘Fax’ to access your camera”; explanation says camera takes pictures of documents to be sent. | Permission is relevant to scan path; timing before any shown document. [OBSERVED] p.4 |
 | 5 | Scan | Live camera image with Retake / Keep | Keep or retake capture; no textual benefit claim. | No success confirmation or page quality output shown. [OBSERVED] p.5 |
 | 6 | Compose | Recipient still empty; captured Picture1.jpg appears as one page; Add image or document | Send remains disabled while recipient is blank. | A prepared page is visible before the number is entered. [OBSERVED] p.6 |
-| 7 | Subscription | “Send and Receive Unlimited Faxes / All over the world”; weekly, monthly, yearly options; Subscribe | ₹949/week, ₹2,799/month (₹632.03/week), ₹23,900/year (₹458.36/week; “SAVE 52%”). “Over 200,000 people rated us / Our average rating is 4.8.” | Paywall has Restore, but no visible close control in this capture. No trial terms shown. Price is India storefront. [OBSERVED] p.7 |
+| 7 | Subscription | “Send and Receive Unlimited Faxes / All over the world”; weekly, monthly, yearly options; Subscribe | ₹949/week, ₹2,799/month (₹632.03/week), ₹23,900/year (₹458.36/week; “SAVE 52%”). “Over 200,000 people rated us / Our average rating is 4.8.” | Paywall has Restore, but no visible close control in this capture. No trial terms shown. Price is displayed in ₹; storefront is not independently verified. [OBSERVED] p.7 |
 | 8 | Compose | Number populated (+91 8858502558), one page attached, Send active | Tap Send is implied by button label; no delivery outcome shown. | Screenshot order places this after paywall, but does not prove the transition or whether purchase was required. [OBSERVED] p.8 |
 | 9 | Sent | Empty state “No sent faxes” | Search field; tab navigation. | Does not confirm a sent fax. [OBSERVED] p.9 |
 | 10 | Number selection | “Choose area code”; US +1 selector, search and city list | Choose/search an area code; “Random phone number.” | Number selection adds a separate task for receiving. [OBSERVED] p.10 |
-| 11 | Subscription | Same subscription options and India prices as p.7 | Subscribe; Restore. | Appears again in supplied sequence; trigger is unknown. [OBSERVED] p.11 |
+| 11 | Subscription | Same subscription options and prices displayed in ₹ as p.7 | Subscribe; Restore. | Appears again in supplied sequence; trigger is unknown. [OBSERVED] p.11 |
 | 12 | Info/settings | Buy Subscription, FAQ, online faxing for business, support, privacy, terms, delete account | Purchase is one of several settings actions. | No repeat-send shortcut evidenced. [OBSERVED] p.12 |
 
 ## Eight lens dimensions
@@ -36,7 +36,7 @@ Source: `kushagra screenshots/FAX/screenshots/Fax by municorn.pdf` (12 pages). T
 3. **Abstractions:** Recipient number, optional cover page, sending versus receiving, area code/virtual number, and subscription plans (p.3, p.7, p.10). Sending a document requires recipient and document; separate receiving-number purchase is a product boundary, not an obvious prerequisite to sending. [INFERRED]
 4. **Feel-good:** The page preview in compose (p.6) gives concrete evidence that a document is prepared. The 4.8 average rating / 200,000 raters is social proof on the paywall, not user progress. [OBSERVED]/[INFERRED]
 5. **Feel-bad:** The prompt stack asks privacy, tracking, and camera access before a completed fax is evidenced (p.1–4). The paywall has no visible close button in p.7/p.11; whether it is hard or dismissible cannot be established. Exact copy “Send and Receive Unlimited Faxes” suggests broad value while only the screen supports a subscription ask. [OBSERVED]
-6. **Paywall:** Subscription screen appears between prepared capture and populated send form in the supplied page order (p.6–8); causality and whether access is blocked are [UNKNOWN]. India prices only. Weekly is selected in p.7; annual is marked “SAVE 52%.” No trial or downsell is visible.
+6. **Paywall:** Subscription screen appears between prepared capture and populated send form in the supplied page order (p.6–8); causality and whether access is blocked are [UNKNOWN]. US prices are [UNKNOWN]; storefront is not independently verified. Weekly is selected in p.7; annual is marked “SAVE 52%.” No trial or downsell is visible.
 7. **Repeat cost:** [UNKNOWN]. Screens show New Fax, Sent, Inbox, and Info tabs (p.9, p.12), but no successful first send or repeat flow. Capture a completed send and return-send path to count taps.
 8. **Feature map:** Table stakes: recipient, document attachment/scanning, cover page, send status/history. Differentiator candidate: receiving number and area-code selection. Bloat/cost candidate: account-area upsell and tracking consent before demonstrated value. This classification is [INFERRED] from p.1–12.
 

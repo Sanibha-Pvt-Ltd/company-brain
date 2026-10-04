@@ -10,7 +10,7 @@ sources: [screenshots:16]
 
 # Tinyfax — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/Tinyfax.pdf` (16 pages). Prices shown are in ₹ and use an India locale; US prices are [UNKNOWN].
+Source: `kushagra screenshots/FAX/screenshots/Tinyfax.pdf` (16 pages). Prices are shown in ₹; storefront is not independently verified and US prices are [UNKNOWN].
 
 ## Screen map
 
@@ -24,14 +24,14 @@ Source: `kushagra screenshots/FAX/screenshots/Tinyfax.pdf` (16 pages). Prices sh
 | 6 | Notifications | “Stay Updated”; says without push the user may miss key updates; Allow Notifications / Later | Push permission. | Fear-of-missing copy is stronger than the screenshot evidence of benefit; Later visible. [OBSERVED] |
 | 7 | Compose | Blank recipient/document; Add image or document | Choose document. | No benefit yet. [OBSERVED] |
 | 8 | Inbox | “Get my fax number”; plan says ₹999/month | Buy/obtain number. | Number acquisition is distinct from receiving inbox. [OBSERVED] |
-| 9 | Send plan | Send selected; weekly ₹999, monthly ₹2,499, yearly ₹19,900; cancel anytime | Continue; selected monthly. | Unlimited, HIPAA compliant, delivery updates claims; annual weekly equivalent shown. India prices. [OBSERVED] |
+| 9 | Send plan | Send selected; weekly ₹999, monthly ₹2,499, yearly ₹19,900; cancel anytime | Continue; selected monthly. | Unlimited, HIPAA compliant, delivery updates claims; annual weekly equivalent shown. Prices are displayed in ₹; storefront is not independently verified. [OBSERVED] |
 | 10 | Inbox | “Get my fax number”; own fax number / unlimited pages checkmarks; Get my fax number ₹999/month | Obtain number. | Paid receiving number explicitly framed. [OBSERVED] |
 | 11 | Scan capture | Camera with Off / Single options and shutter | Capture page. | Camera access prompt is not in this set. [OBSERVED] |
 | 12 | Scan editor | “Scanned Documents”; “Not clear enough? Try TinyScan.” Cancel / Save; crop tools | Save or rescan; upsell cross-promotion. | Scan page is inspectable; clarity warning is helpful. [OBSERVED] |
 | 13 | Info | Sign up or sign in; sender info, iCloud, notifications, Face ID | Optional account and settings. | No evidence that account is mandatory. [OBSERVED] |
 | 14 | Camera capture | Captured keyboard photo; cancel / shutter | Capture another page | Preview in capture flow. [OBSERVED] |
 | 15 | Scan editor | Processed document preview, page 1/1, Cancel / Save | Save scan | A prepared one-page artifact; no send result. [OBSERVED] |
-| 16 | Send/receive plans | Separate toggle; send weekly ₹499/monthly ₹1,499/yearly ₹12,900; receive weekly ₹999/monthly ₹2,499/yearly ₹19,900; claims for HIPAA, delivery updates, number | Choose plan / Continue | Different send and receive tiers. India storefront. [OBSERVED] |
+| 16 | Send/receive plans | Separate toggle; send weekly ₹499/monthly ₹1,499/yearly ₹12,900; receive weekly ₹999/monthly ₹2,499/yearly ₹19,900; claims for HIPAA, delivery updates, number | Choose plan / Continue | Different send and receive tiers. ₹ is displayed; storefront is not independently verified. [OBSERVED] |
 
 ## Eight lens dimensions
 

@@ -9,7 +9,7 @@ sources: [screenshots:30]
 ---
 # Pebbi — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/pebbi_app.pdf`, 30 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
+Source: `kushagra screenshots/Baby tracker/screenshots/pebbi_app.pdf`, 30 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Prices are displayed in INR (₹); the storefront is not independently verified, and US pricing is unknown. The `updated` date is the analysis date; screenshot capture dates were not verified.
 
 ## Per-screen table
 

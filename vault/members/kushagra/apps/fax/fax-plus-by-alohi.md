@@ -10,7 +10,7 @@ sources: [screenshots:17]
 
 # Fax.Plus by Alohi — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/faxplus by alohi.pdf` (17 pages). Currency and country selector indicate an India capture with US number examples. INR amounts below are India storefront pricing only.
+Source: `kushagra screenshots/FAX/screenshots/faxplus by alohi.pdf` (17 pages). Screens show an India country selector and US-number examples. Amounts are displayed in ₹; storefront is not independently verified.
 
 ## Screen map
 
@@ -53,4 +53,4 @@ Source: `kushagra screenshots/FAX/screenshots/faxplus by alohi.pdf` (17 pages). 
 
 ## Verification and unknowns
 
-Reviewed all 17 pages and full-size plan/number screens p.2–9. Confirmed ₹1,999/month Premium, ₹17,900 annual detail, ₹3,499 and ₹9,000 monthly options, and India-number backorder wording. US pricing, plan gating, completed send, and repeat taps are [UNKNOWN].
+Reviewed all 17 pages and full-size plan/number screens p.2–9. Confirmed ₹1,999/month Premium, ₹17,900 annual detail, ₹3,499 and ₹9,000 monthly options, and the displayed India-number backorder wording. US pricing, plan gating, completed send, and repeat taps are [UNKNOWN].

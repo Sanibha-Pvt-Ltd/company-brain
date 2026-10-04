@@ -33,13 +33,13 @@ sources: [screens:49]
 3. **Abstractions.** “Sleep Wellness Score,” risks, sleep debt, sleep stages, sleep score and program appear p. 10–22 and p. 34–46. [OBSERVED] [INFERRED] A simple recording and measured duration can precede score/health framing.
 4. **Feel-good moments.** Score and personalized action plan cards p. 17–18 look like a tailored payoff. [OBSERVED] The screenshot does not reveal whether personal sleep data underlies them.
 5. **Feel-bad moments.** Risk presentation and a “Try Your Luck!” offer/game appear p. 10–11 and p. 27–28. [OBSERVED] [INFERRED] Health-risk framing and chance-based discounts may distract from sleep tracking.
-6. **Paywall.** P. 23 shows ₹124.91/month (₹1,499/year) highlighted, plus ₹1,499/month; p. 25 shows one-time offer ₹243.25 with a countdown; Apple sheets p. 24 and 26. [OBSERVED] India storefront, captured 2026-10-03. Do not infer delay/hard gate from stills.
+6. **Paywall.** P. 23 shows ₹124.91/month (₹1,499/year) highlighted, plus ₹1,499/month; p. 25 shows one-time offer ₹243.25 with a countdown; Apple sheets p. 24 and 26. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Do not infer delay/hard gate from stills.
 7. **Repeat cost.** Pages 29–49 show a sleep-home, sound library, journal, reports, and tracking instructions. [OBSERVED] Actual tracking success and repeat taps are [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: record sleep and make the morning report legible. Differentiator: journal, soundscapes and sleep-factor coaching. Bloat risk: multiple score frameworks, several premium offers and a prize game before any verified sleep record.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the journal trend and factor editor (pp. 34–43), which connect data to a routine.
+- **Keep.** [INFERRED] Keep the journal trend and factor editor (pp. 34–43), which connect data to a routine.
 - **Kill.** Remove the pre-result risk carousel and prize-wheel/discount game around the subscription (pp. 10–13, 27–28). [INFERRED]
 - **Different.** Show one real-night timeline first; offer the detailed coaching program after users see that data. [INFERRED]
 

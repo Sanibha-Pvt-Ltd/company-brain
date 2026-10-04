@@ -31,13 +31,13 @@ sources: [screens:9]
 3. **Abstractions.** Universal remote controls, screen mirroring, cast media and app shortcuts. [OBSERVED] [INFERRED] Pairing/connect is essential; mirroring/cast are separate jobs.
 4. **Feel-good moments.** App list p. 7 names familiar services; remote mockup p. 2 presents a broad set of controls. [OBSERVED] No earned success state.
 5. **Feel-bad moments.** Discovery appears in a persistent refreshing state and TV-not-connected status (p. 1–2, 4–5). [OBSERVED] Whether this is temporary or a failure is unknown.
-6. **Paywall.** Paywall p. 6/8 checked at full size: free trial toggle visibly on; 3-day trial then ₹699/week; 12 months ₹2,499/year (₹48.06/week); continue CTA. [OBSERVED] India storefront, captured 2026-10-03. Close delay/hard paywall unknown.
+6. **Paywall.** Paywall p. 6/8 checked at full size: free trial toggle visibly on; 3-day trial then ₹699/week; 12 months ₹2,499/year (₹48.06/week); continue CTA. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Close delay/hard paywall unknown.
 7. **Repeat cost.** No paired session, so repeat action cost is [UNKNOWN]. App list and remote tabs are visible p. 2/7.
 8. **Feature map.** [INFERRED] Table stakes: reliable discovery and connected state. Differentiator: per-app shortcut list. Bloat: mirroring/casting upsell before pairing is verified.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the visible per-service app list and full remote layout (pp. 2, 7).
+- **Keep.** [INFERRED] Keep the visible per-service app list and full remote layout (pp. 2, 7).
 - **Kill.** Remove the premium offer while discovery remains in a refresh/not-connected state (pp. 1, 4–6). [INFERRED]
 - **Different.** Make pairing status actionable with retry/manual entry and verify command success before trial. [INFERRED]
 

@@ -22,7 +22,7 @@ Source: `kushagra screenshots/Focus_Apps/screenshots/floraapp.pdf` (22 pages). S
 | 11–15 | Friends QR/import contacts; More settings includes notifications, “Allow apps during Focus,” pauses, keep screen on, Flora Care, restore purchases, account and feedback. | Invite contacts; toggle focus/notification settings; link accounts. | App blocking and allowance setup are presented as user-managed controls. [OBSERVED] |
 | 16–18 | “Your favorites / Garden preview”; focus configuration with 25:00 focus, 05:00 break, tree species, companions; warning “Tree killed if you left the app”; then breathing animation “Breath in…” | Configure session, choose forest; stay in app during focus. | Abstraction (tree health) plus explicit loss consequence can add guilt. Session lengths shown are settings, not observed completed duration. [OBSERVED] |
 | 19–20 | Stats show zero focus time and empty stories; Edit Profile. | Review stats/edit profile. | No successful session is evidenced; p.19 says “Start Focus to fill the gap.” [OBSERVED] |
-| 21–22 | Paid tour cards Drylands’ Marvels / Amazon Rainforest, each ₹199 Buy Now. | Purchase themed content. | Content purchase appears as optional expansion; not a first-session paywall. India prices. [OBSERVED] |
+| 21–22 | Paid tour cards Drylands’ Marvels / Amazon Rainforest, each ₹199 Buy Now. | Purchase themed content. | Content purchase appears as optional expansion; not a first-session paywall. Prices are displayed in ₹; storefront is not independently verified. [OBSERVED] |
 
 ## Eight lens dimensions
 

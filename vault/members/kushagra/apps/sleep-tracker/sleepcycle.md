@@ -28,13 +28,13 @@ sources: [screens:11]
 3. **Abstractions.** Health-data consent and sleep goals are understandable concepts; account is introduced before showing sleep value. [OBSERVED] [INFERRED] Invite account creation after the first report.
 4. **Feel-good moments.** Privacy explanation (p. 3) and optional tracking skip (p. 4) are user-respecting moments. [OBSERVED] No earned progress appears.
 5. **Feel-bad moments.** Account creation and consent precede a usable screen. [OBSERVED] No fear copy or hidden control is established by these pages.
-6. **Paywall.** P. 10 says 7 days free then ₹2,050/year and “Recurring billing. Cancel anytime.” Apple sheet p. 11. [OBSERVED] India storefront, captured 2026-10-03. Close delay/hard gate unknown.
+6. **Paywall.** P. 10 says 7 days free then ₹2,050/year and “Recurring billing. Cancel anytime.” Apple sheet p. 11. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Close delay/hard gate unknown.
 7. **Repeat cost.** No core tracking screen is captured; repeat cost is [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: easy start and clear sleep summary. Differentiator/bloat cannot be established from 11 pages; onboarding is the only evidence.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the explicit health-data explanation and optional tracking skip (pp. 3–4).
+- **Keep.** [INFERRED] Keep the explicit health-data explanation and optional tracking skip (pp. 3–4).
 - **Kill.** Remove account creation and subscription before showing a first tracked night (pp. 6–11). [INFERRED]
 - **Different.** Allow local setup and first report without login; explain the paid tier after the report. [INFERRED]
 

@@ -29,13 +29,13 @@ sources: [screens:7]
 3. **Abstractions.** Touchpad, keyboard and “all features” are introduced before any pairing result. [OBSERVED] [INFERRED] Brand/device picker and pairing status are essential; the other controls can be explained when available.
 4. **Feel-good moments.** The onboarding cards preview keyboard/touchpad benefits (pp. 2–5). [OBSERVED] These are promises, not earned success.
 5. **Feel-bad moments.** The user sees a waiting search at both ends (pp. 1, 7), with four product-benefit cards and a paywall between. [OBSERVED] Stills do not establish the scan’s true duration or whether the user can bypass.
-6. **Paywall.** P. 6: ₹3,499/year and ₹299/week; both display a 3-day free trial; annual is selected in the screenshot and a close X is visible. [OBSERVED] India storefront, 2026-10-03. Payment and trial default in the live flow [UNKNOWN].
+6. **Paywall.** P. 6: ₹3,499/year and ₹299/week; both display a 3-day free trial; annual is selected in the screenshot and a close X is visible. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Payment and trial default in the live flow [UNKNOWN].
 7. **Repeat cost.** No connected remote is shown, so repeat tap cost and command result are [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: discovery, retry/help and power/navigation. Differentiator: keyboard/touchpad (p. 3–4 preview). Bloat: four benefit cards before a found-device state.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the Skip control and the clear visual previews for keyboard/touchpad (pp. 2–5).
+- **Keep.** [INFERRED] Keep the Skip control and the clear visual previews for keyboard/touchpad (pp. 2–5).
 - **Kill.** [INFERRED] The four-card carousel plus premium offer before a discoverable TV/usable remote (pp. 1–7).
 - **Different.** [INFERRED] Start on the TV picker, show discovered devices with retry/manual help, then test power/navigation. Explain touchpad/keyboard on demand and show the plan only after one command works.
 
@@ -43,4 +43,4 @@ sources: [screens:7]
 
 - [UNKNOWN] Exact launch-to-command taps/time; stills do not prove page order is a tap path, successful pairing, command response, repeat usage, trial selection in action, checkout, or hidden/delayed close behavior.
 - [UNKNOWN] App Store ID, current US prices, listing/reviews, actual TV compatibility and whether all TV brands require the same local-network setup.
-- **Checked:** all 7 pages of `tvremote by kraftwerk.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are India storefront, captured 2026-10-03.
+- **Checked:** all 7 pages of `tvremote by kraftwerk.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown.

@@ -31,13 +31,13 @@ sources: [screens:18]
 3. **Abstractions.** Health data permissions, wearable model, iCloud upload and sleep sounds are introduced before a tracked result (p. 6–12). [OBSERVED] [INFERRED] Only the chosen capture method is needed to begin.
 4. **Feel-good moments.** Privacy and safety explanations (p. 2, 12–13) offer context before permissions. [OBSERVED] A first result or earned progress moment is absent.
 5. **Feel-bad moments.** Health and microphone permissions stack before tracking. [OBSERVED] Copy at p. 13 says “Pillow is not a medical app.” Permission necessity is [UNKNOWN] without hands-on test.
-6. **Paywall.** Paywall p. 16: 7 days free, then ₹1,999/year / ₹166.58 per month. [OBSERVED] India storefront, captured 2026-10-03. The capture includes no proof of checkout or close delay.
+6. **Paywall.** Paywall p. 16: 7 days free, then ₹1,999/year / ₹166.58 per month. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. The capture includes no proof of checkout or close delay.
 7. **Repeat cost.** No overnight tracking/result or next-day repeat path shown. [UNKNOWN] Setup asks for notifications and health access, but the ongoing tap count is not shown.
 8. **Feature map.** [INFERRED] Table stakes: bedtime and sleep recording. Differentiator: Apple Watch/Health and sleep-sound context. Bloat risk: iCloud upload explanation and wearable setup before demonstrating core tracking.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the privacy explanation and explicit medical-safety caveat (pp. 2, 13).
+- **Keep.** [INFERRED] Keep the privacy explanation and explicit medical-safety caveat (pp. 2, 13).
 - **Kill.** Remove the sequence of wearable, motion, Health, microphone and iCloud asks before first tracking (pp. 6–12). [INFERRED]
 - **Different.** Start with local phone tracking; ask for Watch, Health, sounds and cloud one at a time when needed. [INFERRED]
 

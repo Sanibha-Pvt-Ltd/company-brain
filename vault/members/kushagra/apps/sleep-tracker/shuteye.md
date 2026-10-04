@@ -33,13 +33,13 @@ sources: [screens:49]
 3. **Abstractions.** Score, CBT-I, sleep position, “sleep quality,” health risks, “sleep report,” sleep stages and sleep debt appear across p. 7–24. [OBSERVED] [INFERRED] Much of the quiz could be collapsed to one optional sleep goal.
 4. **Feel-good moments.** An “All Set!” screen p. 34 and score explainer p. 31 offer reassurance. [OBSERVED] Claimed 93% improvement and other social proof on p. 12 are not individual progress.
 5. **Feel-bad moments.** P. 19 says “Identify your health risks through sleep tracker” before the report; this could raise anxiety. [OBSERVED] The images cannot verify medical accuracy or user distress.
-6. **Paywall.** Paywall p. 26 shows enabled 7-day trial, reminder on day 5, and ₹5,900/year on day 7; Apple confirmation follows p. 27. [OBSERVED] India storefront, captured 2026-10-03. Payment issue is shown p. 28. Exact trial-default behavior/exit is [UNKNOWN].
+6. **Paywall.** Paywall p. 26 shows enabled 7-day trial, reminder on day 5, and ₹5,900/year on day 7; Apple confirmation follows p. 27. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Payment issue is shown p. 28. Exact trial-default behavior/exit is [UNKNOWN].
 7. **Repeat cost.** Home p. 35–40 and tracker guide p. 41–45 show starting and revisiting reports. Actual overnight completion and number of repeat taps are [UNKNOWN].
 8. **Feature map.** [INFERRED] Table stakes: start a sleep recording and see morning summary. Differentiator: dream/sound library and CBT-I framing (p. 7, 22–23, 39–40). Bloat risk: a long health questionnaire and unverified risk claims before the first measured result.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the score explainer and sleep-note/home surfaces (pp. 31, 35–40).
+- **Keep.** [INFERRED] Keep the score explainer and sleep-note/home surfaces (pp. 31, 35–40).
 - **Kill.** Remove the long diagnosis/risk quiz and disease-risk promise before the first verified recording (pp. 8–19). [INFERRED]
 - **Different.** Ask one sleep goal, start a recording, and show a morning report with source and confidence before a trial. [INFERRED]
 

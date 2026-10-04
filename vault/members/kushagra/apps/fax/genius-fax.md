@@ -10,7 +10,7 @@ sources: [screenshots:18]
 
 # Genius Fax — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/fax_genius.pdf` (18 pages). Captured storefront uses ₹; amounts are India storefront evidence only.
+Source: `kushagra screenshots/FAX/screenshots/fax_genius.pdf` (18 pages). Captures display ₹ amounts; storefront is not independently verified.
 
 ## Screen map
 
@@ -42,7 +42,7 @@ Source: `kushagra screenshots/FAX/screenshots/fax_genius.pdf` (18 pages). Captur
 3. **Abstractions:** Page credits and exchange rate (one fax page = one credit), separate number rental, US/Canada number, scan modes, optional cover page (p.9–15). Credits are an extra unit users must understand; page-based billing already maps to document length. [INFERRED]
 4. **Feel-good:** Scan filters/recrop/rotate (p.15) give control. “Confirm success” push proposition (p.5) can reassure, but the app asks permission early. No delivered success is shown.
 5. **Feel-bad:** Account required statement and full account form precede task evidence (p.5–6). User is at zero credits and must understand separate credit packs and number terms (p.8–13). No trial is apparent in the observed credit/number cards.
-6. **Paywall:** Pay-as-you-go credit sheet (p.9–10) and separate number rental (p.11–12), shown before any sent-fax evidence in the supplied set. India amounts; lower number option is cut off. Not a conventional subscription wall on the visible cards.
+6. **Paywall:** Pay-as-you-go credit sheet (p.9–10) and separate number rental (p.11–12), shown before any sent-fax evidence in the supplied set. Displayed amounts are in ₹; storefront is not independently verified;  lower number option is cut off. Not a conventional subscription wall on the visible cards.
 7. **Repeat cost:** [UNKNOWN]. Home has Add Credits / Get Number (p.8); no completed send or second-send screenshot. Determine whether recipient/doc details persist on return.
 8. **Feature map:** Table stakes: recipient, scan/import, cover, credits/send, fax-number support. Differentiator candidate: non-expiring page packs and explicit page cost (p.9, p.13). Bloat/cost: mandatory-looking signup and the mental credit currency plus a separate number currency (p.5–6, p.9–12). [INFERRED]
 

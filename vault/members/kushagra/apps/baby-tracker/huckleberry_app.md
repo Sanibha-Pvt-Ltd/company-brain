@@ -9,7 +9,7 @@ sources: [screenshots:39]
 ---
 # Huckleberry — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/huckleberry_app.pdf`, 39 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
+Source: `kushagra screenshots/Baby tracker/screenshots/huckleberry_app.pdf`, 39 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Prices are displayed in INR (₹); the storefront is not independently verified, and US pricing is unknown. The `updated` date is the analysis date; screenshot capture dates were not verified.
 
 ## Per-screen table
 
@@ -62,7 +62,7 @@ Source: `kushagra screenshots/Baby tracker/screenshots/huckleberry_app.pdf`, 39 
 3. **Abstractions:** SweetSpot, Berry, Premium vs Plus and sleep trend concepts [OBSERVED pp.16,28-37].
 4. **Feel-good moments:** Friendly illustrations and completion message; “first insight is just a few taps away” on p.11 [OBSERVED]; evidence of actual insight absent.
 5. **Feel-bad moments:** Long sleep questionnaire before tracker [OBSERVED pp.11-20]; creates repeated effort [INFERRED].
-6. **Paywall:** Offer at p.21 then feature upsells; full-res pp.35-37 show India monthly/yearly prices, annual savings, close X. Paid conversion unknown.
+6. **Paywall:** Offer at p.21 then feature upsells; full-res pp.35-37 show monthly/yearly prices in INR, annual savings, and a close X. Storefront is not independently verified. Paid conversion is unknown.
 7. **Repeat cost:** Home has category tiles and a start timer (pp.22,25); repeat cost by taps unknown.
 8. **Feature map:** Must match: sleep/feed logging and records. Differentiator: sleep guidance with established inputs and optional coach. Bloat: two tier labels and numerous setup questions [INFERRED].
 

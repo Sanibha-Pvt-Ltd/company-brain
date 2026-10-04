@@ -30,13 +30,13 @@ sources: [screens:32]
 3. **Abstractions.** SleepWatch Score, sleep stages, snoring, sleep sounds, smart alarm, sleep debt, and Health access appear. [OBSERVED] [INFERRED] Present the chosen tracking method and one result before selling the score framework.
 4. **Feel-good moments.** Personalized goal choices and a direct quote card appear p. 2–5. [OBSERVED] Earned progress is not shown.
 5. **Feel-bad moments.** Account and permission sequence is long; “Care for your safety” requires acknowledgements p. 13–14. [OBSERVED] No delayed close or coercion claim is supportable.
-6. **Paywall.** Premium carousel p. 15–20; p. 16 reads 7-day free trial then ₹3,599/year; Apple modal p. 21. [OBSERVED] India storefront, captured 2026-10-03. “Skip” is visible p. 15; checkout/close timing unknown.
+6. **Paywall.** Premium carousel p. 15–20; p. 16 reads 7-day free trial then ₹3,599/year; Apple modal p. 21. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. “Skip” is visible p. 15; checkout/close timing unknown.
 7. **Repeat cost.** Home p. 22 says start sleep tracking; sound, report, updates and setup screens follow. [OBSERVED] A completed repeat session and tap count are absent.
 8. **Feature map.** [INFERRED] Table stakes: watch/phone capture and readable sleep summary. Differentiator: sleep score trend and smart alarm. Bloat risk: requiring account, broad Health access and a premium feature carousel before first recorded sleep.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the visible Skip option on the premium intro and the simple Start Sleep Tracking action (pp. 15, 22).
+- **Keep.** [INFERRED] Keep the visible Skip option on the premium intro and the simple Start Sleep Tracking action (pp. 15, 22).
 - **Kill.** Remove account, broad Health access and the premium carousel from before the first recorded night (pp. 6–21). [INFERRED]
 - **Different.** Offer a phone-only first recording and a free morning summary; ask for account/Health only to sync or compare. [INFERRED]
 

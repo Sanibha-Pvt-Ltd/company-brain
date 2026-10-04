@@ -9,7 +9,7 @@ sources: [screenshots:13]
 ---
 # The Wonder Weeks — screenshot teardown
 
-Source: `kushagra screenshots/Baby tracker/screenshots/wonderweek_apps.pdf`, 13 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Pricing with ₹ is the India storefront.
+Source: `kushagra screenshots/Baby tracker/screenshots/wonderweek_apps.pdf`, 13 pages. Each page below was visually checked against the rendered source. “Asks” records visible user questions, permissions, profile inputs, or payment choices; it does not estimate taps. A static capture cannot prove that an event was saved, a control was tapped, or a displayed promise works. Prices are displayed in INR (₹); the storefront is not independently verified, and US pricing is unknown. The `updated` date is the analysis date; screenshot capture dates were not verified.
 
 ## Per-screen table
 
@@ -36,7 +36,7 @@ Source: `kushagra screenshots/Baby tracker/screenshots/wonderweek_apps.pdf`, 13 
 3. **Abstractions:** The proprietary “10 Leaps” framework is the dominant explanatory model [OBSERVED p.3].
 4. **Feel-good moments:** Baby avatar/photo and diary preview [OBSERVED pp.5-6,12] create identity/anticipation; no recorded developmental milestone is shown.
 5. **Feel-bad moments:** Login/email verification and paywall happen before a usable diary screen in the provided capture [OBSERVED]; exact user path conditionality UNKNOWN.
-6. **Paywall:** Plan selector appears p.9 and p.13; India ₹ amounts visible. Trial terms and close behavior are not visible on the screenshot [UNKNOWN].
+6. **Paywall:** Plan selector appears p.9 and p.13; INR amounts are displayed; storefront is not independently verified. Trial terms and close behavior are not visible on the screenshot [UNKNOWN].
 7. **Repeat cost:** Repeat cost UNKNOWN because no tracker/dashboard is captured.
 8. **Feature map:** Must match: age-organized guidance if users need it. Differentiator: leap-timed guidance. Bloat: jargon/framework before first useful diary record [INFERRED].
 

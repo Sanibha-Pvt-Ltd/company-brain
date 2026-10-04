@@ -38,7 +38,7 @@ sources: [screens:9]
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the familiar directional pad, transport controls and branded shortcuts (p. 3).
+- **Keep.** [INFERRED] Keep the familiar directional pad, transport controls and branded shortcuts (p. 3).
 - **Kill.** Remove the repeated full-access screens before the disconnected state is resolved (pp. 2, 4–6). [INFERRED]
 - **Different.** Show connection state and retry/help, then let one basic command work before presenting channels/casting or a paid tier. [INFERRED]
 

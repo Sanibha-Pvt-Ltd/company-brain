@@ -9,7 +9,7 @@ sources: [screenshots:121]
 
 # Fax apps — screenshot synthesis
 
-Screens-only review of eight app capture PDFs (121 pages total). Each source uses an India storefront locale with ₹ amounts, sometimes alongside US/Canada fax-number options. Do not use these prices as US pricing. Category analysis PDF was not used as screenshot evidence; no market or review research was conducted.
+Screens-only review of eight app capture PDFs (121 pages total). Sources display ₹ amounts and sometimes US/Canada fax-number options. The storefront is not independently verified; do not treat the displayed amounts as US prices. Category analysis PDF was not used as screenshot evidence; no market or review research was conducted.
 
 ## Per-app notes
 
@@ -28,12 +28,12 @@ Still screenshots are not reliable clickstreams. Exact taps to first delivery, a
 
 | App | First win / taps | Visible asks before prepared document (screenshot evidence) | Concepts added beyond recipient + document | Paywall evidence | Repeat cost |
 |---|---|---|---|---|---|
-| Fax by Municorn | Prepared scan p.6; no delivery. Taps unknown. | Privacy/tracking/camera prompts p.1–4; sequence uncertain. | Sending vs receiving; separate area-code number; cover page; subscription cadence. | p.7, p.11; India ₹949/week, ₹2,799/month, ₹23,900/year; dismissibility unknown. | Unknown; sent list empty p.9. |
+| Fax by Municorn | Prepared scan p.6; no delivery. Taps unknown. | Privacy/tracking/camera prompts p.1–4; sequence uncertain. | Sending vs receiving; separate area-code number; cover page; subscription cadence. | p.7, p.11; ₹949/week, ₹2,799/month, ₹23,900/year (storefront unverified); dismissibility unknown. | Unknown; sent list empty p.9. |
 | Faxer | Prepared scan + recipient p.6; no delivery. | Tracking p.1; document-source choice p.4; in-compose rating p.6. | Cover page; scan threshold/brightness; international plans. | Main wall p.7; ₹99 special offer then ₹999/week renewal in p.8–9 capture sequence; trigger unknown. | Unknown; history empty p.3. |
 | Tinyfax | Scan preview p.12/p.15; no delivery. | Sign-up/later p.1, plan walls p.2–3, email p.5, notifications p.6; order uncertain. | Send vs receive tiers; own number; scan modes; account/notification controls. | Separate send/receive plans p.2–3, p.9/p.16; ₹499/week send, ₹999/week receive in visible captures. | Unknown; no completed send. |
 | Genius Fax | Document selection/scan p.13–15; no delivery. | Five intro/account-choice screens p.1–5, signup p.6, push p.7, credit/number purchase p.8–12. | Page credits, number rental, one credit per page, scan tools. | Credit cards p.9–10 (₹99/1 page, ₹699/10, ₹1,999/50) and separate number rental p.11–12. | Unknown; home says no sent faxes p.8. |
 | Fax App (`faxapp`) | One-page prepared document p.8; “ready” p.9, but no send. | No early permission/account prompt visible; receiving wall p.4–5; send wall p.9. | Drafts, receive number, guest vs linked email, readiness state. | ₹199/week receive wall p.4–5 and ready-to-send wall p.9; close affordance not visible. | Unknown; draft state exists p.6. |
-| Fax.Plus | File attached p.12–13; no delivery. | Source list p.11; plan/number sequence in pages 2–9, order not verified. | Premium/business/enterprise, page quotas, integrations, porting, teams, API, cover sheets. | Multiple plan sheets p.3–9; visible India Premium ₹1,999/month and ₹17,900/year. | Unknown; no successful send. |
+| Fax.Plus | File attached p.12–13; no delivery. | Source list p.11; plan/number sequence in pages 2–9, order not verified. | Premium/business/enterprise, page quotas, integrations, porting, teams, API, cover sheets. | Multiple plan sheets p.3–9; visible Premium ₹1,999/month and ₹17,900/year (storefront unverified). | Unknown; no successful send. |
 | FaxFree (`faxx`) | Scan is attached p.11–12; no delivery. | Tracking p.2, intro p.3–6, wall p.7; camera ask p.9. | 90+ countries, unlimited tiers, JPG/PDF, draft folders, trial. | Repeated wall p.7, p.13, p.16; ₹999/week, ₹1,199/month, ₹3,999/year. Trial length unknown. | Unknown; one draft shown p.14. |
 | iFax | Editable page p.8–9; no delivery. | Paywall/trial p.1–2, number selection p.3, another plan p.4, notifications p.6. | Multiple plan bundles, number selection, urgency fields, custom covers, folders, login providers. | ₹3,499/month after 7 days p.1–2/p.10; ₹1,999/month bundle p.4; ₹999/week native sheet p.11. Mixed offers unresolved. | Unknown; no sent fax shown. |
 
@@ -69,7 +69,7 @@ Five minutes is an organizing target, not an observed duration. Static screensho
 
 - **Static flow vs actual flow:** Conduct hands-on captures for each competitor to establish which screenshots belong to one path, exact asks, tap counts, paywall escape, and whether a free route exists.
 - **Delivered outcome:** Send test faxes to a controlled recipient and capture queued/sent/delivered states, failure handling, status timing and receipts. Never infer success from a blue Send button or ready screen.
-- **US storefront economics:** Re-capture price sheets in US App Store accounts; all listed amounts here are India ₹ screenshots and are not comparable to US prices.
+- **US storefront economics:** Re-capture price sheets in US App Store accounts; amounts are shown in ₹; storefront is not independently verified and US prices are unknown.
 - **Trial safety/clarity:** Inspect native subscription sheets for every offer, especially FaxFree “Try it for free!” (p.7/p.13) and iFax multiple products (p.1–4, p.10–11).
 - **Repeat behavior:** After a successful send, count the actual taps needed to resend to a prior recipient, duplicate a document, and retrieve a sent fax.
 - **Identity and compliance:** Verify who owns screenshots for Fax App, FaxFree, and Fax.Plus package/version/storefront; determine whether HIPAA claims apply to the actual selected plans and supported workflow.

@@ -22,7 +22,7 @@ Source: `kushagra screenshots/FAX/screenshots/faxx.pdf` (17 pages). The PDF file
 | 4 | Onboarding | “Get Access to Unlimited Faxes”; review quote and 1.7M+ users trust us | Continue | Social proof; no first fax shown. [OBSERVED] |
 | 5 | Onboarding | “Get Secure and Cheap Fax for Your Device”; sends documents worldwide | Continue | Generic benefit claim. [OBSERVED] |
 | 6 | Onboarding | “Create Finest Scans and Fax on the Go”; send high-quality scans; convert to PDF/JPG | Continue | Scan/export value. [OBSERVED] |
-| 7 | Subscription | “Choose Your Plan”; Receive faxes, unlimited faxes to 90+ countries, no ads, fax delivery tracking; yearly ₹3,999/year, monthly ₹1,199/month, weekly ₹999/week; “Not sure yet? Try it for free!” | Continue; close X; selected annual; trial-toggle wording | Trial terms/length not shown. India prices. [OBSERVED] |
+| 7 | Subscription | “Choose Your Plan”; Receive faxes, unlimited faxes to 90+ countries, no ads, fax delivery tracking; yearly ₹3,999/year, monthly ₹1,199/month, weekly ₹999/week; “Not sure yet? Try it for free!” | Continue; close X; selected annual; trial-toggle wording | Trial terms/length not shown. Prices are displayed in ₹; storefront is not independently verified. [OBSERVED] |
 | 8 | Compose | Send Fax, recipient +91, sender details, Add Document | Enter recipient / add document | First usable task appears after onboarding/paywall in supplied sequence; order is not guaranteed. [OBSERVED] |
 | 9 | Camera prompt | iOS camera permission over compose | “Allow ‘FaxFree’ to access your camera” | Permission tied to scan. [OBSERVED] |
 | 10 | Scan | “Automatic border detection”; camera view | Capture page | Useful automatic aid; no output yet. [OBSERVED] |
@@ -41,7 +41,7 @@ Source: `kushagra screenshots/FAX/screenshots/faxx.pdf` (17 pages). The PDF file
 3. **Abstractions:** Unlimited plan, fax to 90+ countries, trial offer, export format JPG/PDF, scan adjustments, draft/document folders (p.3–7, p.11, p.14). JPG/PDF is a sensible user choice; global coverage and tier language can be deferred until use case requires it. [INFERRED]
 4. **Feel-good:** Automatic border detection and editable crop/brightness (p.10–11) give useful control; one-page-added banner confirms preparation (p.12). Review quote and 1.7M+ users are social proof (p.4), not achieved progress.
 5. **Feel-bad:** Tracking before value (p.2), repeated plan screens in set (p.7, p.13, p.16), and vague “Try it for free!” with no visible trial duration or renewal detail on those walls (p.7, p.13, p.16). The native purchase contract is absent, so do not infer a hidden trial.
-6. **Paywall:** Wall at p.7 and repeated at p.13/p.16; close X visible. India prices: yearly ₹3,999, monthly ₹1,199, weekly ₹999. Annual is selected on p.7. Trial toggle exists but length/renewal terms are [UNKNOWN].
+6. **Paywall:** Wall at p.7 and repeated at p.13/p.16; close X visible. prices displayed in ₹: yearly ₹3,999, monthly ₹1,199, weekly ₹999. Annual is selected on p.7. Trial toggle exists but length/renewal terms are [UNKNOWN].
 7. **Repeat cost:** [UNKNOWN]. Draft/Sent/Inbox labels and one Draft appear (p.14); no successful fax/re-send evidence. Count only after hands-on path.
 8. **Feature map:** Table stakes: scan/import, recipient, document queue, send/status, saved draft. Differentiators: auto border detection and delivery tracking/export to JPG/PDF claims (p.3, p.6, p.10–11). Bloat/cost: tracking permission before benefit, four intro screens and duplicated paywalls (p.2–7, p.13, p.16). [INFERRED]
 

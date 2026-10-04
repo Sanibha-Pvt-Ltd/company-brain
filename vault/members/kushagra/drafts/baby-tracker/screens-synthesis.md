@@ -39,7 +39,7 @@ Source set: ten team-captured PDFs, 299 pages total. The separate 12-page `BabyT
 | Tottli | Feed logger with “Log feed” p.8; save result not shown [OBSERVED] | 6 ask pages pp.1-7 (account options, analytics, stage, reminders, profile, challenge) [INFERRED page count] | “Who are we setting up for,” smart reminders/stash, handoff [OBSERVED] | Premium carousel starts p.11 [OBSERVED] | Feed card/form p.8; repeat taps UNKNOWN |
 | The Wonder Weeks | No diary/dashboard/first benefit completed in 13 pages [OBSERVED] | 8 profile/account/payment/verification decision screens pp.2-11; includes preference choices but excludes the passive loading state [INFERRED page count] [INFERRED page count] | “10 Leaps” framework [OBSERVED] | Plans p.9 and p.13, prior to demonstrated diary [OBSERVED] | UNKNOWN; tracker view absent |
 
-The “visible ask screen” counts are a manual count of pages in the captured sequences before the first log or first dashboard, counting pages with a user choice, input, permission, account, or payment control; passive explainers are excluded where called out; they are not unique tap counts and the screenshot order does not prove every screen is mandatory. First-log taps and elapsed time are UNKNOWN. No screenshot proves a saved event unless explicitly stated. Still images do not establish conditional paths, dismissed paywalls, trial acceptance, or free access after closing.
+The `updated` date is the analysis date; the original screenshot capture dates were not verified. The “visible ask screen” counts are a manual count of pages in the captured sequences before the first log or first dashboard, counting pages with a user choice, input, permission, account, or payment control; passive explainers are excluded where called out; they are not unique tap counts and the screenshot order does not prove every screen is mandatory. First-log taps and elapsed time are UNKNOWN. No screenshot proves a saved event unless explicitly stated. Still images do not establish conditional paths, dismissed paywalls, trial acceptance, or free access after closing.
 
 ## Our first five minutes (proposal)
 
@@ -61,13 +61,13 @@ The “visible ask screen” counts are a manual count of pages in the captured 
 - No streaks, guilt, or implied parental failure for missed logs: not needed for the tracking job [INFERRED].
 - No forced “leaps,” routines, modes, or proprietary sleep vocabulary before logging; explain any prediction in plain language [INFERRED from observed concept layers].
 - No account/invite/notification wall before first saved event [INFERRED].
-- No trial button labeled “free” without total renewal price and charge date directly beside it; reject trial flows whose plan confirmation is unclear [INFERRED from observed India paywall examples].
+- No trial button labeled “free” without total renewal price and charge date directly beside it; reject trial flows whose plan confirmation is unclear [INFERRED from observed paywall examples displaying INR; storefront not independently verified].
 - No broad health or AI claims as a substitute for useful records; keep advice claims separately verified [INFERRED].
 
 ## Unknowns / verification
 
 - Exact taps, elapsed time, backtracking, permission denial paths, and paywall dismissal outcomes: require hands-on device walkthroughs.
-- US storefront pricing, offer eligibility, paywall selection defaults, and billing behavior: not established by India-region screenshots.
+- US pricing, offer eligibility, paywall selection defaults, and billing behavior: not established by these screenshots. The visible INR currency does not independently identify the storefront.
 - Whether screen labels represent working features, predictions’ quality, reminder timing, offline behavior, caregiver sync reliability, widgets, and smartwatch support: screenshots cannot establish functionality.
 - Which first log matters most (feed vs sleep vs diaper) and whether caregivers value predictions over simple coordination: use short parent interviews/usability sessions and event analytics.
 - Whether the displayed claims such as “science-backed,” “expert-vetted,” or “personalized” are substantiated: out of screenshot scope; separately verify before copying.

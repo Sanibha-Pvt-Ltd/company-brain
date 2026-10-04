@@ -10,7 +10,7 @@ sources: [screenshots:17]
 
 # iFax — screens-only teardown
 
-Source: `kushagra screenshots/FAX/screenshots/ifax.pdf` (17 pages). Captures show ₹ pricing and India account locale; treat prices as India storefront, not US.
+Source: `kushagra screenshots/FAX/screenshots/ifax.pdf` (17 pages). Captures display ₹ prices; the storefront is not independently verified and US prices are [UNKNOWN].
 
 ## Screen map
 
@@ -40,15 +40,15 @@ Source: `kushagra screenshots/FAX/screenshots/ifax.pdf` (17 pages). Captures sho
 2. **Ask ledger:** subscription trial wall in first capture (p.1–2), number selection (p.3), a second send/receive wall (p.4), notifications (p.6), recipient/sender/document form (p.7–9), another paywall at send moment (p.10–11), account login or cover-page details if pursued (p.14–17). Sequence is screenshot order and not a verified single-user clickstream.
 3. **Abstractions:** Separate send-only vs send/receive subscriptions, number selection, urgency flags, custom cover templates, folders, login providers, delivery claims (p.1–17). Recipient and document are core; template, folder, identity, and urgency concepts are optional or deferred. [INFERRED]
 4. **Feel-good:** Broad document-source choice and editable page (p.8–9); transparent native trial terms p.2. “Send Your Fax Now” is an action cue, not delivery success (p.10).
-5. **Feel-bad:** $0.00 headline followed by ₹3,499/month renewal (p.1) creates currency confusion in this India capture; below it, “Pay nothing for now!” makes trial salient while renewal appears smaller. A second send/receive wall is shown (p.4), followed by weekly Apple offer (p.11). The terms remain technically visible. [OBSERVED]
-6. **Paywall:** trial offer at p.1 (7 days then ₹3,499/month), native confirmation p.2; send/receive bundle p.4 says ₹1,999/month after 7 days; send moment p.10 repeats ₹3,499/month; weekly purchase p.11 is ₹999/week. Differences may reflect distinct products/offers and cannot be reconciled from screenshots. X visible on in-app walls. India prices.
+5. **Feel-bad:** $0.00 headline followed by ₹3,499/month renewal (p.1) may create currency confusion; below it, “Pay nothing for now!” makes trial salient while renewal appears smaller. A second send/receive wall is shown (p.4), followed by weekly Apple offer (p.11). The terms remain technically visible. [OBSERVED]
+6. **Paywall:** trial offer at p.1 (7 days then ₹3,499/month), native confirmation p.2; send/receive bundle p.4 says ₹1,999/month after 7 days; send moment p.10 repeats ₹3,499/month; weekly purchase p.11 is ₹999/week. Differences may reflect distinct products/offers and cannot be reconciled from screenshots. X visible on in-app walls. Prices are displayed in ₹; storefront is not independently verified.
 7. **Repeat cost:** [UNKNOWN]. Recents and folders imply document organization (p.5, p.13), but no delivered item or repeat send path appears. Capture return to a prior recipient/document.
 8. **Feature map:** Table stakes: recipient, scan/import, cover page, send status. Differentiator candidate: many cloud/import routes and live delivery updates (p.8, p.10). Bloat/cost for a basic sender: pre-send folder creation, multiple cover choices, multi-provider login, and repeated plan/number choice (p.3–4, p.10–17). [INFERRED]
 
 ## Keep / Kill / Different
 
 - **Keep:** Trial renewal terms appear in the Apple sheet (p.2); broad import options (p.8); editable scan before send (p.9); login is not presented on first home screenshot (p.5).
-- **Kill:** Conflicting $0.00/₹ framing in an India storefront (p.1), duplicate paywalls and number-selection steps without clear differences (p.1–4, p.10–12), and early folder/template work (p.13, p.16–17).
+- **Kill:** Conflicting $0.00/₹ framing in an storefront not independently verified (p.1), duplicate paywalls and number-selection steps without clear differences (p.1–4, p.10–12), and early folder/template work (p.13, p.16–17).
 - **Different:** Show one consistent storefront currency and one plan for the user’s chosen task; let them prepare the fax first, then present a single price/trial with renewal in the same visual hierarchy. Defer folder and cover-page customization behind an optional action. [INFERRED]
 
 ## Verification and unknowns

@@ -30,13 +30,13 @@ sources: [screens:6]
 3. **Abstractions.** Touchpad, mobile power, forgotten devices, app list and “premium” are shown. [OBSERVED] [INFERRED] Pairing status and core controls are needed; touchpad unlock creates a feature distinction.
 4. **Feel-good moments.** The dark remote layout groups arrows, OK, channel, home and media controls on one screen p. 1. [OBSERVED] No confirmation feedback shown.
 5. **Feel-bad moments.** Premium is reached from Settings p. 3 and repeated at p. 4/6 while TV remains disconnected. [OBSERVED] The resulting price/gate is not clearly legible in contact sheets and is [UNKNOWN] here.
-6. **Paywall.** P. 4 shows “YEARLY ACCESS Just ₹1,999 per year” (₹38.33/week) and a “3-DAY FREE TRIAL then ₹499.00 per week” option. [OBSERVED] India storefront, captured 2026-10-03. P. 6 repeats the offer. Close timing/hard gate remain unknown.
+6. **Paywall.** P. 4 shows “YEARLY ACCESS Just ₹1,999 per year” (₹38.33/week) and a “3-DAY FREE TRIAL then ₹499.00 per week” option. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. P. 6 repeats the offer. Close timing/hard gate remain unknown.
 7. **Repeat cost.** Connection search p. 5 and controls p. 1; no paired session. [OBSERVED] Repeat cost unknown.
 8. **Feature map.** [INFERRED] Table stakes: discover, pair, control. Differentiator: touchpad and mobile power. Bloat risk: upsell controls before establishing that this TV can pair.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the standard arrow/OK/home/volume remote layout (p. 1).
+- **Keep.** [INFERRED] Keep the standard arrow/OK/home/volume remote layout (p. 1).
 - **Kill.** Remove the premium prompt reached from settings while no TV is connected (pp. 3–6). [INFERRED]
 - **Different.** Put a clear TV picker and troubleshooting path first; offer touchpad premium after a successful basic command. [INFERRED]
 

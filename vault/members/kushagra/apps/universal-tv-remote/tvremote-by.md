@@ -20,7 +20,7 @@ sources: [screens:14]
 | 1 | TV brand picker lists Roku, Samsung, LG, TCL, Hisense, Fire TV, Vizio and Sony. | Choose a TV brand and Continue. | A specific compatibility choice is visible before scanning. | `“Please select your TV brand!”` | device selection | [OBSERVED] The next page displays a connecting state. | `tvremote by.pdf`, p. 1 |
 | 2 | Connection progress overlay over the selected brand list. | Wait while connecting. | A visible connection status. | `“We’re connecting to your TV. Please wait a moment.”` | pairing progress | [OBSERVED] Success is not shown on this page. | `tvremote by.pdf`, p. 2 |
 | 3–4 | Two feedback screens titled “App improvements.” | Choose rating/feedback response. | Opportunity to report experience; not required to pair. | `“App improvements.”` | rating/feedback | [INFERRED] Feedback is asked before the captured device-found/premium state. | `tvremote by.pdf`, p. 3–4 |
-| 5 | “Device found” banner and a premium plan offer titled “Simplify your TV time.” | Free-trial toggle and plan selection, Continue for Free. | Offers app access, phone casting, major-brand compatibility; screen shows 3-day access and paid options. | `“Device found.”` | trial conversion | [OBSERVED] The high-resolution capture displays ₹76.90/week yearly equivalent and ₹999.00/week auto-renewal. India storefront. | `tvremote by.pdf`, p. 5 |
+| 5 | “Device found” banner and a premium plan offer titled “Simplify your TV time.” | Free-trial toggle and plan selection, Continue for Free. | Offers app access, phone casting, major-brand compatibility; screen shows 3-day access and paid options. | `“Device found.”` | trial conversion | [OBSERVED] The high-resolution capture displays ₹9,900/year (₹190.38/week displayed as equivalent) and ₹999/week. India storefront. | `tvremote by.pdf`, p. 5 |
 | 6 | Trial timeline page: “3 Days Free No Risk,” then renewal. | Start free trial. | Shows today access, day-2 reminder, day-3 trial ends. | `“3 Days Free No Risk.”` | renewal disclosure | [OBSERVED] Screenshot lists ₹999/week after the trial. | `tvremote by.pdf`, p. 6 |
 | 7 | Remote control home with large directional pad and shortcuts. | Tap a remote control. | Provides a usable-looking control surface; command success is not demonstrated. | `“TV Remote.”` | core control | [UNKNOWN] A still does not prove the TV responded. | `tvremote by.pdf`, p. 7 |
 | 8 | “Mega Sale” graphic advertises 95% off. | Continue to discounted plan. | A limited-time discount claim. | `“Mega Sale.”` | discount conversion | [OBSERVED] Text says “Only ₹599/week”; no original/reference price is legible enough to validate the 95% claim. | `tvremote by.pdf`, p. 8 |
@@ -35,13 +35,13 @@ sources: [screens:14]
 3. **Abstractions.** The brand picker is concrete; casting, mirroring, tools and premium bundles are additional concepts (pp. 1, 11–14). [INFERRED] Keep them secondary to pairing.
 4. **Feel-good moments.** “Device found” p. 5 and the remote surface p. 7 look like progress. [OBSERVED] P. 9 undermines the success claim by showing no TV.
 5. **Feel-bad moments.** Two feedback screens p. 3–4 are followed by a trial and sale flow; the device status changes from “found” to “No TV Found” (p. 9). [OBSERVED] This is inconsistency; no hidden close is evidenced.
-6. **Paywall.** P. 5 lists ₹76.90/week yearly equivalent and ₹999/week auto-renewal; p. 6 says 3-day trial then ₹999/week; p. 8 advertises “95% off” and ₹599/week. [OBSERVED] India storefront, 2026-10-03. Offers differ within one capture; verify current offer and terms.
+6. **Paywall.** P. 5 lists ₹9,900/year (₹190.38/week displayed as equivalent) and ₹999/week; p. 6 says 3-day trial then ₹999/week; p. 8 advertises “95% off” and ₹599/week. [OBSERVED] INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. Offers differ within one capture; verify current offer and terms.
 7. **Repeat cost.** Remote controls appear p. 7 and p. 10, but no connected TV or successful action is shown. [UNKNOWN] Repeat taps.
 8. **Feature map.** [INFERRED] Table stakes: brand picker, reliable paired state, power/navigation. Differentiator: keyboard/touchpad promise across the TV-remote family. Bloat: rating prompts, sale and cast bundle before stable pairing.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the brand picker (p. 1) and make the “Device found” state trustworthy by reconciling it with later connection state.
+- **Keep.** [INFERRED] Keep the brand picker (p. 1) and make the “Device found” state trustworthy by reconciling it with later connection state.
 - **Kill.** [INFERRED] Remove feedback prompts and the “95% off” sale around an unresolved TV connection (pp. 3–9).
 - **Different.** [INFERRED] After brand choice, prove pairing with one working command; keep remote controls available and show a single, consistent plan only after success.
 
@@ -49,4 +49,4 @@ sources: [screens:14]
 
 - [UNKNOWN] Exact launch-to-command taps/time; stills do not prove page order is a tap path, successful pairing, command response, repeat usage, trial selection in action, checkout, or hidden/delayed close behavior.
 - [UNKNOWN] App Store ID, current US prices, listing/reviews, actual TV compatibility and whether all TV brands require the same local-network setup.
-- **Checked:** all 14 pages of `tvremote by.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from a full-size rendering of the cited page; amounts are India storefront, captured 2026-10-03.
+- **Checked:** all 14 pages of `tvremote by.pdf` were visually inspected in rendered contact sheets. Offer details are transcribed from the supplied screenshot pages; amounts are INR is displayed; US pricing is unknown. PDF metadata creation date is 2026-10-03; screenshot capture date is unknown. The page-5 figures were readable in the rendered contact sheet; live terms remain unverified.

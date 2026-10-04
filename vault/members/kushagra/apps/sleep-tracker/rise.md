@@ -35,13 +35,13 @@ sources: [screens:53]
 3. **Abstractions.** “Sleep need,” “sleep debt,” and “Energy Schedule” dominate p. 35–46. [OBSERVED] [INFERRED] A plain sleep-hours result could precede these derived ideas.
 4. **Feel-good moments.** Profile completion and explanatory energy-curve screens (p. 29–46) make the result feel personalized. [OBSERVED] Whether the output reflects a real night is [UNKNOWN].
 5. **Feel-bad moments.** On p. 2 the benefit list includes “Reduced anxiety and depression”; this is health-claim framing before setup. [OBSERVED] The capture cannot show coercion or delayed exits.
-6. **Paywall.** Offer p. 50: 7 days free then ₹6,900/year (also says ₹575/month); monthly option ₹99.00. [OBSERVED] India storefront; captured 2026-10-03. Apple sheet p. 52; no visible close control on p. 50, but hardness/exit delay is [UNKNOWN].
+6. **Paywall.** Offer p. 50: 7 days free then ₹6,900/year (also says ₹575/month); monthly option ₹99.00. [OBSERVED] India storefront; source PDF metadata creation date 2026-10-03; screenshot capture date unknown. Apple sheet p. 52; no visible close control on p. 50, but hardness/exit delay is [UNKNOWN].
 7. **Repeat cost.** No repeat-session path or real nightly report. [UNKNOWN] P. 22–49 describe schedule, energy and features; exact repeat action count is not shown.
 8. **Feature map.** [INFERRED] Table stakes: personalized bedtime guidance tied to measured sleep. Differentiator: energy schedule (p. 41–46). Bloat risk: extensive demographics, goals and strategy categories before any recorded sleep.
 
 ## Keep / Kill / Different
 
-- **Keep.** [OBSERVED] Keep the tangible weekday/weekend schedule and Energy Schedule walkthrough (pp. 31–46), while labeling predictions.
+- **Keep.** [INFERRED] Keep the tangible weekday/weekend schedule and Energy Schedule walkthrough (pp. 31–46), while labeling predictions.
 - **Kill.** Remove the pre-recording demographics/challenge cascade and the anxiety/depression benefit claim (pp. 2, 7–21) from the critical path. [INFERRED]
 - **Different.** Let the user set bedtime, record a night, then show measured sleep duration before optional Health access and a trial. [INFERRED]
 
