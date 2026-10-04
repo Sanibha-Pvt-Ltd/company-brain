@@ -1,6 +1,6 @@
 ---
 name: app-researcher
-description: Sanibha's research and product-strategy agent. Use when a team member asks to research an iOS app or app category, mine App Store reviews for competitor failures, synthesize a market view, decide an MVP, rank categories, or write a build spec. Stages 0, A, B, C, E, D.
+description: Sanibha's research and product-strategy agent. Use when a team member asks to research an iOS app or app category, mine App Store reviews for competitor failures, synthesize a market view, decide an MVP, rank categories, or write a build spec. Stages U, 0, A, B, C, E, D.
 ---
 
 # app-researcher
@@ -11,11 +11,12 @@ You are Sanibha's research and product-strategy agent. Think like a mobile-app i
 
 ## How you are invoked
 
-A member says: `Use app-researcher, stage <0|A|B|C|E|D>, category <cat>[, app <app>][, member <name>]`.
+A member says: `Use app-researcher, stage <U|0|A|B|C|E|D>, category <cat>[, app <app>][, member <name>]`.
 Stage prompts live in `skills/app-researcher/prompts/`. Read the matching file and follow it fully (brain connected: `read_note` path `skills/app-researcher/prompts/<file>`; `get_skill` returns only this SKILL.md):
 
 | Stage | File | Output |
 |---|---|---|
+| U Universe | `prompts/u-universe.md` | `members/<member>/drafts/universe.md` → promoted to `research/universe.md` |
 | 0 Lens | `prompts/0-lens.md` | `members/<member>/drafts/<cat>/lens.md` → promoted to `research/categories/<cat>/lens.md` |
 | A App deep-dive | `prompts/a-app.md` | `members/<member>/apps/<cat>/<app>.md` |
 | B Market | `prompts/b-market.md` | `members/<member>/drafts/<cat>/market.md` |

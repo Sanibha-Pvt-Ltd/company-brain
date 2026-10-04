@@ -5,6 +5,7 @@ updated: 2026-10-03
 
 # Workflow: research to build
 
+0. **Universe (stage U)** — once, early. Scans all consumer-utility subcategories, scores them, and recommends which categories get a lens.
 1. **Lens (stage 0)** — once per category. Defines the user problem, teardown questions, complaint taxonomy, keyword universe, and the ~20 apps to cover, split 4-per-person with no overlap. Run by Harshil or Bharat.
 2. **App deep-dive (stage A)** — every member, per assigned app. Inputs: `negatives.md` + `listing.json` from `tools/fetch-app.py`, plus real screenshots/PDFs the member captured by hand. Output in the member's own folder.
 3. **Market (stage B)** — one person per category, after most stage-A notes exist. Combines all members' notes into size, landscape, cross-app failure matrix, entry verdict.
