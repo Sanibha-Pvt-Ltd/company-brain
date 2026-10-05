@@ -1,9 +1,9 @@
 ---
 type: category-context
-category: calorie-tracker
+category: ai-resume-builder
 author: harshil
 updated: 2026-10-05
 ---
 
-# calorie tracker — context
+# AI Resume Builder — context
 

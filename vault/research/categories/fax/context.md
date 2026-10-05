@@ -5,5 +5,5 @@ author: harshil
 updated: 2026-10-05
 ---
 
-# fax — context
+# Fax — context
 

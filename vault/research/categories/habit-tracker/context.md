@@ -5,5 +5,5 @@ author: harshil
 updated: 2026-10-05
 ---
 
-# habit tracker — context
+# Habit Tracker — context
 
