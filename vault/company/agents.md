@@ -5,7 +5,7 @@ updated: 2026-10-03
 
 # Agents
 
-Six agents, each a skill in `skills/<name>/` served by the brain (any member's Claude loads it with `get_skill`) and, for Claude Code, a thin wrapper in `.claude/agents/`.
+Seven agents, each a skill in `skills/<name>/` served by the brain (any member's Claude loads it with `get_skill`) and, for Claude Code, a thin wrapper in `.claude/agents/`.
 
 | # | Agent | Job | Status |
 |---|---|---|---|
@@ -15,6 +15,7 @@ Six agents, each a skill in `skills/<name>/` served by the brain (any member's C
 | 4 | **ios-engineer** | iOS implementation guidance and ADRs from a build spec. Writes `vault/tech/` | planned |
 | 5 | **aso** | App Store optimization: keywords, metadata, product pages, localization, review/Apple Ads intelligence, experiments. Notes in own member folder | **live** — [[skills/aso/SKILL]] (pre-launch mode until an app ships) |
 | 6 | **seo** | Web SEO for app landing pages/content: GSC mining, refreshes, links, BOFU/programmatic, experiments | **live** — [[skills/seo/SKILL]] (no site data yet) |
+| 7 | **product-strategist** | v1 call per category from `context.md` + team screenshots: positioning, UI/UX, final v1 features, new recommendations. Writes `members/<m>/drafts/<cat>/product-strategy.md` | **live** — [[skills/product-strategist/SKILL]] (pilot: storage-cleaner) |
 
 app-researcher also has stage U (universe discovery across all consumer-utility subcategories, run before stage 0 to pick the categories). ASO and SEO run on competitor evidence from app-researcher notes before launch, and on real data after.
 
