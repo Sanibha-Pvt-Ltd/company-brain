@@ -4,7 +4,7 @@ category: document-scanner
 member: harshil
 updated: 2026-10-05
 status: draft
-sources: [context.md, screenshots:29 across 4 apps, knowledge:consumer_app_venture_knowledge_base_2026-10-04.md;organic-growth-knowledge-base.md;sanibha-app-factory-knowledge-base.md;us_consumer_utility_apps_knowledge_base_2026-10-04.md, web:2]
+sources: [context.md, screenshots:34 across 4 apps, knowledge:consumer_app_venture_knowledge_base_2026-10-04.md;organic-growth-knowledge-base.md;sanibha-app-factory-knowledge-base.md;us_consumer_utility_apps_knowledge_base_2026-10-04.md, web:2]
 ---
 
 # Document Scanner — final recommendations (v1)
@@ -59,6 +59,23 @@ Screens 4–6: combine into one PDF, sign, and where your files live. In the fir
 
 Each angle gets its own Custom Product Page whose screenshots match the ad. That page's deep link opens the matching first screen: Open a PDF for angle 1, Scan for angles 2 and 3.
 
+| Angle | Custom Product Page headline (shot 1) | Deep link opens | First action in app | Paywall moment it leads to |
+|---|---|---|---|---|
+| 1 Size rejection | "PDF too big to upload? Make it fit." | Open a PDF or photo | Pick the file, type the limit | Export of the fitted file |
+| 2 One PDF | "Three documents. One PDF." | Scan | Scan or import pages, then Combine | Export of the combined file |
+| 3 Control | "Scan paperwork in seconds. No account." | Scan | Scan, Save | None expected on the first document |
+
+**Messaging table (placeholder copy for the ASO agent; store limits apply):**
+
+| Surface | Line |
+|---|---|
+| App name (placeholder) | "ReadyPDF: Scan & Fit PDFs" |
+| Subtitle (placeholder) | "Check, fit and send PDFs" |
+| Promotional text | "Scan with no account. See your file size and a Ready Check on every PDF. Fit it to the limit you type." |
+| First line of description | "Know your PDF will go through before you send it." |
+| Ad end card | "Check it. Fit it. Send it." |
+| Icon direction | A page with a check mark. No scanner-beam, no camera, no crown. |
+
 **We will never claim:**
 - "Guaranteed accepted", "approved", "submitted" or "meets IRS/USCIS/[institution] requirements".
 - "#1", "130M+ users", ratings or review counts, or any "trusted by" line.
@@ -67,6 +84,9 @@ Each angle gets its own Custom Product Page whose screenshots match the ad. That
 - "Unlimited" or "Free" next to anything that is limited or paywalled.
 - That a signature is valid or legally binding.
 - "Backed up" or "cloud" unless files actually sync.
+- "Lossless", "no quality loss" or "same quality" for a fitted file. Say "Text stays readable" only when the Fit to size quality line says so for that file.
+- "Works with [portal or bank name]" or any named institution's logo in the store page or ads.
+- "Free trial" or "No payment now" without the renewal price next to it.
 
 ## UI/UX
 
@@ -101,11 +121,46 @@ Each angle gets its own Custom Product Page whose screenshots match the ad. That
 - First win is screen 4. Cold launch to first saved PDF takes 3 taps plus the system camera permission: Scan → Continue/Allow → Save. Auto-capture means no shutter tap.
 - There is no onboarding carousel, sign-in screen or launch paywall.
 
+**Copy deck by screen (exact lines; [brackets] are filled live; nothing in brackets is ever hard-coded):**
+
+| Screen | Element | Copy |
+|---|---|---|
+| Home | Buttons | "Scan" / "Open a PDF or photo" |
+| Home | Empty | "No documents yet. Scan one or open a PDF you already have." |
+| Home | Row meta | "[N] pages · [X] MB" |
+| Home | Row badge | "Checks passed" or "[N] to review" |
+| Camera pre-prompt | Body / button | "The camera is only used to scan pages." / "Continue" |
+| Camera denied | Card | "Camera is off. Open Settings, or import photos instead." Buttons "Open Settings", "Import photos" |
+| Camera restricted (Screen Time or device policy) | Card | "The camera is restricted on this iPhone. Import a photo or PDF instead." Button "Import" |
+| Document screen | First view after capture | "Your PDF is ready. Here's what we checked." Later opens: name only |
+| Document screen | Sticky button | "Share · [X] MB". Secondary: "Save to Files" |
+| Ready Check | Row: Format | "PDF. Opens as a standard PDF." |
+| Ready Check | Row: File size, with limit, under | "[X] MB. Under your [L] MB limit." |
+| Ready Check | Row: File size, with limit, over | "[X] MB. [Y] MB over your [L] MB limit." Link "Fit to size" |
+| Ready Check | Row: File size, no limit | "[X] MB · Set a limit" |
+| Ready Check | Row: Pages | "[N] pages. Count only. We can't tell if the right pages are included." |
+| Ready Check | Row: Readability, ok | "All [N] pages look sharp (estimate)." |
+| Ready Check | Row: Readability, review | "Page [n] may be blurry (estimate)." Link "Go to page" |
+| Ready Check | Row: Readability, not checked | "Couldn't check page [n]." |
+| Ready Check | Row: Orientation, review | "Page [n] is landscape. Fine if that's intended." |
+| Ready Check | Row: Fillable fields (only on fillable PDFs) | "[N] fillable fields are empty." / "No empty fillable fields." |
+| Ready Check | Row: Signature, placed | "Signature placed on page [n]. We can't tell if it's valid." |
+| Ready Check | Row: Signature, none | "No signature added. Add one if the recipient asks for it." (grey, Not checked) |
+| Ready Check | Row: Recipient acceptance | "Not checked. Only they can confirm it." (always grey) |
+| Fit to size | Field / presets | "Limit (MB)" / "1 MB", "2 MB", "5 MB", "10 MB" |
+| Fit to size | Before and after | "[A] MB → [B] MB" |
+| Fit to size | Quality line | "Text sharp at 100% zoom." or "Text may blur at 100%. Review before sending." |
+| Fit to size | Export button (Pro result) | "Export fitted PDF · Pro". The Pro label shows before the tap. |
+| Fit to size | Already fits | "Already fits. No change needed." Button "Share" |
+| Export | Confirmation | "Saved to Files › On My iPhone › ReadyPDF." or "Shared." |
+| Export | Share sheet dismissed | No message. The user stays on the document. |
+
 **Permissions:**
 - Camera: asked on the first Scan tap after the inline pre-prompt. If denied, the camera screen is replaced by a card ("Camera is off. Open Settings, or import photos instead.") with Open Settings and Import buttons.
 - Photos: use the system photo picker. No library permission is asked.
 - Files: use the system document picker. No permission needed.
 - Notifications: not asked in v1.
+- Camera permission is asked once. After a deny, every later Scan or Retake tap shows the denied card; the app never re-triggers the system prompt (iOS will not show it twice).
 - App Tracking Transparency: not shown at launch. If attribution needs it, show it only after the first completed export, with a neutral pre-prompt (decision in Before build).
 - Rating: system review request only, after the second successful export or share. Never after the first scan. No custom "love it?" sheet.
 
@@ -121,7 +176,7 @@ Each angle gets its own Custom Product Page whose screenshots match the ad. That
 ReadyPDF                                   [gear]
 [  Scan  ]          [ Open a PDF or photo ]
 Recent
-[thumb] Lease_Application.pdf  3 pages · 2.1 MB  ● Ready
+[thumb] Lease_Application.pdf  3 pages · 2.1 MB  ● Checks passed
 [thumb] Scan Oct 5              1 page · 0.4 MB   ◐ 1 to review
 ```
 - Empty: "No documents yet. Scan one or open a PDF you already have."
@@ -168,6 +223,63 @@ Recent
   - Restore, Terms and Privacy links.
 - Most important element: the result strip.
 
+**Edge cases and states (every one ships in v1):**
+
+| Case | Trigger | What the app does | Copy |
+|---|---|---|---|
+| Blurry page | Per-page blur estimate runs after capture or import | Amber badge on the page thumbnail, the Readability row goes amber, "Go to page" opens that page at zoom with two buttons. Export is never blocked. | Banner: "Page [n] may be blurry. Zoom in to check." Buttons: "Retake page" (scans) or "Replace page" (imported PDF), and "Keep as is" |
+| Blur check cannot run | Page cannot be rendered | Row shows Not checked for that page | "Couldn't check page [n]." |
+| Camera permission denied | User denied the system prompt | Camera screen replaced by the denied card; Import stays live | See copy deck |
+| Camera restricted | Device policy | Restricted card, Import stays live | See copy deck |
+| Huge file or many pages | Large import or Fit | Work runs page by page with a real progress count and a Cancel button; the original is never changed. The size at which a "large file" notice appears is [UNKNOWN: set in the week-1 spike from test devices]. | "Working on page [n] of [N]…" Button "Cancel" |
+| Not enough storage | Write fails | Stop, keep the original, show the notice | "Not enough space on this iPhone to make this file. Free up space or remove pages." |
+| App closed mid-work | Memory pressure or user swipe | Original untouched; on next open the document shows the notice | "ReadyPDF closed while working. Your original file is safe. Try again." |
+| Multi-page reorder | Pages action opens a grid; long-press on the page strip is a shortcut | Long-press lifts a page with a haptic, drag, drop; page numbers renumber live; Ready Check re-runs. Undo stays until the user leaves the screen. VoiceOver users get actions "Move earlier", "Move later", "Move to start", "Move to end". | Toast: "Moved page [a] to position [b]. Undo" |
+| Delete pages | Select, then Delete | No confirmation dialog; Undo toast. The last remaining page cannot be deleted. | "Deleted [n] pages. Undo" / "A PDF needs at least one page. Delete the document instead." |
+| Edit after Fit | User reorders, deletes or signs after previewing a fit | The fitted preview is discarded | "Pages changed. Fit again to update the size." |
+| Combine over the limit | Running total exceeds the limit | Total turns amber; inline link to Fit to size | "[X] MB. [Y] MB over your [L] MB limit. Fit to size" |
+| Password-protected PDF | Import of a locked PDF | Password field; the app never removes a password. Combined or fitted output has no password, said before export. | "This PDF is locked. Enter its password to open it." / "That password didn't work." / "The new file won't have a password." |
+| Unreadable or damaged PDF | Import fails | No partial document is created | "This file can't be opened. It may be damaged. Try exporting it again from where you got it." |
+| Unsupported file | Word, Excel, ZIP, etc. | Not importable; no conversion in v1 | "ReadyPDF opens PDFs and photos. Convert this file to PDF first." |
+| Photo import | HEIC, JPEG, PNG from the system picker | Each photo becomes one page, in picked order | none |
+| Landscape page | Orientation check | Flagged for review, never an error; a Rotate button sits on the row | "Page [n] is landscape. Fine if that's intended." |
+| No fillable fields | Fill on a PDF without AcroForm | Text box and checkmark placement stay available; the Fillable fields row is hidden | none |
+| Name collision | Same name exists | Append " 2", " 3" | none |
+| Share sheet dismissed | User cancels | Back to the document with nothing changed | none |
+
+**Paywall triggers:**
+
+| Trigger | Header strip shows | If the user closes it |
+|---|---|---|
+| Export of a fitted file that did not already fit | "[name] · fits [L] MB · [A] MB → [B] MB" | Back to Fit to size with the preview intact, plus a link "Share the original instead" |
+| Export of a combined file | "[N] documents · [P] pages · [X] MB" | Back to Combine with the order intact, plus a link "Share the files separately" |
+| Settings › Upgrade | No strip. Plain header "ReadyPDF Pro". | Back to Settings |
+
+- No other trigger exists: not app open, scan save, sign, fill, page edits, Ready Check, a Home banner or a tool tile.
+- After a close, the paywall comes back only when the user taps a Pro export again.
+
+**Paywall states and copy:**
+
+| State | What the user sees |
+|---|---|
+| Prices loading | Plan rows as skeletons, CTA disabled. After a failure: "Couldn't load prices. Try again." with a Retry button. A price is never shown unless it came from StoreKit. |
+| Trial not available to this Apple ID | Trial wording is removed and the CTA reads "Subscribe · [price]/[period]". |
+| Purchase pending (Ask to Buy or Apple's own approval step) | "Waiting for approval. You can keep working. Pro unlocks when it's approved." The user can close the paywall. |
+| Purchase succeeded | Paywall closes, the export continues, and a banner reads "Pro is on. Exporting your file." |
+| Purchase cancelled by the user | Stay on the paywall, no message. |
+| Purchase failed | "That didn't go through. You haven't been charged." only when StoreKit reports no transaction; otherwise "Something went wrong. Check Settings › Apple ID › Subscriptions before trying again." |
+| Restore with a purchase | "Pro restored." |
+| Restore with none | "No purchases to restore on this Apple ID." |
+| Already Pro | A Pro export never shows a paywall. |
+| Pro ended | Settings shows "Pro ended [date]". Documents and free tools are unchanged. Fitted or combined files already exported stay exported. |
+
+**Price display rules:**
+- Every price is StoreKit's localized price. None is typed into the app.
+- The price actually charged per billing period is the largest price on the row. A per-month equivalent for the annual plan may appear as smaller secondary text.
+- No "Save N%" badge, no strike-through price, no "Best offer" label.
+- Annual is preselected only if the annual row carries the full price and trial terms in the same size as the monthly row.
+- Product names in App Store Connect and the app match: "ReadyPDF Pro Annual" and "ReadyPDF Pro Monthly" (placeholder until the name is cleared).
+
 **Paywall rules:**
 - Placement:
   - No paywall at launch, in onboarding or before the first scan.
@@ -198,6 +310,19 @@ Recent
   - Sign and fill.
   - The full Ready Check.
   - Exporting originals with no watermark.
+
+**Settings screen (all copy):**
+
+| Row | Copy and behavior |
+|---|---|
+| Pro status | "Free plan" with button "Upgrade"; or "Pro · Annual · renews [date]"; or "Pro trial · ends [date]"; or "Pro ended [date]". Buttons "Manage subscription" (opens the system subscription sheet) and "Restore purchases". |
+| Where your files are | "Your documents are stored on this iPhone, in Files › On My iPhone › ReadyPDF. ReadyPDF doesn't back them up or sync them. Export a copy to keep it safe." |
+| Default scan size | Three choices: "Smaller files", "Balanced" (default), "Sharpest text". What each does is set by the week-1 spike [UNKNOWN until then]. |
+| Saved signature | View, redraw, delete. "Your signature is stored only on this iPhone." |
+| Support | Opens mail composer or support page. |
+| Privacy, Terms | Open in-app. |
+| Version | Last row. |
+- Not in Settings: Rate the app, Share the app, a user ID, a Pro upsell card.
 
 **Visual language:**
 - Competitor map: three of four apps open on near-black UI (Acrobat, Adobe Scan, Scanner App), and iScanner uses a blue gradient with stock photos of models. Paywalls are crowded with laurels, crowns and badges.

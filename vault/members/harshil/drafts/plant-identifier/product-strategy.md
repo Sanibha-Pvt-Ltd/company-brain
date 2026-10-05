@@ -112,10 +112,73 @@ For houseplant owners who just noticed yellow, brown or drooping leaves and don'
 | 9 | Notification pre-prompt | "We'll remind you on Thursday to take a follow-up photo. That's it." | "Remind me" (then the system prompt) / "Not now" | notifications | — |
 | 10 | Plant page | Day 1 photo, plan, "Next check: Thursday" | "Done" | — | saved plant |
 
-- First win is on screen 5, three taps from cold launch: Check my plant, Allow camera, shutter. In every competitor flow the team captured, the first result needed a paywall to be closed and used a prepared sample plant.
+- First win is on screen 5, three taps from cold launch: Check my plant, Allow camera, shutter. In all 7 competitor flows where a paywall was captured (PlantApp, Plantaria, Care App, LeafSnap, Plantiary, PlantIn, Plantum), the paywall comes before any identification result. In 3 of them (PlantApp, PlantIn, Plantum) the first identification after closing it runs on a prepared sample plant. PlantNet shows no paywall but no identification result was captured either.
 - Nothing is asked before screen 5 except the camera or a photo.
 - No account. No quiz. No location.
 - "Just identify a plant" goes to the same camera, then to an identification result with care basics and toxicity, then "Add to my plants".
+
+**Screen states and edge cases (every capture-to-result screen must ship these)**
+
+| # | Situation | Where it happens | What the user sees | Primary action | What we keep |
+|---|---|---|---|---|---|
+| E1 | Camera permission denied | Screen 2 or 3 | Inline banner above the capture screen: "Camera is off for Plant ER. Choose a photo instead, or turn the camera on in Settings." | "Choose from Photos" (primary), "Open Settings" (secondary) | Flow continues from screen 4 with the picked photo. No blocking wall, no repeat system prompt |
+| E2 | Camera restricted or unavailable on device | Screen 3 | Same banner, line changed to "The camera isn't available on this device. Choose a photo instead." | "Choose from Photos" | Same as E1 |
+| E3 | Photo has no plant in it | Screen 4 to 5 | "We couldn't find a plant in this photo." / "Try one leaf, close up, in daylight." | "Retake" / "Choose another" | Photo is discarded, not saved to a plant, not counted against any free limit |
+| E4 | Photo is a non-living or non-real plant (artificial plant, drawing, screen) | Screen 4 to 5 | If the engine flags it: same screen as E3. If it doesn't: the normal result with the low-confidence rules of E6 | Same as E3 | [UNKNOWN: feasibility. Test in the week-1 spike; do not promise detection] |
+| E5 | Photo too blurry or too dark | Screen 4 | "This one is hard to read. Hold steady near a window." | "Retake" / "Use this one anyway" | Photo kept if "Use this one anyway"; result capped at "Possible" |
+| E6 | Low-confidence identification | Screen 5 | No plant name as headline. "We're not sure what this is." followed by the top matches as tappable cards with a photo each | Tap a match, or "None of these", or "Continue without a name" | With no name the problem check runs on symptoms only, and no cause may be labelled "Likely" |
+| E7 | Low-confidence diagnosis (causes tie, or no symptom matches) | Screen 5 and 7 | "A photo can't settle this one." / two things to check instead of a ranking, all causes labelled "Possible" | "Answer 2 quick questions" or "Add a close-up of the leaf" | The check stays open; the follow-up date is still offered |
+| E8 | More than one plant in the photo | Screen 4 to 5 | "We see more than one plant. Tap the one you want checked." | Tap a plant | [UNKNOWN: feasibility]. If the engine can't, take the top match and show "Not right?" |
+| E9 | Looks healthy | Screen 5 | "No visible problem in this photo." / "A photo can't show roots or soil moisture. Check the soil anyway?" | "Check the soil" / "Save plant" | Plant is saved with a routine check date, not a recovery plan |
+| E10 | Offline at capture | Screen 4 | "You're offline. Your photo is saved and we'll check it when you're back online." | "OK" (back to My Plants) | Photo is held locally with a "Waiting for connection" card on My Plants; it is submitted automatically on reconnect; "Check now" button if the user retries manually |
+| E11 | Offline during a follow-up | Follow-up check | The ghost-overlay camera and the side-by-side comparison work (both are local). The updated plan waits: "Saved. We'll update your plan when you're back online." | "Done" | Better/Same/Worse and the condition answer are stored locally and synced on reconnect |
+| E12 | Service error or timeout | Screen 4 | "That took longer than expected. Your photo is safe." | "Try again" / "Save for later" | Photo and answers are never lost; "Save for later" puts it in the E10 queue |
+| E13 | App backgrounded during the check | Screen 4 | On return, the result or the spinner on the same photo | none | State restored; no second paid call is made for the same photo |
+| E14 | Free ID cap reached (only if the spike makes a cap necessary) | Screen 3 | "You've used today's free identifications. Check-ups on your saved plants still work." | "OK" / "See Plant ER Plus" | Saved plants, toxicity and the active plan stay fully usable |
+| E15 | Toxicity data missing for the plant | Result and plant page | "We don't have pet-safety information for this plant. Ask a vet or poison control before letting a pet near it." | none | Never show "safe" without data |
+| E16 | User corrects the plant name ("Not right?") | Screen 5 | The picked name replaces the headline and the causes are re-ranked for that plant | Tap a match or search | The original guess is stored so we can count corrections |
+| E17 | Notification permission denied | Screen 9 and later | Pre-prompt not repeated. On the plant page: "Reminders are off. Follow-ups will show on My Plants." | "Open Settings" link only | Due badge on My Plants is the trigger. The trial-ending reminder cannot fire: show the date inside the paywall and Settings instead |
+| E18 | Purchase pending (Ask to Buy) | Paywall | "Waiting for approval. Everything free stays available." | "OK" | No paid features until StoreKit confirms |
+| E19 | Purchase failed or cancelled | Paywall | "That didn't go through. You haven't been charged." | "Try again" / X | Result and plant stay as saved |
+| E20 | Restore finds nothing | Paywall or Settings | "No purchases found for this Apple ID." | "OK" | none |
+| E21 | Subscription lapsed | Plant page | Plans beyond the free one become read-only: "Your plan is paused. Plant ER Plus brings it back." | "See Plant ER Plus" | No photos or history are ever deleted |
+
+**Exact copy for the key screens (shipping strings, to be localised later)**
+
+| Where | Line |
+|---|---|
+| Screen 1 headline | "Show me the leaf that's worrying you." |
+| Screen 1 secondary links | "Just identify a plant" / "Restore" |
+| Camera pre-prompt | "We use the camera only to photograph your plant. Photos stay in the app." / "Allow camera" / "Choose from Photos" |
+| Capture tip | "Fill the frame with the affected leaves." |
+| Checking | "Looking at your leaves…" |
+| Result: section label | "Possible causes" |
+| Result: confidence words | "Likely" / "Possible" / "Less likely" |
+| Result: first step label | "Check first" |
+| Result: name correction | "Not right?" |
+| Result: continue | "Answer 2 quick questions" |
+| Question 1 | "Is the top 2 inches of soil wet or dry?" with "Wet" / "Dry" / "Not sure" |
+| Question 2 | "Has it moved, or had a change in light recently?" with "Yes" / "No" / "Not sure" |
+| "Not sure" reply | "No problem. Try this check, then come back." |
+| Updated result | "What to do today" / "What to watch for" / "Can't tell yet" |
+| Save | "Save plant & set follow-up" |
+| Notification pre-prompt | "We'll remind you on Thursday to take a follow-up photo. That's it." / "Remind me" / "Not now" |
+| Follow-up notification | "Time for Monstera's follow-up photo." |
+| Condition notification | "Check Monstera's soil today." |
+| Follow-up result words | "Better" / "Same" / "Worse" |
+| After "Same" in week one | "Same as last time? That's normal in week one. Keep the plan." |
+| After "Worse" | "Thanks for telling us. Let's rule out the next cause." |
+| After "Better" | "Good sign. Keep going and we'll check again Thursday." |
+| Plan finished | "Back to routine checks." |
+| Empty My Plants | "Got a plant that looks off? Check it." |
+| Nothing due | "Nothing due today." |
+| Toxicity row | "Toxic to cats and dogs if chewed. Ask a vet if eaten." (the verb line "Verify with a vet or poison control" is always present) |
+| Paywall headline | "Keep going with [plant name]." |
+| Paywall trial line | "Free for [trial length], then [price]/year. We'll remind you before it renews." |
+| Paywall button | "Start free trial" (price and renewal date directly under it) |
+| Paywall dismiss | The X, plus a text link "Not now" |
+| Trial-ending notification | "Your free trial ends [date]. Cancel anytime in Settings › Apple ID › Subscriptions." |
+| Delete data | "Delete all my photos and plants" / "This can't be undone." |
 
 **Permissions**
 
@@ -190,12 +253,30 @@ History ▸   Care basics ▸   Pets & kids ▸
 - Disclosures: title, length, price per period, the trial terms and the auto-renew statement before purchase. Links to Terms and Privacy, plus a Restore button (App Review Guideline 3.1.2).
 - Never: a fake "trial is enabled" toggle animation, a "Try for $0.00" button, strikethrough "was" prices, "Only now!", countdown timers, a pre-selected weekly plan, or a delayed or low-contrast close button.
 
+**Paywall rules (build to these)**
+
+| Rule | Spec |
+|---|---|
+| Triggers (the only five) | P1 "Save plant & set follow-up" on the first full result. P2 starting a second active care plan. P3 "New check-up" on a plant whose plan has finished. P4 turning on condition-check reminders for a second plant. P5 the user taps "Plant ER Plus" in Settings |
+| Frequency | At most one paywall shown automatically per session (P1–P4). P5 always opens it. Never on launch, never mid-capture, never between capture and the first result |
+| Layout order | 1 the outcome line with the plant's name; 2 four lines of what unlocks (the four paid unlocks below, nothing else); 3 plan cards of equal size; 4 the trial timeline; 5 the button with price and renewal date under it; 6 Restore, Terms, Privacy, and the cancel path |
+| Plan cards | Every card shows the billed amount and period in the same type size. If a per-week equivalent is shown for the annual plan it is smaller than the billed price and labelled "billed yearly". Prices come from StoreKit's localised price for the viewer's storefront; we never hard-code or convert a price |
+| Default selection | The annual plan. No weekly plan exists in v1. Test arms: A annual with trial, B annual without trial plus a monthly card |
+| Trial offer | The trial is shown only when StoreKit says the user is eligible; otherwise the card shows the plain price and the button reads "Subscribe". Trial length is set by s5-monetization |
+| Trial timeline | Three rows: "Today: free", "[date]: reminder", "[date]: billed [price]/year" |
+| Trial-ending reminder | Toggle on by default and labelled "Remind me before the trial ends". If notifications are denied, the toggle is replaced by "Reminders are off. Your trial ends [date]." |
+| Close | X visible and tappable from the first frame, minimum 44 pt target, full contrast against its background, plus the text link "Not now". Closing returns to the result or plant page the user came from |
+| Fine print | Visible without scrolling at the default text size and reachable at accessibility sizes: title, length, price per period, trial terms, auto-renew statement, Terms, Privacy, Restore. Final wording to be confirmed against App Review Guideline 3.1.2 by s2-standards before submission |
+| After purchase | The user lands on the plant page they came from with the locked item now unlocked. One line: "You're in. Plans and reminders are on." No celebration screen |
+| Experiments allowed | Plan structure, trial length, headline wording, and the order of the four unlock lines. Not allowed: hiding the X, defaulting to a weekly plan, removing the reminder toggle, adding urgency |
+| Tier name | "Plant ER Plus" is a placeholder and follows the app name |
+
 **Visual direction**
 - Light cream background, deep forest green for navigation and primary buttons, terracotta only to mark a problem, mint for progress and done. No red alarm screens.
 - Real plant photos (the user's own wherever possible) on clean cards. No 3D renders, no stock lifestyle models, no illustrated mascots.
 - Medium density: one card per idea, generous spacing, SF Pro with Dynamic Type, large title on home.
 - Motion: a short check-off when a step is done, and a photo-comparison slider. No confetti and no glow effects.
-- Light mode first, with dark mode supported. Competitors split between dark (Plantaria, Plantiary, PlantIn) and light green or white (Plantum, PlantApp, LeafSnap); we take calm light cream with a diagnostic layout.
+- Light mode first, with dark mode supported. Competitors split between dark (Plantaria, Plantiary, PlantIn) and light backgrounds with green (Plantum, LeafSnap, PlantNet, Care App) or blue (PlantApp) accents; we take calm light cream with a diagnostic layout.
 - Final tokens come from the brand-designer agent.
 
 **Voice**
@@ -206,7 +287,7 @@ Lines we ship:
 2. "Possible causes. A photo can't see the roots, so let's check two things."
 3. "Check first: push a finger 2 inches into the soil."
 4. "Same as last time? That's normal in week one. Keep the plan."
-5. "Free for 7 days, then [price]/year. We'll remind you 2 days before."
+5. "Free for [trial length], then [price]/year. We'll remind you before it renews."
 
 Lines we never ship (seen in competitor screens):
 1. "Disease detected" for overwatering (PlantIn, IMG_2201)
