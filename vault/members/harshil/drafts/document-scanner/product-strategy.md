@@ -217,7 +217,7 @@ Recent
   1. "Your PDF is ready. Here's what we checked."
   2. "Fits 5 MB. Zoom in to check the text."
   3. "Recipient acceptance: not checked. Only they can confirm it."
-  4. "Smallest readable size is 6.1 MB. Remove a page or split the file." (the number comes from the live computation)
+  4. "Smallest readable size is [X] MB. Remove a page or split the file." ([X] is filled in by the live computation)
   5. "Saved to Files › On My iPhone › ReadyPDF."
 - Lines from competitor screens we would never ship:
   1. "This offer expires once dismissed." (iScanner, IMG_5347)

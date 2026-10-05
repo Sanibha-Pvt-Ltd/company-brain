@@ -246,7 +246,7 @@ Lines we never ship (seen in competitor screens):
 | Email opt-in by default via "I don't want emails" checkbox | Plantum 2212 |
 | Location asked during onboarding for weather | Plantiary 2192 |
 | Tool grids and non-plant identifiers (insects, birds, mushrooms) | Plantiary 2193, 2198; PlantApp 2159 |
-| Fixed "Water every 10 days" | PlantIn 2209 |
+| Fixed watering interval ("Water · Every 10 days") | PlantIn 2209 |
 
 ## v1 product features
 
