@@ -64,6 +64,15 @@ For adults who already own an Apple Watch (or will log two times a day) and wake
 3. **Control:** conventional "See how you really slept" summary creative, to benchmark the category promise.
 4. **Honest-app angle (test once 1–3 have data):** "Most sleep apps start with a quiz. We start with your real nights." No competitor names or screenshots in the ad.
 
+| Angle | First 3 seconds | Middle | End card / CTA |
+|---|---|---|---|
+| 1 Experiment | Text over a generic sleep-score screen: "You know you slept badly." | Tonight card, one tap on "Earlier caffeine cutoff", seven dots filling, result card with night counts | "Stop tracking bad sleep. Start testing what helps." / Download |
+| 2 Apple Watch | Watch on wrist, text "Your Watch already knows how you slept." | Import screen "We found 186 nights" (sample) → baseline → plan | "Put it to work." / Download |
+| 3 Control | Conventional morning summary | Duration, interruptions, trend | "See how you really slept." / Download |
+| 4 Honest app | Text "Most sleep apps start with a quiz." | Our import screen with real-looking nights | "We start with your real nights." / Download |
+
+- Every ad shows sample data labelled "Sample data"; no before/after sleep numbers; no health outcome claims; no competitor marks.
+
 **We will never claim**
 - That the app improves sleep, or any percentage of users improved, until a designed study supports it.
 - That a change *caused* a result. Only "your recorded sleep was longer/shorter during the experiment".
@@ -108,7 +117,7 @@ Settings (gear on Tonight): Apple Health connection, reminders, pause mode, subs
 | 9 | Evening reminder pre-prompt | "One reminder at 8 PM for tonight's question. Nothing else." | Turn on | Notifications | — |
 | 10 | Tonight (home) | Experiment night 1 card, tonight's action, morning check-in waiting | — | — | Running experiment |
 
-- Taps to first win: 4 (Get started → Skip/answer → Connect → Allow). None of the eight captured apps showed a result built from the user's real sleep data before its first paywall; RISE's first personal number (sleep need) arrived around 34 screens in and came from self-reported times.
+- Taps to first win: 4 (Get started → Skip/answer → Connect → Allow). None of the eight captured apps showed a result built from the user's real sleep data before its first paywall; RISE's first personal number (sleep need, p35 of 53) came from self-reported times.
 - No-Watch path: screen 3 "I don't wear a watch" → "When did you go to bed and wake up last night?" (two time pickers) → screen 5 becomes "Your first night" plus "We need 3 nights to build your baseline. Your experiment starts on <date>." → screens 6–10 as above. The paywall on this path states "Manual logging: no automatic sleep stages or awakenings."
 - No account, no ATT prompt, no name, age, sex, height or weight in onboarding.
 
