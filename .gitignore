@@ -5,3 +5,6 @@ hooks/sync.log
 vault/logs/verbose/
 ganesh_screenshots/
 /kushagra screenshots/
+site/
+.vercel
+.env*

@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Sanibha Product Strategies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: category rail on the left, one strategy at a time on the right. */
+:root {
+  --bg: #f6f7f8; --panel: #ffffff; --fg: #1b2228; --muted: #5d6973; --line: #dfe3e7;
+  --accent: #1f5f7a; --accent-soft: #e3eff4;
+  --obs: #1d6b45; --obs-bg: #e2f2e9; --inf: #8a5a00; --inf-bg: #fbf0d9; --unk: #8f2d2d; --unk-bg: #f8e3e3;
+  --sans: "Public Sans", system-ui, -apple-system, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12171b; --panel: #1a2026; --fg: #e3e8ec; --muted: #94a1ab; --line: #2b343c;
+    --accent: #7cc0dc; --accent-soft: #1e3240;
+    --obs: #7fd1a3; --obs-bg: #183327; --inf: #e9c271; --inf-bg: #3a2e14; --unk: #f0a0a0; --unk-bg: #3c1f1f;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body { background: var(--bg); color: var(--fg); font: 15px/1.6 var(--sans); display: grid; grid-template-columns: 270px 1fr; }
+
+nav { border-right: 1px solid var(--line); background: var(--panel); padding: 20px 14px; overflow-y: auto; height: 100vh; position: sticky; top: 0; }
+.brand { font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); padding: 0 8px 14px; }
+#q { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--bg); color: var(--fg); font: inherit; font-size: 14px; margin-bottom: 12px; }
+#q:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#cats { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+#cats a { display: grid; gap: 1px; padding: 8px 10px; border-radius: 6px; color: var(--fg); text-decoration: none; }
+#cats a:hover { background: var(--bg); }
+#cats a[aria-current] { background: var(--accent-soft); color: var(--accent); }
+#cats .n { font-weight: 600; }
+#cats .m { font: 12px var(--mono); color: var(--muted); }
+
+main { min-width: 0; padding: 28px 40px 80px; overflow-y: auto; height: 100vh; }
+.wrap { max-width: 980px; }
+header h1 { font-size: 30px; line-height: 1.2; margin: 0 0 10px; text-wrap: balance; }
+.meta { display: flex; flex-wrap: wrap; gap: 8px; font: 12px var(--mono); }
+.chip { padding: 3px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); }
+.chip.draft { background: var(--inf-bg); color: var(--inf); }
+#toc { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0 8px; padding: 12px 0; border-block: 1px solid var(--line); position: sticky; top: -28px; background: var(--bg); z-index: 1; }
+#toc a { font-size: 13px; padding: 4px 10px; border: 1px solid var(--line); border-radius: 6px; color: var(--fg); text-decoration: none; background: var(--panel); }
+#toc a:hover { border-color: var(--accent); color: var(--accent); }
+
+article { max-width: 75ch; }
+article.empty { color: var(--muted); padding-top: 20px; }
+article h1 { display: none; }
+article h2 { font-size: 21px; margin: 36px 0 10px; padding-top: 8px; text-wrap: balance; scroll-margin-top: 70px; }
+article h3 { font-size: 16px; margin: 24px 0 6px; }
+article a { color: var(--accent); }
+article code { font: 13px var(--mono); background: var(--panel); border: 1px solid var(--line); padding: 1px 4px; border-radius: 4px; }
+article blockquote { margin: 12px 0; padding: 4px 14px; border-left: 3px solid var(--line); color: var(--muted); }
+.tbl { overflow-x: auto; margin: 14px 0; max-width: calc(100vw - 270px - 80px); }
+table { border-collapse: collapse; font-size: 13.5px; background: var(--panel); min-width: 100%; }
+th, td { border: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+th { background: var(--bg); font-weight: 600; position: sticky; top: 0; }
+td { min-width: 9ch; }
+
+.ev { font: 500 11px var(--mono); padding: 1px 5px; border-radius: 4px; white-space: nowrap; }
+.ev.OBSERVED { background: var(--obs-bg); color: var(--obs); }
+.ev.INFERRED { background: var(--inf-bg); color: var(--inf); }
+.ev.UNKNOWN { background: var(--unk-bg); color: var(--unk); }
+
+@media (max-width: 760px) {
+  body { display: block; }
+  nav { height: auto; position: static; border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 16px; }
+  #cats { grid-auto-flow: column; overflow-x: auto; }
+  #cats a { white-space: nowrap; }
+  main { height: auto; padding: 20px 16px 60px; }
+  #toc { top: 0; }
+  .tbl { max-width: calc(100vw - 32px); }
+}
+</style>
+</head>
+<body>
+<nav>
+  <div class="brand">Sanibha · Product strategies</div>
+  <input id="q" type="search" placeholder="Filter categories" aria-label="Filter categories">
+  <ul id="cats"></ul>
+</nav>
+<main><div class="wrap">
+  <header><h1 id="title"></h1><div class="meta" id="meta"></div></header>
+  <div id="toc"></div>
+  <article id="doc"></article>
+</div></main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const CATS = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+function nav(filter = '') {
+  const cur = location.hash.slice(1);
+  $('cats').innerHTML = CATS
+    .filter(c => (c.name + ' ' + c.member).toLowerCase().includes(filter.toLowerCase()))
+    .map(c => `<li><a href="#${c.slug}"${c.slug === cur ? ' aria-current="page"' : ''}>
+      <span class="n">${esc(c.name)}</span><span class="m">${c.md ? esc([c.member, c.updated].filter(Boolean).join(' · ')) : 'Coming soon'}</span></a></li>`)
+    .join('');
+}
+
+function show() {
+  const c = CATS.find(c => c.slug === location.hash.slice(1)) || CATS[0];
+  document.title = c.name + ' · Sanibha Product Strategies';
+  $('title').textContent = c.name;
+  $('meta').innerHTML = c.md ? `<span class="chip">${esc(c.member)}</span>`
+    + `<span class="chip ${c.status === 'draft' ? 'draft' : ''}">${esc(c.status || 'strategy')}</span>`
+    + `<span class="chip">updated ${esc(c.updated)}</span>` : '<span class="chip">Coming soon</span>';
+  $('doc').classList.toggle('empty', !c.md);
+  let html = c.md ? marked.parse(c.md)
+    .replace(/<table>/g, '<div class="tbl"><table>').replace(/<\/table>/g, '</table></div>')
+    // Evidence tags, e.g. [OBSERVED] or [INFERRED date from trial end dates]
+    .replace(/\[(OBSERVED|INFERRED|UNKNOWN)([^\]<]*)\]/g, '<span class="ev $1">$1$2</span>')
+    : '<p>Product strategy coming soon.</p>';
+  $('doc').innerHTML = html;
+  $('toc').innerHTML = [...$('doc').querySelectorAll('h2')].map((h, i) => {
+    h.id = 's' + i;
+    return `<a href="#${c.slug}" data-s="s${i}">${esc(h.textContent)}</a>`;
+  }).join('');
+  $('toc').hidden = !$('toc').children.length;
+  document.querySelector('main').scrollTop = 0;
+  window.scrollTo(0, 0);
+  nav($('q').value);
+}
+
+$('toc').addEventListener('click', e => {
+  const a = e.target.closest('a'); if (!a) return;
+  e.preventDefault();
+  $(a.dataset.s).scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+});
+$('q').addEventListener('input', e => nav(e.target.value));
+addEventListener('hashchange', show);
+show();
+</script>
+</body>
+</html>

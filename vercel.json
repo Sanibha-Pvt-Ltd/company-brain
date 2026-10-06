@@ -1,0 +1,8 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "",
+  "buildCommand": "python3 tools/build-research-site.py",
+  "outputDirectory": "site",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- 'vault/members/harshil/drafts/*/product-strategy.md' 'vault/research/categories/*' tools/build-research-site.py tools/research-site.html middleware.js vercel.json"
+}

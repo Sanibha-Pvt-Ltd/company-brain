@@ -1,0 +1,12 @@
+# Upload only what the research site build needs
+/*
+!/tools
+!/vault
+!/middleware.js
+!/vercel.json
+/vault/*
+!/vault/members
+!/vault/research
+/vault/research/*
+!/vault/research/categories
+/vault/research/categories/*/*
